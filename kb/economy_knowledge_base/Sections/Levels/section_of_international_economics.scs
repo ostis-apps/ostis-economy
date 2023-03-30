@@ -1,0 +1,10 @@
+section_of_international_economics
+=> nrel_main_idtf:
+	[Раздел. Международная экономика]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. International economy]
+           	  (* <- lang_en;; *);
+
+=> nrel_private_subject_domain:
+	subject_domain_economic_relations;;

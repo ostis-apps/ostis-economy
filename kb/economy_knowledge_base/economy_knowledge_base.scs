@@ -1,0 +1,25 @@
+economy_knowledge_base
+=> nrel_main_idtf:
+	[База знаний интеллектуальной системы по экономике]
+	    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Knowledge base of intellegent system for economy]
+	    (* <- lang_en;; *);
+
+<- not_enough_formed_structure;
+<- sc_model_of_knowledge_base
+	(*
+		=> nrel_main_idtf:
+			[sc-модель базы знаний]
+				(* <- lang_ru;; *);
+			[sc-model of knowledge base]
+				(* <- lang_en;; *);;
+	*);
+
+<= nrel_section_decomposition:
+	{
+		subject_domain_of_economic_sectors;
+		subject_domain_of_economic_levels;
+		subject_domain_of_economic_history;
+		subject_domain_of_economic_forms
+	};;

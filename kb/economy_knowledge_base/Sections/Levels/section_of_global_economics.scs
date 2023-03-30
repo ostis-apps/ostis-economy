@@ -1,0 +1,10 @@
+section_of_global_economics
+=> nrel_main_idtf:
+	[Раздел. Глобальная экономика]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Global economy]
+           	  (* <- lang_en;; *);
+
+=> nrel_private_subject_domain:
+	subject_domain_world_economy;;

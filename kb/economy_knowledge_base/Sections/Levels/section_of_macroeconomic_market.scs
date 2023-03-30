@@ -1,0 +1,14 @@
+section_of_macroeconomic_market
+=> nrel_main_idtf:
+	[Раздел. Макроэкономический рынок]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Macroeconomic market]
+           	  (* <- lang_en;; *);
+
+<= nrel_section_decomposition:
+	{
+       			ssection_of_factor_market;
+				section_of_market_of_goods_and_services;
+				section_of_financial_market
+    };;

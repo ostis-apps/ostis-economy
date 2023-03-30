@@ -1,0 +1,13 @@
+section_of_macroeconomics
+=> nrel_main_idtf:
+	[Раздел. Макроэкономика]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Macroeconomics]
+           	  (* <- lang_en;; *);
+
+<= nrel_section_decomposition:
+	{
+       			section_of_macroeconomic_market;
+       			section_of_macroeconomic_agent
+    };;

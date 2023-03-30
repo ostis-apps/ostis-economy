@@ -1,0 +1,15 @@
+section_of_macroeconomic_agent
+=> nrel_main_idtf:
+	[Раздел. Макроэкономический агент]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Macroeconomic agent]
+           	  (* <- lang_en;; *);
+
+<= nrel_section_decomposition:
+	{
+       	section_of_households;
+		section_of_firms;
+		section_of_state;
+		section_of_foreign_sector
+    };;
