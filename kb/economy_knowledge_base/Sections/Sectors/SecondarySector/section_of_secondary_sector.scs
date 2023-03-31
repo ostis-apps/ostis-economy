@@ -1,0 +1,13 @@
+section_of_secondary_sector
+=> nrel_main_idtf:
+	[Раздел. Вторичный сектор]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Secondary sector]
+           	  (* <- lang_en;; *);
+
+<= nrel_section_decomposition:
+	{ 
+	sector_of_manufacturing_industry;
+    sector_of_construction
+    };;

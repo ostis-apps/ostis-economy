@@ -1,0 +1,14 @@
+section_of_economic_thinkers
+=> nrel_main_idtf:
+	[Предметная область экономических мыслителей]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Subject domain of economic events]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+        section_of_adam_smith;
+        section_of_karl_marx;
+        section_of_john_maynard_keynes
+	};;

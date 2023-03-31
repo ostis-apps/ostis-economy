@@ -1,0 +1,16 @@
+section_of_primary_sector
+=> nrel_main_idtf:
+	[Раздел. Первичный сектор]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Primary sector]
+           	  (* <- lang_en;; *);
+
+<= nrel_section_decomposition:
+	{ 
+	sector_of_agriculture;
+    sector_of_fishing;
+    sector_of_forestry;
+    sector_of_hunting;
+    sector_of_extractive_industry
+	};;

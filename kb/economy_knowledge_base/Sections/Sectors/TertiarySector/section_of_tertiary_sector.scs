@@ -1,0 +1,12 @@
+section_of_tertiary_sector
+=> nrel_main_idtf:
+	[Раздел. Третичный сектор]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Tertiary sector]
+           	  (* <- lang_en;; *);
+
+<= nrel_section_decomposition:
+	{ 
+	section_of_services_industry
+    };;

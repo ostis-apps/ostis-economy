@@ -1,0 +1,14 @@
+subject_domain_of_economic_history
+=> nrel_main_idtf:
+	[Предметная область экономической истории]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Subject domain of economic history]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+        section_of_economic_systems;
+        section_of_economic_events;
+        section_of_economic_thinkers
+	};;
