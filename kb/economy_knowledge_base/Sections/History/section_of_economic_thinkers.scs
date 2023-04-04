@@ -1,9 +1,9 @@
 section_of_economic_thinkers
 => nrel_main_idtf:
-	[Предметная область экономических мыслителей]
+	[Раздел. Экономические мыслители]
 	(* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Subject domain of economic events]
+    [Section. Economic thinkers]
     (* <- lang_en;;*);
 
 <= nrel_section_decomposition:

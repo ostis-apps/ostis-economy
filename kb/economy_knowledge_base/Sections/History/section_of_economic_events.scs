@@ -1,17 +1,16 @@
 section_of_economic_events
 => nrel_main_idtf:
-	[Предметная область экономических событий]
-	(* <- lang_ru;; *);
+[Раздел. Экономические события]
+(* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Subject domain of economic events]
-    (* <- lang_en;;*);
+[Subject. Domain of economic events]
+(* <- lang_en;;*);
 
 <= nrel_section_decomposition:
-	{
-        section_of_early_forms_of_exchange_and_trade;
-        section_of_feudal_economic_systems;
-        section_of_mercantilism;
-        section_of_early_capitalism;
-        section_of_industrial_revolution;
-        section_of_development_of_globalization
-	};;
+{
+section_of_industrial_revolution;
+section_of_great_depression;
+section_of_oil_crisis;
+section_of_global_finance_crysis;
+section_of_covid_19
+};;
