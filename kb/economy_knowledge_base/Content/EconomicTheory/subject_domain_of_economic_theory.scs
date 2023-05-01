@@ -1,16 +1,16 @@
 subject_domain_of_economic_theory
 => nrel_main_idtf:
 	[Предметная область экономических теорий]
-	(* <- lang_ru;; *);
+	(*<- lang_ru;; *);
 => nrel_main_idtf:
     [Subject domain of economic theories]
     (* <- lang_en;;*);
 
 <= nrel_section_decomposition:
 	{
-        section_of_theory_of_general_and_partial_equilibrium;
-        section_of_theory_of_choice_under_uncertainty;
-        section_of_theory_of_external_effects;
+        section_theory_of_general_and_partial_equilibrium;
+        section_theory_of_choice_under_uncertainty;
+        section_theory_of_external_effects;
         section_of_production_theory;
 	    section_of_consumption_theory;
         section_of_game_theory
