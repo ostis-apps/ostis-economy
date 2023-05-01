@@ -14,3 +14,39 @@ section_theory_of_risk_management;
 section_theory_of_financial_markets;
 section_theory_of_macroeconomic_policy_under_uncertainty
 };;
+
+section_theory_of_individual_decision_making_under_uncertainty
+=> nrel_main_idtf:
+[Раздел. Теория индивидуального принятия решений в условиях неопределенности]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of individual decision-making under uncertainty]
+(* <- lang_en;;*);;
+section_theory_of_social_decision_making_under_uncertainty
+=> nrel_main_idtf:
+[Раздел. Теория социального принятия решений в условиях неопределенности]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of social decision-making under uncertainty]
+(* <- lang_en;;*);;
+section_theory_of_risk_management
+=> nrel_main_idtf:
+[Раздел. Теория управления рисками]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of risk management]
+(* <- lang_en;;*);;
+section_theory_of_financial_markets
+=> nrel_main_idtf:
+[Раздел. Теория финансовых рынков]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of financial markets]
+(* <- lang_en;;*);;
+section_theory_of_macroeconomic_policy_under_uncertainty
+=> nrel_main_idtf:
+[Раздел. Теория макроэкономической политики в условиях неопределенности]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of macroeconomic policy under uncertainty]
+(* <- lang_en;;*);;

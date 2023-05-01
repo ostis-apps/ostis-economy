@@ -11,3 +11,18 @@ section_theory_of_general_and_partial_equilibrium
 section_theory_of_partial_equilibrium;
 section_theory_of_general_equilibrium
 };;
+
+section_theory_of_partial_equilibrium
+=> nrel_main_idtf:
+[Раздел. Теория частичного равновесия]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of partial equilibrium]
+(*<- lang_en;;*);;
+section_theory_of_general_equilibrium
+=> nrel_main_idtf:
+[Раздел. Теория общего равновесия]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of general equilibrium]
+(*<- lang_en;;*);;

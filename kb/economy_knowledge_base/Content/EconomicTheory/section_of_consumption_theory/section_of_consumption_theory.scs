@@ -11,3 +11,19 @@ section_of_consumption_theory
 section_theory_of_individual_consumption;
 section_theory_of_aggregate_consumpiton
 };;
+
+section_theory_of_individual_consumption
+=> nrel_main_idtf:
+[Раздел. Теория индивидуального потребления]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of individual consumption]
+(* <- lang_en;;*);;
+
+section_theory_of_aggregate_consumpiton
+=> nrel_main_idtf:
+[Раздел. Теория агрегированного потребления]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of aggregate consumption]
+(* <- lang_en;;*);;

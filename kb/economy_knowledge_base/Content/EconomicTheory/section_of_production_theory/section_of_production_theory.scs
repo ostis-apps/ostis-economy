@@ -14,3 +14,39 @@ section_theory_of_firm_behavior;
 section_theory_of_market_structure;
 section_theory_of_technological_change
 };;
+
+section_theory_of_production_functions
+=> nrel_main_idtf:
+[Раздел. Теория производственных функций]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of production functions]
+(* <- lang_en;;*);;
+section_theory_of_cost
+=> nrel_main_idtf:
+[Раздел. Теория издержек]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of cost]
+(* <- lang_en;;*);;
+section_theory_of_firm_behavior
+=> nrel_main_idtf:
+[Раздел. Теория поведения фирмы]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of firm behavior]
+(* <- lang_en;;*);;
+section_theory_of_market_structure
+=> nrel_main_idtf:
+[Раздел. Теория структуры рынка]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of market structure]
+(* <- lang_en;;*);;
+section_theory_of_technological_change
+=> nrel_main_idtf:
+[Раздел. Теория технологических изменений]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of technological change]
+(* <- lang_en;;*);;

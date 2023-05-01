@@ -14,3 +14,43 @@ section_of_bayesian_game_theory;
 section_of_evolutionary_game_theory;
 section_of_algorithmic_game_theory
 };;
+
+section_of_non_cooperative_game_theory
+=> nrel_main_idtf:
+[Раздел. Теория некооперативных игр]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Non-cooperative game theory]
+(* <- lang_en;;*);;
+
+section_of_cooperative_game_theory
+=> nrel_main_idtf:
+[Раздел. Теория кооперативных игр]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Cooperative game theory]
+(* <- lang_en;;*);;
+
+section_of_bayesian_game_theory
+=> nrel_main_idtf:
+[Раздел. Байесова теория игр]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Bayesian game theory]
+(* <- lang_en;;*);;
+
+section_of_evolutionary_game_theory
+=> nrel_main_idtf:
+[Раздел. Эволюционная теория игр]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Evolutionary game theory]
+(* <- lang_en;;*);;
+
+section_of_algorithmic_game_theory
+=> nrel_main_idtf:
+[Раздел. Алгоритмическая теория игр]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Algorithmic game theory]
+(* <- lang_en;;*);;

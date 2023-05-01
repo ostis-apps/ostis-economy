@@ -11,5 +11,42 @@ section_theory_of_external_effects
 section_theory_of_positive_externalities;
 section_theory_of_negative_externalities;
 section_theory_of_public_goods;
+section_theory_of_common_pool_resources;
+section_theory_of_property_rights_and_market_based_solutions
+};;
+
+section_theory_of_positive_externalities
+=> nrel_main_idtf:
+[Раздел. Теория положительных экстерналий]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of positive externalities]
+(* <- lang_en;;*);;
+section_theory_of_negative_externalities
+=> nrel_main_idtf:
+[Раздел. Теория отрицательных экстерналий]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of negative externalities]
+(* <- lang_en;;*);;
+section_theory_of_public_goods
+=> nrel_main_idtf:
+[Раздел. Теория общественных благ]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of public goods]
+(* <- lang_en;;*);;
 section_theory_of_common_pool_resources
-};; 
+=> nrel_main_idtf:
+[Раздел. Теория ресурсов общего пользования]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of common pool resources]
+(* <- lang_en;;*);;
+section_theory_of_property_rights_and_market_based_solutions
+=> nrel_main_idtf:
+[Раздел. Теория прав собственности и решений на основе рынка]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of property rights and market-based solutions]
+(* <- lang_en;;*);;
