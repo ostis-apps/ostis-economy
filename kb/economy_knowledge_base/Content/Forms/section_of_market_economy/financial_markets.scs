@@ -8,6 +8,23 @@ section_of_financial_market
     (*
         <- lang_ru;;
     *);
+    
+<- sc_node_not_relation;
+<- rrel_key_sc_element:
+	Definition_of_market_economy
+	(* 
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:"file://html/market_economy.html" (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(*
+			-> market_economy;;
+		*);;
+	*);
 
 <= nrel_section_decomposition: 
     {
