@@ -1,0 +1,30 @@
+section_of_mixed_economy
+=> nrel_main_idtf:
+	[Раздел. Смешанная экономика]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Mixed economy]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_market_and_price_mechanisms;
+		section_of_government_intervention;
+		section_of_redistribution_of_income_and_wealth;
+		section_of_public_goods_provision;
+		section_of_regulation_and_law;
+		section_of_monetary_policy_and_central_banking;
+		section_of_trade_and_globalization;
+		section_of_labor_market_and_employment_policies;
+		section_of_environmental_protection_and_sustainability;
+		section_of_education_and_human_capital;
+		section_of_infrastructure_and_public_investment;
+		section_of_entrepreneurship_and_innovation;
+		section_of_competitiveness_and_industrial_policy;
+		section_of_social_welfare_and_public_services;
+		section_of_housing_and_urban_policy;
+		section_of_healthcare_and_social_security;
+		section_of_culture_and_arts;
+		section_of_media_and_information_policy;
+		section_of_ethics_and_values_in_economics
+	};;
