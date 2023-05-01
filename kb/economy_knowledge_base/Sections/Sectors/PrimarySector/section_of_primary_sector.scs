@@ -14,3 +14,18 @@ section_of_primary_sector
     sector_of_hunting;
     sector_of_extractive_industry
 	};;
+
+-> rrel_key_sc_element:	
+	<- definition;;
+	<= nrel_sc_text_translation:
+				...
+				(* 
+					-> rrel_example: "Первичный сектор экономики - это сектор, который объединяет отрасли, связанные с добычей сырья и его переработкой в полуфабрикаты. К первичному сектору относятся сельское хозяйство, лесное хозяйство, рыболовство, охота и добыча ископаемого природного сырья (угля, нефти, металлических руд и т. п.)." (* <-lang_en;; *);;
+				*);;
+	concept_agriculture;
+	concept_fishing;
+	concept_forestry;
+	concept_hunting;
+	concept_extractive_industry;
+
+<- non_atomic_section;;
