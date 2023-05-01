@@ -1,0 +1,7 @@
+market_economy
+=> nrel_main_idtf:
+	[Section. Market economy](*<- lang_en;;*);
+	[Раздел. Рыночная экономика](*<- lang_ru;;*);
+=> nrel_idtf:
+	[Section. Market economy](*<- lang_en;;*);
+	[Раздел. Рыночная экономика](*<- lang_ru;;*);;
