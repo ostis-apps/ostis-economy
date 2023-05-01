@@ -1,0 +1,32 @@
+section_of_financial_market
+
+=> nrel_main_idtf: [Section. Financial market]
+    (*
+        <- lang_en;;
+    *);
+=> nrel_main_idtf: [Раздел. Финансовые рынки]
+    (*
+        <- lang_ru;;
+    *);
+
+<= nrel_section_decomposition: 
+    {
+        section_of_stock_markets;
+        section_of_bond_markets; 
+        section_of_foreign_exchange_markets; 
+        section_of_commodity_markets; 
+        section_of_derivatives_markets; 
+        section_of_credit_markets; 
+        section_of_money_markets; 
+        section_of_insurance_markets; 
+        section_of_real_estate_markets; 
+        section_of_investment_funds; 
+        section_of_cryptocurrency_markets; 
+        section_of_behavioral_finance; 
+        section_of_financial_regulation; 
+        section_of_risk_management; 
+        section_of_asset_management; 
+        section_of_financial_engineering; 
+        section_of_quantitative_finance; 
+        section_of_financial_reporting_and_analysis
+    };;
