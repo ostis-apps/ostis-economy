@@ -1,0 +1,18 @@
+section_of_income_distribution_and_social_welfare
+
+=> nrel_main_idtf: [Section. Income Distribution and Social Welfare]
+(*
+<- lang_en;;
+*);
+=> nrel_main_idtf: [Раздел. Распределение доходов и социальное благосостояние]
+(*
+<- lang_ru;;
+*);
+
+<= nrel_section_decomposition:
+{
+    section_of_healthcare_and_pension_systems;
+    section_of_housing_and_homelessness;
+    section_of_disability_and_aging;
+    section_of_immigration_and_social_integration
+};;

@@ -1,0 +1,12 @@
+section_of_resource_allocation
+
+=> nrel_main_idtf: [Section. Resource Allocation](*<- lang_en;;*);
+=> nrel_main_idtf: [Раздел. Распределение ресурсов](*<- lang_ru;;*);
+
+<= nrel_section_decomposition:
+{
+    section_of_allocation_of_natural_resources;
+    section_of_allocation_of_financial_resources;
+    section_of_allocation_of_human_resources;
+    section_of_allocation_of_technology_resources
+};;

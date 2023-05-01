@@ -1,0 +1,18 @@
+section_of_labor_market
+
+=> nrel_main_idtf: [Section. Labor market]
+    (*
+        <- lang_en;;
+    *);
+=> nrel_main_idtf: [Раздел. Рынки труда]
+    (*
+        <- lang_ru;;
+    *);
+
+<= nrel_section_decomposition: 
+    {
+	section_of_global_labor_markets;
+	section_of_labor_supply_and_demand;
+	section_of_wage_and_employment_determination;
+	section_of_labor_market_regulation
+    };;

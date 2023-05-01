@@ -1,0 +1,18 @@
+section_of_community_property
+
+=> nrel_main_idtf: [Section. Community Property]
+(*
+<- lang_en;;
+*);
+=> nrel_main_idtf: [Раздел. Общинная собственность]
+(*
+<- lang_ru;;
+*);
+
+<= nrel_section_decomposition:
+{
+    section_of_types_of_community_property;
+    section_of_governance_and_management;
+    section_of_commons_and_collective_action;
+    section_of_sustainability_and_environmental_impact
+};;

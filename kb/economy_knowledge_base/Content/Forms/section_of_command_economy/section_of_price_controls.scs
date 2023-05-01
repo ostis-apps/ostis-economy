@@ -1,0 +1,15 @@
+section_of_price_controls
+=> nrel_main_idtf:
+	[Раздел. Контроль цен]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Price controls]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+    section_of_rent_control;
+    section_of_minimum_wage;
+    section_of_maximum_wage;
+    section_of_monopoly_and_price_controls
+	};;

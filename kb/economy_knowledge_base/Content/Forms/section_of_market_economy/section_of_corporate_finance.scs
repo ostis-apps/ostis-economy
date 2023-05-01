@@ -1,0 +1,12 @@
+section_of_corporate_finance
+
+=> nrel_main_idtf: [Section. Corporate Finance](*<- lang_en;;*);
+=> nrel_main_idtf: [Раздел. Корпоративные финансы](*<- lang_ru;;*);
+
+<= nrel_section_decomposition:
+{
+	section_of_financial_statement_analysis;
+	section_of_corporate_governance;
+	section_of_capital_structure;
+	section_of_working_capital_management
+};;

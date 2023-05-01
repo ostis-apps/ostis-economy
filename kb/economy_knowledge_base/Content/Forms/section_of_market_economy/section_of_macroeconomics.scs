@@ -1,0 +1,18 @@
+section_of_macroeconomics
+
+<= nrel_main_idtf: [Subject domain of macroeconomics]
+    (*
+        <- lang_en;;
+    *);
+<= nrel_main_idtf: [Предметная область макроэкономики]
+    (*
+        <- lang_ru;;
+    *);
+
+<= nrel_section_decomposition:
+    {
+        section_of_economic_growth;
+        section_of_business_cycles;
+        section_of_fiscal_policy;
+        section_of_macroeconomic_agent
+    };;

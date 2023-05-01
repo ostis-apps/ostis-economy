@@ -1,0 +1,12 @@
+section_of_state_ownership
+
+=> nrel_main_idtf: [Section. State Ownership](*<- lang_en;;*);
+=> nrel_main_idtf: [Раздел. Государственная собственность](*<- lang_ru;;*);
+
+<= nrel_section_decomposition:
+{
+    section_of_stateowned_enterprises;
+    section_of_collective_action_and_state_ownership;
+    section_of_nationalization_and_privatization;
+    section_of_subsidies_and_state_ownership
+};;

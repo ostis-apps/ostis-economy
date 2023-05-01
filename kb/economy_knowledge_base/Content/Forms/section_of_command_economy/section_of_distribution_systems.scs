@@ -1,0 +1,12 @@
+section_of_distribution_systems
+
+=> nrel_main_idtf: [Section. Distribution systems](*<- lang_en;;*);
+=> nrel_main_idtf: [Раздел. Системы распределения](*<- lang_ru;;*);
+
+<= nrel_section_decomposition:
+{
+    section_of_retail_distribution_systems;
+    section_of_wholesale_distribution_systems;
+    section_of_direct_distribution_systems;
+    section_of_multichannel_distribution_systems
+};;

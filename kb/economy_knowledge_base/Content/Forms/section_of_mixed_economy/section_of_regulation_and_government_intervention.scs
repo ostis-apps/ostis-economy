@@ -1,0 +1,17 @@
+section_of_regulation_and_government_intervention
+
+=> nrel_main_idtf: [Section. Regulation and Government Intervention]
+(*
+<- lang_en;;
+*);
+=> nrel_main_idtf: [Раздел. Регулирование и государственное вмешательство]
+(*
+<- lang_ru;;
+*);
+
+<= nrel_section_decomposition:
+{
+    section_of_regulatory_agencies_and_instruments;
+    section_of_market_failures_and_externalities;
+    section_of_consumer_protection
+};;

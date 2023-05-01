@@ -1,0 +1,15 @@
+section_of_central_planning
+=> nrel_main_idtf:
+	[Раздел. Централизованное планирование]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Central planning]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+    section_of_investment_planning;
+    section_of_industrial_planning;
+    section_of_agricultural_planning;
+    section_of_transportation_planning
+	};;
