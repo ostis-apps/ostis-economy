@@ -1,0 +1,31 @@
+section_of_microeconomics 
+
+<= nrel_main_idtf: [Subject domain of microeconomics]
+    (*
+        <- lang_en;;
+    *);
+<= nrel_main_idtf: [Предметная область микроэкономики]
+    (*
+        <- lang_ru;;
+    *);
+
+<= nrel_section_decomposition:
+    {
+        section_of_consumer_theory;
+        section_of_producer_theory;
+        section_of_market_structure;
+        section_of_game_theory;
+        section_of_welfare_economics;
+        section_of_information_economics;
+        section_of_behavioral_economics;
+        section_of_labor_economics;
+        section_of_public_economics;
+        section_of_industrial_organization;
+        section_of_regulatory_policy;
+        section_of_international_trade;
+        section_of_environmental_economics;
+        section_of_health_economics;
+        section_of_education_economics;
+        section_of_development_economics;
+        section_of_technology_and_innovation
+    };;
