@@ -1,0 +1,31 @@
+section_of_microeconomics
+=> nrel_main_idtf:
+	[Раздел. Микроэкономика]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Microeconomics]
+           	  (* <- lang_en;; *);
+<- rrel_key_sc_element:
+		...
+		(*
+                        <- definition;;
+                        => nrel_main_idtf: 
+				[Опр.("Уровень экономики, изучающий отдельные экономические субъекты, такие как домохозяйства, фирмы,
+                                        рынки и отдельные товары и услуги, и их взаимодействие на рынке.")] 
+					(* <-lang_ru;; *);;
+
+			=> nrel_main_idtf: 
+				[Def.("Level of economics that studies individual economic agents, such as households, firms,
+                                        markets, and individual goods and services, and their interaction in the market")]
+					(* <-lang_en;; *);;
+                *);;
+<= nrel_section_decomposition:
+	{
+        section_of_aggregation;
+        section_of_theory_of_general_and_partial_equilibrium;
+        section_of_market_structure;
+        section_of_theory_of_choice_under_uncertainty;
+        section_of_models_with_information_asymmetry;
+        section_of_theory_of_external_effects;
+        section_of_public_goods
+	};;
