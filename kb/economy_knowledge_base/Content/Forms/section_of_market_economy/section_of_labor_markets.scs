@@ -16,3 +16,7 @@ section_of_labor_market
 	section_of_wage_and_employment_determination;
 	section_of_labor_market_regulation
     };;
+section_of_labor_markets -> rrel_key_sc_element:
+	supply_and_demand_of_labor;
+	wage_and_salary_determination;
+	government_regulation_and_intervention_in_labor_markets;;

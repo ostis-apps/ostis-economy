@@ -14,3 +14,7 @@ section_of_traditional_economy
 		section_of_community_property;
 		section_of_craftsmanship
 	};;
+section_of_traditional_economy -> rrel_key_sc_element:
+   customary_practices_and_beliefs;
+   barter_and_trade;
+   limited_technology;;

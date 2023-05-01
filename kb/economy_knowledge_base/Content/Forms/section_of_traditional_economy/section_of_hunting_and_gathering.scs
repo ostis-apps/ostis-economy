@@ -16,3 +16,8 @@ section_of_hunting_and_gathering
     section_of_social_organization;
     section_of_kinship_systems
 };;
+
+section_of_hunting_and_gathering -> rrel_key_sc_element:
+reliance_on_environment;
+sharing_and_reciprocity;
+division_of_labor;;

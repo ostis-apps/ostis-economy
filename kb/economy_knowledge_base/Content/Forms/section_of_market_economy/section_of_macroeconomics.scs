@@ -16,3 +16,7 @@ section_of_macroeconomics
         section_of_fiscal_policy;
         section_of_macroeconomic_agent
     };;
+section_of_macroeconomics -> rrel_key_sc_element:
+    study_of_economic_activity_at_national_or_global_scale;
+    analysis_of_government_policies_and_their_impact_on_economy;
+    examination_of_major_economic_indicators_and_trends;;

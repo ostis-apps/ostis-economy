@@ -15,3 +15,7 @@ section_of_private_and_public_sectors
     section_of_innovation_and_technology;
     section_of_labor_relations_and_employment
 };;
+section_of_private_and_public_sectors -> rrel_key_sc_element:
+competition;
+regulation;
+public_private_partnerships;;

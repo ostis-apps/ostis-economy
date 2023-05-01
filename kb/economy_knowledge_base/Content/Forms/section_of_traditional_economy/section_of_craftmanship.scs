@@ -16,3 +16,8 @@ section_of_craftsmanship
     section_of_tools_and_equipment;
     section_of_training_and_apprenticeship
 };;
+
+section_of_craftsmanship -> rrel_key_sc_element:
+apprenticeship;
+small_scale_production;
+reliance_on_local_materials;;

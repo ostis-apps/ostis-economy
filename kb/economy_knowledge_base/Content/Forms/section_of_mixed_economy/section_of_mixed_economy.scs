@@ -13,3 +13,7 @@ section_of_mixed_economy
 		section_of_income_distribution_and_social_welfare;
 		section_of_sustainability_and_environmental_impact
 	};;
+section_of_mixed_economy -> rrel_key_sc_element:
+	public_private_partnerships;
+	market_oriented_parthnership;
+	economic_planning;;

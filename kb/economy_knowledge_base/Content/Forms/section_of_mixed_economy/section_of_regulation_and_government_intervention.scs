@@ -15,3 +15,7 @@ section_of_regulation_and_government_intervention
     section_of_market_failures_and_externalities;
     section_of_consumer_protection
 };;
+section_of_regulation_and_government_intervention -> rrel_key_sc_element:
+market_failures;
+public_goods;
+externalities;;

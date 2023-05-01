@@ -14,3 +14,7 @@ section_of_command_economy
 		section_of_distribution_systems;
 		section_of_resource_allocation
 	};;
+section_of_command_economy -> rrel_key_sc_element:
+	state_ownership_of_resources_and_means_of_production;
+	fixed_prices_and_wages;
+	limited_consumer_choice;;

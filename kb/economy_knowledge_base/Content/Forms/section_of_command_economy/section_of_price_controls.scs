@@ -13,3 +13,7 @@ section_of_price_controls
     section_of_maximum_wage;
     section_of_monopoly_and_price_controls
 	};;
+section_of_price_controls -> rrel_key_sc_element:
+    setting_of_maximum_or_minimum_prices_for_goods_and_services;
+    enforcement_of_price_ceiling_or_floor_by_government_agencies;
+    rationing_and_distribution_of_scarce_goods;;

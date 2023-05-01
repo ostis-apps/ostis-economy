@@ -10,3 +10,7 @@ section_of_resource_allocation
     section_of_allocation_of_human_resources;
     section_of_allocation_of_technology_resources
 };;
+section_of_resource_allocation -> rrel_key_sc_element:
+    identification_of_available_resources;
+    assessment_of_resource_utilization_and_efficiency;
+    prioritization_of_resource_distribution_and_allocation;;

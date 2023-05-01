@@ -16,3 +16,7 @@ section_of_community_property
     section_of_commons_and_collective_action;
     section_of_sustainability_and_environmental_impact
 };;
+section_of_community_property -> rrel_key_sc_element:
+collective_decision_making;
+shared_labor;
+egalitarianism;;

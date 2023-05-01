@@ -15,3 +15,7 @@ section_of_financial_market
         section_of_bond_markets;
         section_of_money_markets
     };;
+section_of_financial_markets -> rrel_key_sc_element:
+    trading_of_stocks_bonds_currencies_and_commodities;
+    speculation_and_hedging_of_financial_instruments;
+    price_discovery_and_transparency_in_financial_transactions;;

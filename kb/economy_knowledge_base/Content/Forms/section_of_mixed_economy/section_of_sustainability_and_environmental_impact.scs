@@ -16,3 +16,8 @@ section_of_sustainability_and_environmental_impact
     section_of_natural_resource_management;
     section_of_climate_change_and_adaptation
 };;
+section_of_sustainability_and_environmental_impact -> rrel_key_sc_element:
+renewable_energy;
+conservation_and_recycling;
+pollution_control;;
+

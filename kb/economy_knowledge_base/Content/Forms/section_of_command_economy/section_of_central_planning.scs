@@ -13,3 +13,7 @@ section_of_central_planning
     section_of_agricultural_planning;
     section_of_transportation_planning
 	};;
+section_of_central_planning -> rrel_key_sc_element:
+top_down_hierarchy_of_decision_making;
+state_controlled_allocation_of_resources_and_production_targets;
+strict_adherence_to_plans_and_targeted_outcomes;;

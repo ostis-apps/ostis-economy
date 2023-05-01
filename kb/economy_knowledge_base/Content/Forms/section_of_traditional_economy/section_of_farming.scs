@@ -16,3 +16,7 @@ section_of_farming
     section_of_livestock_farming;
     section_of_land_tenure_systems
 };;
+section_of_farming -> rrel_key_sc_element:
+specialization;
+land_ownership;
+seasonal_labor;;

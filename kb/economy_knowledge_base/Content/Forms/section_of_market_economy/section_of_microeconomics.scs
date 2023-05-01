@@ -12,3 +12,7 @@ section_of_microeconomics
     section_of_public_goods;
     section_of_market_structure
 };;
+section_of_microeconomics -> rrel_key_sc_element:
+    study_of_economic_activity_at_individual_or_firm_level;
+    analysis_of_market_behavior_and_decisions_of_consumers_and_producers;
+    examination_of_price_determination_and_market_efficiency;;

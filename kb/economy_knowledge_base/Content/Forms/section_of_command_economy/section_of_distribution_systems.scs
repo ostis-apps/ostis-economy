@@ -10,3 +10,7 @@ section_of_distribution_systems
     section_of_direct_distribution_systems;
     section_of_multichannel_distribution_systems
 };;
+section_of_distribution_systems -> rrel_key_sc_element:
+    transportation_and_logistics_networks;
+    inventory_management_and_control;
+    pricing_strategies_and_tactics;;

@@ -16,3 +16,8 @@ section_of_pastoralism
     section_of_social_organization;
     section_of_property_rights
 };;
+
+section_of_pastoralism -> rrel_key_sc_element:
+mobility_of_labor;
+dependence_on_environment;
+traditional_skills_and_knowledge;;

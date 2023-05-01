@@ -10,3 +10,7 @@ section_of_state_ownership
     section_of_nationalization_and_privatization;
     section_of_subsidies_and_state_ownership
 };;
+section_of_state_ownership -> rrel_key_sc_element:
+    government_control_of_industries_and_key_resources;
+    establishment_of_state_owned_enterprises_and_organizations;
+    management_of_state_owned_properties_and_assets;;

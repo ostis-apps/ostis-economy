@@ -16,3 +16,7 @@ section_of_income_distribution_and_social_welfare
     section_of_disability_and_aging;
     section_of_immigration_and_social_integration
 };;
+section_of_income_distribution_and_social_welfare -> rrel_key_sc_element:
+progressive_taxation;
+social_safety_nets;
+public_education;;
