@@ -1,0 +1,13 @@
+section_of_consumption_theory
+=> nrel_main_idtf:
+[Раздел. Теория потребления]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of consumption]
+(* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+{
+section_theory_of_individual_consumption;
+section_theory_of_aggregate_consumpiton
+};;

@@ -13,3 +13,9 @@ section_of_quaternary_sector
 	section_of_scientific_research;
 	section_of_global_marketing
 	};;
+
+section_of_quaternary_sector -> rrel_key_sc_element:
+	marketing;
+	research;
+	information_technology;
+	education;;

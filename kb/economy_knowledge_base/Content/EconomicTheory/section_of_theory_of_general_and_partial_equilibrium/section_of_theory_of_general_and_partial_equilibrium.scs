@@ -1,0 +1,13 @@
+section_of_theory_of_general_and_partial_equilibrium
+=> nrel_main_idtf:
+[Раздел. Теория общего и частичного равновесия]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of General and Partial Equilibrium]
+(*<- lang_en;;*);
+
+<= nrel_section_decomposition:
+{
+section_theory_of_partial_equilibrium;
+section_theory_of_general_equilibrium
+};;

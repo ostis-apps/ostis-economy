@@ -1,0 +1,16 @@
+section_of_game_theory
+=> nrel_main_idtf:
+[Раздел. Теория производства]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Production Theory]
+(* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+{
+section_theory_of_production_functions;
+section_theory_of_cost;
+section_theory_of_firm_behavior;
+section_theory_of_market_structure;
+section_theory_of_technological_change
+};;

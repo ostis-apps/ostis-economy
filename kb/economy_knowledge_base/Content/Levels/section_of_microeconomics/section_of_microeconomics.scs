@@ -8,13 +8,6 @@ section_of_microeconomics
 
 <= nrel_section_decomposition:
 	{
-        section_of_theory_of_general_and_partial_equilibrium;
-        section_of_theory_of_choice_under_uncertainty;
-        section_of_theory_of_external_effects;
-        section_of_producer_theory;
-		section_of_consumer_theory;
-        section_of_game_theory;
-
         section_of_welfare_economics;
         section_of_information_economics;
         section_of_behavioral_economics;
@@ -35,3 +28,5 @@ section_of_microeconomics
         section_of_international_trade;
         section_of_technology_and_innovation
 	};;
+
+

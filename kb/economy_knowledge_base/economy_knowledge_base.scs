@@ -21,5 +21,6 @@ economy_knowledge_base
 		subject_domain_of_economic_sectors;
 		subject_domain_of_economic_levels;
 		subject_domain_of_economic_history;
-		subject_domain_of_economic_forms
+		subject_domain_of_economic_forms;
+		subject_domain_of_economic_theory
 	};;

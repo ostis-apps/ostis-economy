@@ -1,0 +1,15 @@
+section_of_theory_of_external_effects
+=> nrel_main_idtf:
+[Раздел. Теория внешних эффектов]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Theory of External Effects]
+(* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+{
+section_theory_of_positive_externalities;
+section_theory_of_negative_externalities;
+section_theory_of_public_goods;
+section_theory_of_common_pool_resources
+};; 

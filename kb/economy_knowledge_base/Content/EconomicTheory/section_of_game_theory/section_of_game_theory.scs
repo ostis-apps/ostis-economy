@@ -1,0 +1,16 @@
+section_of_game_theory
+=> nrel_main_idtf:
+[Раздел. Теория игр]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Section. Game theory]
+(* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+{
+section_of_non_cooperative_game_theory;
+section_of_cooperative_game_theory;
+section_of_bayesian_game_theory;
+section_of_evolutionary_game_theory;
+section_of_algorithmic_game_theory
+};;
