@@ -1,0 +1,29 @@
+section_of_macroeconomics
+
+<= nrel_main_idtf: [Subject domain of macroeconomics]
+    (*
+        <- lang_en;;
+    *);
+<= nrel_main_idtf: [Предметная область макроэкономики]
+    (*
+        <- lang_ru;;
+    *);
+
+<= nrel_section_decomposition:
+    {
+        section_of_theories_of_aggregate_demand;
+        section_of_theories_of_aggregate_supply;
+        section_of_money_and_bank;
+        section_of_monetary_policy;
+        section_of_fiscal_policy;
+        section_of_international_trade_and_finance;
+        section_of_business_cycles;
+        section_of_economic_growth;
+        section_of_open_economy_macroeconomics;
+        section_of_empirical_macroeconomics;
+        section_of_economic_history;
+        section_of_inflation;
+        section_of_unemployment;
+        section_of_poverty_and_inequality;
+        section_of_environmental_and_resource_economics
+    };;
