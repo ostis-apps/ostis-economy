@@ -6,10 +6,14 @@ section_of_microeconomics
         [Section. Microeconomics]
            	  (* <- lang_en;; *);
 
+<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: "file://html/section_of_microeconomics.html" (* <-lang_ru;; *);;
+		*);
+
 <= nrel_section_decomposition:
 	{
-        section_of_consumption_theory;
-        section_of_production_theory;
         section_of_aggregation;
         section_of_theory_of_general_and_partial_equilibrium;
         section_of_market_structure;
