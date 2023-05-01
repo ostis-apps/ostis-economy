@@ -1,0 +1,18 @@
+section_of_pastoralism
+
+=> nrel_main_idtf: [Section. Pastoralism]
+(*
+<- lang_en;;
+*);
+=> nrel_main_idtf: [Раздел. Пастушество]
+(*
+<- lang_ru;;
+*);
+
+<= nrel_section_decomposition:
+{
+    section_of_animal_husbandry;
+    section_of_mobility_and_migration;
+    section_of_social_organization;
+    section_of_property_rights
+};;

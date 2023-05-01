@@ -1,0 +1,14 @@
+section_of_microeconomics
+
+<= nrel_main_idtf: [Subject domain of microeconomics]
+(*<- lang_en;;*);
+<= nrel_main_idtf: [Предметная область микроэкономики]
+(*<- lang_ru;;*);
+
+<= nrel_section_decomposition:
+{
+    section_of_supply_and_demand;
+    section_of_market_failure;
+    section_of_public_goods;
+    section_of_market_structure
+};;

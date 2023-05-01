@@ -1,0 +1,18 @@
+section_of_sustainability_and_environmental_impact
+
+=> nrel_main_idtf: [Section. Sustainability and Environmental Impact]
+(*
+<- lang_en;;
+*);
+=> nrel_main_idtf: [Раздел. Устойчивость и экологическое воздействие]
+(*
+<- lang_ru;;
+*);
+
+<= nrel_section_decomposition:
+{
+    section_of_sustainable_development_and_goals;
+    section_of_environmental_economics;
+    section_of_natural_resource_management;
+    section_of_climate_change_and_adaptation
+};;

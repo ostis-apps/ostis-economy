@@ -1,0 +1,18 @@
+section_of_craftsmanship
+
+=> nrel_main_idtf: [Section. Craftsmanship]
+(*
+<- lang_en;;
+*);
+=> nrel_main_idtf: [Раздел. Ремесло]
+(*
+<- lang_ru;;
+*);
+
+<= nrel_section_decomposition:
+{
+    section_of_types_of_crafts;
+    section_of_techniques_and_materials;
+    section_of_tools_and_equipment;
+    section_of_training_and_apprenticeship
+};;

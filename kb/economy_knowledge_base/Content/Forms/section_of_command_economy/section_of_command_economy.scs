@@ -12,15 +12,5 @@ section_of_command_economy
 		section_of_price_controls;
 		section_of_state_ownership;
 		section_of_distribution_systems;
-		section_of_resource_allocation;
-		section_of_incentive_design;
-		section_of_public_goods_provision;
-		section_of_market_distortions;
-		section_of_legal_system;
-		section_of_information_controls;
-		section_of_international_trade;
-		section_of_historical_context;
-		section_of_transition_economics;
-		section_of_comparative_systems;
-		section_of_theoretical_debates
+		section_of_resource_allocation
 	};;

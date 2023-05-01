@@ -1,0 +1,17 @@
+section_of_private_and_public_sectors
+
+=> nrel_main_idtf: [Section. Private and Public Sectors]
+(*
+<- lang_en;;
+*);
+=> nrel_main_idtf: [Раздел. Частный и государственный сектора]
+(*
+<- lang_ru;;
+*);
+
+<= nrel_section_decomposition:
+{
+    section_of_productivity_and_efficiency;
+    section_of_innovation_and_technology;
+    section_of_labor_relations_and_employment
+};;

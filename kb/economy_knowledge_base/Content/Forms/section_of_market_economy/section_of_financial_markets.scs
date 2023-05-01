@@ -1,0 +1,17 @@
+section_of_financial_market
+
+=> nrel_main_idtf: [Section. Financial market]
+    (*
+        <- lang_en;;
+    *);
+=> nrel_main_idtf: [Раздел. Финансовые рынки]
+    (*
+        <- lang_ru;;
+    *);
+
+<= nrel_section_decomposition: 
+    {
+        section_of_stock_markets;
+        section_of_bond_markets;
+        section_of_money_markets
+    };;
