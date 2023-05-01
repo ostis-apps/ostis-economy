@@ -50,3 +50,20 @@ section_theory_of_technological_change
 => nrel_main_idtf:
 [Section. Theory of technological change]
 (* <- lang_en;;*);;
+
+section_theory_of_production_functions -> rrel_key_sc_element:
+    production_function;
+    law_of_diminishing_returns;;
+
+section_theory_of_cost -> rrel_key_sc_element:
+    cost_curve;
+    point_of_minimum_cost;;
+section_theory_of_firm_behavior -> rrel_key_sc_element:
+    firm_goals;
+    tech_level;;
+section_theory_of_market_structure -> rrel_key_sc_element:
+    number_of_sellers;
+    product_features;;
+section_theory_of_technological_change -> rrel_key_sc_element:
+    innovation;
+    diffusion;;

@@ -54,3 +54,24 @@ section_of_algorithmic_game_theory
 => nrel_main_idtf:
 [Section. Algorithmic game theory]
 (* <- lang_en;;*);;
+
+section_of_game_theory-> rrel_sc_key_element:
+    players;
+    win;;
+
+section_of_non_cooperative_game_theory -> rrel_sc_key_element:
+    strategies;
+    information;;
+
+section_of_bayesian_game_theory -> rrel_sc_key_element:
+    uncertainty;
+    bayesian_equilibrium;;
+
+section_of_evolutionary_game_theory -> rrel_sc_key_element:
+    populations;
+    natural_selection;;
+
+section_of_algorithmic_game_theory -> rrel_sc_key_element:
+    zero_sum_games;
+    computational_complexity;;
+

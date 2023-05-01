@@ -50,3 +50,19 @@ section_theory_of_macroeconomic_policy_under_uncertainty
 => nrel_main_idtf:
 [Section. Theory of macroeconomic policy under uncertainty]
 (* <- lang_en;;*);;
+
+section_theory_of_individual_decision_making_under_uncertainty -> rrel_key_sc_element:
+    expected_utility_theory;
+    prospect_theory;;
+section_theory_of_social_decision_making_under_uncertainty -> rrel_key_sc_element:
+    social_choice_theory;
+    game_theory;;
+section_theory_of_risk_management -> rrel_key_sc_element:
+    risk_assessment;
+    risk_mitigation_strategies;;
+section_theory_of_financial_markets -> rrel_key_sc_element:
+    efficient_market_hypothesis;
+    behavioral_finance;;
+section_theory_of_macroeconomic_policy_under_uncertainty -> rrel_key_sc_element:
+    countercyclical_policy;
+    policy_credibility;;

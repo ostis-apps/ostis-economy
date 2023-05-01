@@ -27,3 +27,13 @@ section_theory_of_aggregate_consumpiton
 => nrel_main_idtf:
 [Section. Theory of aggregate consumption]
 (* <- lang_en;;*);;
+
+section_theory_of_individual_consumption -> rrel_key_sc_element:
+    marginal_utility;
+    equilibrium_of_consumption;
+    elasticity_of_demand;;
+
+section_theory_of_aggregate_consumpiton -> rrel_key_sc_element:
+    national_income;
+    inflation;
+    production_structure;;

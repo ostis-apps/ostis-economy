@@ -26,3 +26,10 @@ section_theory_of_general_equilibrium
 => nrel_main_idtf:
 [Section. Theory of general equilibrium]
 (*<- lang_en;;*);;
+
+section_theory_of_partial_equilibrium -> rrel_key_sc_element:
+    elasticity;
+    partial_balance;;
+section_theory_of_general_equilibrium -> rrel_key_sc_element:
+    balanced_market_models;
+    walrasian_principle;;

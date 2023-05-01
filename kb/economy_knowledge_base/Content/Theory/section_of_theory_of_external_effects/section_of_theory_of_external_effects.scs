@@ -50,3 +50,18 @@ section_theory_of_property_rights_and_market_based_solutions
 => nrel_main_idtf:
 [Section. Theory of property rights and market-based solutions]
 (* <- lang_en;;*);;
+
+section_theory_of_positive_externalities  -> rrel_key_sc_element:
+    economic_agents;
+    state_regulation;;
+section_theory_of_negative_externalities  -> rrel_key_sc_element:
+    negative_impacts;;
+section_theory_of_public_goods  -> rrel_key_sc_element:
+    public_goods;
+    imperfect_competition;;
+section_theory_of_common_pool_resources -> rrel_key_sc_element:
+    shared_resources;
+    overuse;;
+section_theory_of_property_rights_and_market_based_solutions  -> rrel_key_sc_element:
+    property_rights;
+    market_based_solutions;;
