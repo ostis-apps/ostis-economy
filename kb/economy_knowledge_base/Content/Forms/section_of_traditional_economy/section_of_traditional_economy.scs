@@ -1,0 +1,22 @@
+section_of_traditional_economy
+=> nrel_main_idtf:
+	[Раздел. Традиционная экономика]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Traditional economy]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_customs_and_traditions;
+		section_of_heritage_and_culture;
+		section_of_community_and_family;
+		section_of_subsistence_living;
+		section_of_land_and_resource_use;
+		section_of_traditional_production_methods;
+		section_of_trade_and_exchange;
+		section_of_roles_and_gender_divisions;
+		section_of_rituals_and_ceremonies;
+		section_of_environmental_sustainability;
+		section_of_modernization_and_change
+	};;
