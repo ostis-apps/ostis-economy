@@ -1,14 +1,18 @@
 section_of_microeconomics
-=> nrel_main_idtf: 
+=> nrel_main_idtf:
 	[Раздел. Микроэкономика]
-	(* <- lang_ru;;*);
-	[Section. Microeconomics]
-	(* <- lang_en;; *);
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Microeconomics]
+           	  (* <- lang_en;; *);
 
-<- not_enough_formed_structure;
-<- atomic_section;;
-
-section_of_microeconomics = [*^"file://section_of_microeconomics.scsi"*];;
-
-section_of_microeconomics
--> rrel_key_sc_element: section_of_microeconomics;;
+<= nrel_section_decomposition:
+	{
+        section_of_aggregation;
+        section_of_theory_of_general_and_partial_equilibrium;
+        section_of_market_structure;
+        section_of_theory_of_choice_under_uncertainty;
+        section_of_models_with_information_asymmetry;
+        section_of_theory_of_external_effects;
+        section_of_public_goods
+	};;
