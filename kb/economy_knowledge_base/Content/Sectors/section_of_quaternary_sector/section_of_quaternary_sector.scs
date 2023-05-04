@@ -1,9 +1,11 @@
+//------------------------------------------------------------------------//
+
 section_of_quaternary_sector
 => nrel_main_idtf:
 	[Раздел. Четвертичный сектор]
 		(* <- lang_ru;; *);
 => nrel_main_idtf:
-        [Section. Quaternary sector]
+    [Section. Quaternary sector]
            	  (* <- lang_en;; *);
 
 <= nrel_section_decomposition:
@@ -14,8 +16,50 @@ section_of_quaternary_sector
 	section_of_global_marketing
 	};;
 
-section_of_quaternary_sector -> rrel_key_sc_element:
-	marketing;
-	research;
-	information_technology;
-	education;;
+//------------------------------------------------------------------------//
+
+section_of_information_technology
+=> nrel_main_idtf:
+	[Раздел. Информационные технологии]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Information_technology]
+        (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://html//section_of_information_technology//information_technology.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+
+//------------------------------------------------------------------------//
+
+section_of_education
+=> nrel_main_idtf:
+	[Раздел. Образование]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Education]
+        (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://html//section_of_education//education.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+//------------------------------------------------------------------------//
+
+section_of_scientific_research
+=> nrel_main_idtf:
+	[Раздел. Научно-исследовательская деятельность]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Scientific research]
+        (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://html//section_of_scientific_research//scientific_research.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+//------------------------------------------------------------------------//
