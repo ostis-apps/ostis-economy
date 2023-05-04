@@ -21,3 +21,32 @@ renewable_energy;
 conservation_and_recycling;
 pollution_control;;
 
+renewable_energy
+=> nrel_main_idtf:
+[Возобновляемая энергия]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/renewable_energy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+conservation_and_recycling
+=> nrel_main_idtf:
+[Сохранение и переработка ресурсов]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/conservation_and_recycling.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+pollution_control
+=> nrel_main_idtf:
+[Контроль загрязнения]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/pollution_control.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+

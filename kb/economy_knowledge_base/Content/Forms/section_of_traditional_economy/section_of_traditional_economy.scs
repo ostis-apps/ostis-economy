@@ -18,3 +18,33 @@ section_of_traditional_economy -> rrel_key_sc_element:
    customary_practices_and_beliefs;
    barter_and_trade;
    limited_technology;;
+
+customary_practices_and_beliefs
+=> nrel_main_idtf:
+[Обычаи и верования]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/customary_practices_and_beliefs.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+barter_and_trade
+=> nrel_main_idtf:
+[Товарообмен и торговля]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/barter_and_trade.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+limited_technology
+=> nrel_main_idtf:
+[Ограниченные технологии]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/limited_technology.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

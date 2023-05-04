@@ -21,3 +21,33 @@ section_of_craftsmanship -> rrel_key_sc_element:
 apprenticeship;
 small_scale_production;
 reliance_on_local_materials;;
+
+apprenticeship
+=> nrel_main_idtf:
+[Ученичество]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/apprenticeship.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+small_scale_production 
+=> nrel_main_idtf:
+[Маломасштабное производство]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/small_scale_production.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;    
+
+reliance_on_local_materials
+=> nrel_main_idtf:
+[Использование местных материалов]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/reliance_on_local_materials.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;                   

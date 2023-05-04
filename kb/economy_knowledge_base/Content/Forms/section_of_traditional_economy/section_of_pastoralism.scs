@@ -21,3 +21,33 @@ section_of_pastoralism -> rrel_key_sc_element:
 mobility_of_labor;
 dependence_on_environment;
 traditional_skills_and_knowledge;;
+
+mobility_of_labor
+=> nrel_main_idtf:
+[Мобильность рабочей силы]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/mobility_of_labor.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+dependence_on_environment
+=> nrel_main_idtf:
+[Зависимость от окружающей среды]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/dependence_on_environment.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+traditional_skills_and_knowledge
+=> nrel_main_idtf:
+[Традиционные знания и навыки]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/traditional_skills_and_knowledge.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

@@ -45,14 +45,29 @@ section_of_fiscal_policy
 study_of_economic_activity_at_national_or_global_scale
 => nrel_main_idtf:
 [изучение_экономической_активности в_национальном_ или_глобальном_ масштабе]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/study_of_economic_activity_at_national_or_global_scale.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 analysis_of_government_policies_and_their_impact_on_economy
 => nrel_main_idtf:
 [анализ_ правительственной_политики и_ их_ влияния на_экономику]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/analysis_of_government_policies_and_their_impact_on_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 examination_of_major_economic_indicators_and_trends
 => nrel_main_idtf:
 [изучение основных экономических показателей и тенденций]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/examination_of_major_economic_indicators_and_trends.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

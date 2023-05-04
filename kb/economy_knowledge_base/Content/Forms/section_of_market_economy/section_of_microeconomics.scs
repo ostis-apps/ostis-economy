@@ -46,14 +46,29 @@ section_of_market_structure
 study_of_economic_activity_at_individual_or_firm_level
 => nrel_main_idtf:
 [изучение_экономической_активности на_индивидуальном_ или_фирменном_уровне]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/study_of_economic_activity_at_individual_or_firm_level.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 analysis_of_market_behavior_and_decisions_of_consumers_and_producers
 => nrel_main_idtf:
 [анализ_рынка_в_ поведении_ и_решения_ потребителей и_производителей]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/analysis_of_market_behavior_and_decisions_of_consumers_and_producers.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 examination_of_price_determination_and_market_efficiency
 => nrel_main_idtf:
 [анализ_цены_определения_и_маркет_эффективности]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/examination_of_price_determination_and_market_efficiency.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

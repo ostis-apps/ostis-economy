@@ -41,14 +41,29 @@ section_of_monopoly_and_price_controls
 setting_of_maximum_or_minimum_prices_for_goods_and_services
 => nrel_main_idtf:
 [настройка_максимальных_или_минимальных_цен_ на_товары и_услуги]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/setting_of_maximum_or_minimum_prices_for_goods_and_services.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 enforcement_of_price_ceiling_or_floor_by_government_agencies
 => nrel_main_idtf:
 [обеспечение соблюдения предельных или минимальных цен государственными учреждениями]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/enforcement_of_price_ceiling_or_floor_by_government_agencies.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 rationing_and_distribution_of_scarce_goods
 => nrel_main_idtf:
 [нормирование и распределение продовольственных товаров]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/rationing_and_distribution_of_scarce_goods.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

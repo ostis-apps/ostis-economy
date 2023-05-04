@@ -20,3 +20,32 @@ section_of_income_distribution_and_social_welfare -> rrel_key_sc_element:
 progressive_taxation;
 social_safety_nets;
 public_education;;
+
+progressive_taxation
+=> nrel_main_idtf:
+[Прогрессивное налогообложение]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/progressive_taxation.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+social_safety_nets
+=> nrel_main_idtf:
+[Социальные сети безопасности]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/social_safety_nets.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+public_education
+=> nrel_main_idtf:
+[Общедоступное образование]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/public_education.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

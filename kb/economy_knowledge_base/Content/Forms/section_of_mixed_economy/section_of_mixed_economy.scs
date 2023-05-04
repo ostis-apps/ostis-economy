@@ -17,3 +17,32 @@ section_of_mixed_economy -> rrel_key_sc_element:
 	public_private_partnerships;
 	market_oriented_parthnership;
 	economic_planning;;
+
+public_private_partnerships
+=> nrel_main_idtf:
+[Государственно-частные партнерства]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/public_private_partnerships.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+market_oriented_parthnership
+=> nrel_main_idtf:
+[Рыночно-ориентированные партнерства]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/market_oriented_parthnership.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+economic_planning
+=> nrel_main_idtf:
+[Экономическое планирование]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/economic_planning.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
