@@ -28,7 +28,7 @@ section_theory_of_partial_equilibrium
 (* <- lang_ru;; *);
 => nrel_main_idtf:
 [Section. Theory of partial equilibrium]
-(*<- lang_en;;*);;
+(*<- lang_en;;*);
 => nrel_sc_text_translation:
                     "file://html//section_theory_of_partial_equilibrium//theory_of_partial_equilibrium.html" (*
                             <- lang_ru;;
