@@ -6,6 +6,12 @@ section_theory_of_choice_under_uncertainty
 [Section. Theory of choice under uncertainty]
 (* <- lang_en;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/theory_of_choice_under_uncertainty.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 <= nrel_section_decomposition:
 {
 section_theory_of_individual_decision_making_under_uncertainty;

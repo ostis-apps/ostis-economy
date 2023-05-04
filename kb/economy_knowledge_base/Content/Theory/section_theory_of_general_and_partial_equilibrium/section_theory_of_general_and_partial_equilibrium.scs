@@ -6,6 +6,12 @@ section_theory_of_general_and_partial_equilibrium
 [Section. Theory of General and Partial Equilibrium]
 (*<- lang_en;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/theory_of_general_and_partial_equilibrium.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 <= nrel_section_decomposition:
 {
 section_theory_of_partial_equilibrium;

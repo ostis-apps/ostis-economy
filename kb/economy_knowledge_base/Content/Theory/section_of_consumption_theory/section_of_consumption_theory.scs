@@ -6,6 +6,13 @@ section_of_consumption_theory
 [Section. Theory of consumption]
 (* <- lang_en;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/consumption_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 <= nrel_section_decomposition:
 {
 section_theory_of_individual_consumption;

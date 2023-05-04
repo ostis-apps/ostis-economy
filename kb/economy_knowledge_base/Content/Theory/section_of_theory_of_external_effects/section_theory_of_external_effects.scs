@@ -6,6 +6,12 @@ section_theory_of_external_effects
 [Section. Theory of External Effects]
 (* <- lang_en;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/theory_of_external_effects.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 <= nrel_section_decomposition:
 {
 section_theory_of_positive_externalities;
