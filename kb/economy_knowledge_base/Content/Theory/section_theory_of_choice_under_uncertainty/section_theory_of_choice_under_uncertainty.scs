@@ -1,3 +1,5 @@
+//------------------------------------------------------------------------//
+
 section_theory_of_choice_under_uncertainty
 => nrel_main_idtf:
 [Раздел. Теория выбора в условиях неопределенности]
@@ -10,7 +12,7 @@ section_theory_of_choice_under_uncertainty
                     "file://html/theory_of_choice_under_uncertainty.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
-                        *); 
+                        *);
 
 <= nrel_section_decomposition:
 {
@@ -21,34 +23,85 @@ section_theory_of_financial_markets;
 section_theory_of_macroeconomic_policy_under_uncertainty
 };;
 
+//------------------------------------------------------------------------//
+
 section_theory_of_individual_decision_making_under_uncertainty
 => nrel_main_idtf:
 [Раздел. Теория индивидуального принятия решений в условиях неопределенности]
 (* <- lang_ru;; *);
 => nrel_main_idtf:
 [Section. Theory of individual decision-making under uncertainty]
-(* <- lang_en;;*);;
+(* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_individual_decision_making_under_uncertainty//theory_of_individual_decision_making_under_uncertainty.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+section_theory_of_individual_decision_making_under_uncertainty -> rrel_key_sc_element:
+    expected_utility_theory;
+    prospect_theory;;
+
+//------------------------------------------------------------------------//
+
 section_theory_of_social_decision_making_under_uncertainty
 => nrel_main_idtf:
 [Раздел. Теория социального принятия решений в условиях неопределенности]
 (* <- lang_ru;; *);
 => nrel_main_idtf:
 [Section. Theory of social decision-making under uncertainty]
-(* <- lang_en;;*);;
+(* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_social_decision_making_under_uncertainty//theory_of_social_decision_making_under_uncertainty.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+section_theory_of_social_decision_making_under_uncertainty -> rrel_key_sc_element:
+    social_choice_theory;
+    game_theory;;
+
+//------------------------------------------------------------------------//
+
 section_theory_of_risk_management
 => nrel_main_idtf:
 [Раздел. Теория управления рисками]
 (* <- lang_ru;; *);
 => nrel_main_idtf:
 [Section. Theory of risk management]
-(* <- lang_en;;*);;
+(* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_risk_management//theory_of_risk_management.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+section_theory_of_risk_management -> rrel_key_sc_element:
+    risk_assessment;
+    risk_mitigation_strategies;;
+
+//------------------------------------------------------------------------//
+
 section_theory_of_financial_markets
 => nrel_main_idtf:
 [Раздел. Теория финансовых рынков]
 (* <- lang_ru;; *);
 => nrel_main_idtf:
 [Section. Theory of financial markets]
-(* <- lang_en;;*);;
+(* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_financial_markets//theory_of_financial_markets.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+
+section_theory_of_financial_markets -> rrel_key_sc_element:
+    efficient_market_hypothesis;
+    behavioral_finance;;
+
+//------------------------------------------------------------------------//
+
 section_theory_of_macroeconomic_policy_under_uncertainty
 => nrel_main_idtf:
 [Раздел. Теория макроэкономической политики в условиях неопределенности]
@@ -56,19 +109,18 @@ section_theory_of_macroeconomic_policy_under_uncertainty
 => nrel_main_idtf:
 [Section. Theory of macroeconomic policy under uncertainty]
 (* <- lang_en;;*);;
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_macroeconomic_policy_under_uncertainty//theory_of_macroeconomic_policy_under_uncertainty.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
-section_theory_of_individual_decision_making_under_uncertainty -> rrel_key_sc_element:
-    expected_utility_theory;
-    prospect_theory;;
-section_theory_of_social_decision_making_under_uncertainty -> rrel_key_sc_element:
-    social_choice_theory;
-    game_theory;;
-section_theory_of_risk_management -> rrel_key_sc_element:
-    risk_assessment;
-    risk_mitigation_strategies;;
-section_theory_of_financial_markets -> rrel_key_sc_element:
-    efficient_market_hypothesis;
-    behavioral_finance;;
 section_theory_of_macroeconomic_policy_under_uncertainty -> rrel_key_sc_element:
     countercyclical_policy;
     policy_credibility;;
+
+//------------------------------------------------------------------------//
+
+
+
+
