@@ -28,7 +28,7 @@ section_theory_of_individual_consumption
 [Section. Theory of individual consumption]
 (* <- lang_en;;*);
 => nrel_sc_text_translation:
-                    "file://html/theory_of_individual_consumption.html" (*
+                    "file://html//section_theory_of_individual_consumption//theory_of_individual_consumption.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
