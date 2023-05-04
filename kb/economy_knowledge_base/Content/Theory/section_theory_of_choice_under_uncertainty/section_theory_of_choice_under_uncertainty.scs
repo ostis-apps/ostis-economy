@@ -72,7 +72,7 @@ section_theory_of_social_decision_making_under_uncertainty
 [Section. Theory of social decision-making under uncertainty]
 (* <- lang_en;;*);
 => nrel_sc_text_translation:
-                    "file://html//section_theory_of_social_decision_making_under_uncertainty//section_theory_of_social_decision_making_under_uncertainty.html" (*
+                    "file://html//section_theory_of_social_decision_making_under_uncertainty//theory_of_social_decision_making_under_uncertainty.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
