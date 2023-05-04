@@ -56,7 +56,7 @@ production_function
 law_of_diminishing_returns
 => nrel_main_idtf:
 [Закон убывающей производительности]
-(* <- lang_ru;;*);;
+(* <- lang_ru;;*);
 => nrel_sc_text_translation:
                     "file://html//section_theory_of_production_functions//law_of_diminishing_returns.html" (*
                             <- lang_ru;;
@@ -119,7 +119,7 @@ section_theory_of_firm_behavior -> rrel_key_sc_element:
 firm_goals
 => nrel_main_idtf:
 [Цели фирмы]
-(* <- lang_ru;;*);;
+(* <- lang_ru;;*);
 => nrel_sc_text_translation:
                     "file://html//section_theory_of_firm_behavior//firm_goals.html" (*
                             <- lang_ru;;
@@ -129,7 +129,7 @@ firm_goals
 tech_level
 => nrel_main_idtf:
 [Уровень технологического развития]
-(* <- lang_ru;;*);;
+(* <- lang_ru;;*);
 => nrel_sc_text_translation:
                     "file://html//section_theory_of_firm_behavior//tech_level.html" (*
                             <- lang_ru;;
@@ -165,7 +165,7 @@ number_of_sellers
 product_features
 => nrel_main_idtf:
 [Характеристики продукта]
-(* <- lang_ru;;*);;
+(* <- lang_ru;;*);
 => nrel_sc_text_translation:
                     "file://html//section_theory_of_market_structure//product_features.html" (*
                             <- lang_ru;;
