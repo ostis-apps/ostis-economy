@@ -89,7 +89,7 @@ cost_curve
 
 point_of_minimum_cost
 => nrel_main_idtf:
-[Кривая издержек]
+[Точка минимальных издержек]
 (* <- lang_ru;;*);
 => nrel_sc_text_translation:
                     "file://html//section_theory_of_cost//point_of_minimum_cost.html" (*
