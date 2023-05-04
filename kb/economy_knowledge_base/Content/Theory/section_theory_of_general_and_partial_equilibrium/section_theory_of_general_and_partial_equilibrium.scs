@@ -33,6 +33,27 @@ section_theory_of_partial_equilibrium
 section_theory_of_partial_equilibrium -> rrel_key_sc_element:
     elasticity;
     partial_balance;;
+
+elasticity
+=> nrel_main_idtf:
+[Эластичность]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_partial_equilibrium//elasticity.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+partial_balance
+=> nrel_main_idtf:
+[Частичное равновесие]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_partial_equilibrium//partial_balance.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
 //------------------------------------------------------------------------//
 
 section_theory_of_general_equilibrium
@@ -46,6 +67,26 @@ section_theory_of_general_equilibrium
 section_theory_of_general_equilibrium -> rrel_key_sc_element:
     balanced_market_models;
     walrasian_principle;;
-    
+
+balanced_market_models
+=> nrel_main_idtf:
+[Модели сбалансированных рынков]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_general_equilibrium//balanced_market_models.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+walrasian_principle
+=> nrel_main_idtf:
+[Принцип Вальраса]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_general_equilibrium//balanced_market_models.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
 //------------------------------------------------------------------------//
 
