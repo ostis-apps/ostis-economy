@@ -24,7 +24,7 @@ section_of_information_technology
 		(* <- lang_ru;; *);
 => nrel_main_idtf:
     [Section. Information_technology]
-        (* <- lang_en;; *);;
+        (* <- lang_en;; *);
 => nrel_sc_text_translation:
                     "file://html//section_of_information_technology//information_technology.html" (*
                             <- lang_ru;;
@@ -40,7 +40,7 @@ section_of_education
 		(* <- lang_ru;; *);
 => nrel_main_idtf:
     [Section. Education]
-        (* <- lang_en;; *);;
+        (* <- lang_en;; *);
 => nrel_sc_text_translation:
                     "file://html//section_of_education//education.html" (*
                             <- lang_ru;;
@@ -55,9 +55,24 @@ section_of_scientific_research
 		(* <- lang_ru;; *);
 => nrel_main_idtf:
     [Section. Scientific research]
-        (* <- lang_en;; *);;
+        (* <- lang_en;; *);
 => nrel_sc_text_translation:
                     "file://html//section_of_scientific_research//scientific_research.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+//------------------------------------------------------------------------//
+
+section_of_global_marketing
+=> nrel_main_idtf:
+	[Раздел. Глобальный маркетинг]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Global marketing]
+        (* <- lang_en;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_global_marketing//global_marketing.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
