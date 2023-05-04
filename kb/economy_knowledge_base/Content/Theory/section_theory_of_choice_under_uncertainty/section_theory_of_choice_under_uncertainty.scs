@@ -59,7 +59,7 @@ section_theory_of_social_decision_making_under_uncertainty
 
 section_theory_of_social_decision_making_under_uncertainty -> rrel_key_sc_element:
     social_choice_theory;
-    game_theory;;
+    section_of_game_theory;;
 
 //------------------------------------------------------------------------//
 
