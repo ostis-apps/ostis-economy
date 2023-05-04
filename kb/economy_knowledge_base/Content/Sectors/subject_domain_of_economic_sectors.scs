@@ -1,15 +1,31 @@
 subject_domain_of_economic_sectors
 => nrel_main_idtf:
-	[Предметная область секторов экономики]
-	(* <- lang_ru;; *);
+	[Предметная область. Сектора экономики]
+		(* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Subject domain of economy sectors]
-    (* <- lang_en;;*);
+    [Subject domain. Economy sectors]
+    	(* <- lang_en;;*);
+
+=> nrel_sc_text_translation:
+                    "file://htmls/economic_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 
 <= nrel_section_decomposition:
 	{
     section_of_primary_sector;
 	section_of_secondary_sector;
 	section_of_tertiary_sector;
-	section_of_quaternary_sector
-};;
+	section_of_quaternary_sector;
+	section_of_real_sector;
+	section_of_financial_sector
+	};;
+
+subject_domain_of_economic_sectors
+-> rrel_key_sc_element:
+		economic_goals;
+		economic_object;
+		economic_subject;
+		branch_of_the_economy;;

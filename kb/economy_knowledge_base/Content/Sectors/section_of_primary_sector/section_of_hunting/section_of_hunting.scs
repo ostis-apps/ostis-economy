@@ -1,0 +1,16 @@
+section_of_hunting
+=> nrel_main_idtf:
+	[Раздел. Охотничий промысел]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Hunting]
+           	  (* <- lang_en;; *);
+
+=> nrel_sc_text_translation:
+                    "file://htmls/hunting.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+section_of_hunting -> rrel_key_sc_element:
+		hunting_season;;

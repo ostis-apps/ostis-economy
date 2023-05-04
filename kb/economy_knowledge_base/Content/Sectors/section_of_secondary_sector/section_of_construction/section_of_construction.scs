@@ -1,0 +1,14 @@
+section_of_construction
+=> nrel_main_idtf:
+	[Раздел. Строительство]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Construction]
+           	  (* <- lang_en;; *);;
+
+section_of_construction -> rrel_key_sc_element:
+		building;
+		structures;
+        interior;
+        exterior;
+		architecture;;

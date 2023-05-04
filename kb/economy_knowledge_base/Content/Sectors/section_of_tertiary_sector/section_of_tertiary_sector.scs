@@ -4,9 +4,16 @@ section_of_tertiary_sector
 		(* <- lang_ru;; *);
 => nrel_main_idtf:
         [Section. Tertiary sector]
-           	  (* <- lang_en;; *);
+           	  (* <- lang_en;; *);;
 
-<= nrel_section_decomposition:
-	{ 
-	section_of_services_industry
-    };;
+section_of_tertiary_sector -> rrel_key_sc_element:
+		services_sector;
+		culture;
+		education;
+		healthcare;
+		household_service;
+		tourism;
+		catering;
+		communication;
+		hotel_business;
+		transport;;

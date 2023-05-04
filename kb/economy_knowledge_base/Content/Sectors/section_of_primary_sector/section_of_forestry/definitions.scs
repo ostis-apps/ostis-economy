@@ -1,0 +1,20 @@
+forest_reproduction
+=> nrel_main_idtf:[Воспроизводство леса] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/forest_reproduction.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+timber_harvesting
+=> nrel_main_idtf:[Лесозаготовка] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/timber_harvesting.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+forest_protection
+=> nrel_main_idtf:[Охрана леса] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/forest_protection.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

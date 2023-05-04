@@ -1,0 +1,6 @@
+hunting_season
+=> nrel_main_idtf:[Сезон охоты] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/hunting_season.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

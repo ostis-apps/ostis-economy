@@ -1,0 +1,6 @@
+energetics
+=> nrel_main_idtf:[Энергетика] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/energetics.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

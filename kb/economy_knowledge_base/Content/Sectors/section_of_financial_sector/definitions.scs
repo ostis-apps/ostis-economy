@@ -1,0 +1,27 @@
+credit_system
+=> nrel_main_idtf:[Кредитная система] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/credit_system.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+insurance_system
+=> nrel_main_idtf:[Страховая система] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/insurance_system.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+pension_system
+=> nrel_main_idtf:[Пенсионная система] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/pension_system.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+tax_system
+=> nrel_main_idtf:[Налоговая система] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/tax_system.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

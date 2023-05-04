@@ -1,0 +1,14 @@
+section_of_agriculture
+=> nrel_main_idtf:
+	[Раздел. Сельское хозяйство]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Agriculture]
+           	  (* <- lang_en;; *);;
+
+section_of_agriculture -> rrel_key_sc_element:
+		food;
+		raw_materials;
+		crop;
+        cultivation;
+		animal_husbandry;;
