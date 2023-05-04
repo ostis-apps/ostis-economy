@@ -30,11 +30,9 @@ section_theory_of_production_functions
 => nrel_main_idtf:
 [Раздел. Теория производственных функций]
 (* <- lang_ru;; *);
-=> nrel_main_idtf:
-[Section. Theory of production functions]
-(* <- lang_en;;*);
+
 => nrel_sc_text_translation:
-                    "file://html//section_theory_of_production_functions//theory_of_cost.html" (*
+                    "file://html//section_theory_of_production_functions//theory_of_production_functions.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);; 
@@ -143,7 +141,7 @@ section_theory_of_market_structure
 [Раздел. Теория структуры рынка]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html//section_theory_of_market_structure//theory_of_firm_behavior.html" (*
+                    "file://html//section_theory_of_market_structure//theory_of_market_structure.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);; 
