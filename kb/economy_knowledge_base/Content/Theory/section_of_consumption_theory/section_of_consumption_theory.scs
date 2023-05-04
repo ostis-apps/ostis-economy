@@ -1,3 +1,4 @@
+/-----------------------------------------------------------------------------------------/
 section_of_consumption_theory
 => nrel_main_idtf:
 [Раздел. Теория потребления]
@@ -18,7 +19,7 @@ section_of_consumption_theory
 section_theory_of_individual_consumption;
 section_theory_of_aggregate_consumpiton
 };;
-
+/-----------------------------------------------------------------------------------------/
 section_theory_of_individual_consumption
 => nrel_main_idtf:
 [Раздел. Теория индивидуального потребления]
@@ -34,7 +35,7 @@ section_theory_of_aggregate_consumpiton
 => nrel_main_idtf:
 [Section. Theory of aggregate consumption]
 (* <- lang_en;;*);;
-
+/-----------------------------------------------------------------------------------------/
 section_theory_of_individual_consumption -> rrel_key_sc_element:
     marginal_utility;
     equilibrium_of_consumption;
@@ -44,3 +45,34 @@ section_theory_of_aggregate_consumpiton -> rrel_key_sc_element:
     national_income;
     inflation;
     production_structure;;
+/-----------------------------------------------------------------------------------------/
+
+marginal_utility
+=> nrel_main_idtf:
+[Предельная полезность]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html/marginal_utility.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+equilibrium_of_consumption
+=> nrel_main_idtf:
+[Равновесие потребления]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html/equilibrium_of_consumption.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+equilibrium_of_consumption
+=> nrel_main_idtf:
+[Эластичность спроса]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html/elasticity_of_demand.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
