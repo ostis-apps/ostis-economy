@@ -150,7 +150,7 @@ shared_resources
 [Общественные ресурсы]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html//section_theory_of_common_pool_resources//imperfect_competition.html" (*
+                    "file://html//section_theory_of_common_pool_resources//shared_resources.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
