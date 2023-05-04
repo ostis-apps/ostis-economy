@@ -1,3 +1,5 @@
+//------------------------------------------------------------------------//
+
 section_of_game_theory
 => nrel_main_idtf:
 [Раздел. Теория игр]
@@ -5,6 +7,12 @@ section_of_game_theory
 => nrel_main_idtf:
 [Section. Game theory]
 (* <- lang_en;;*);
+
+=> nrel_sc_text_translation:
+                    "file://html//section_of_game_theory//game_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
 
 <= nrel_section_decomposition:
 {
@@ -15,6 +23,32 @@ section_of_evolutionary_game_theory;
 section_of_algorithmic_game_theory
 };;
 
+section_of_game_theory-> rrel_sc_key_element:
+    players;
+    wins;;
+
+players
+=> nrel_main_idtf:
+[Игроки]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_game_theory//players.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+wins
+=> nrel_main_idtf:
+[Выигрыши]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_game_theory//wins.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+//------------------------------------------------------------------------//
+
 section_of_non_cooperative_game_theory
 => nrel_main_idtf:
 [Раздел. Теория некооперативных игр]
@@ -22,6 +56,32 @@ section_of_non_cooperative_game_theory
 => nrel_main_idtf:
 [Section. Non-cooperative game theory]
 (* <- lang_en;;*);;
+
+section_of_non_cooperative_game_theory -> rrel_sc_key_element:
+    strategies;
+    information_inequality;;
+
+strategies
+=> nrel_main_idtf:
+[Стратегии]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_non_cooperative_game_theory//strategies.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+information_inequality
+=> nrel_main_idtf:
+[Информационное неравенство]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_non_cooperative_game_theory//information_inequality.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+//------------------------------------------------------------------------//
 
 section_of_cooperative_game_theory
 => nrel_main_idtf:
@@ -31,6 +91,32 @@ section_of_cooperative_game_theory
 [Section. Cooperative game theory]
 (* <- lang_en;;*);;
 
+section_of_cooperative_game_theory -> rrel_sc_key_element:
+    transferable_utility_games;
+    non_transferable_utility_games;;
+
+transferable_utility_games
+=> nrel_main_idtf:
+[Игры с передачей выигрыша]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_cooperative_game_theory//transferable_utility_games.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);; 
+
+non_transferable_utility_games
+=> nrel_main_idtf:
+[Игры без передачи выигрыша]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_cooperative_game_theory//non_transferable_utility_games.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);; 
+
+//------------------------------------------------------------------------//
+
 section_of_bayesian_game_theory
 => nrel_main_idtf:
 [Раздел. Байесова теория игр]
@@ -38,6 +124,31 @@ section_of_bayesian_game_theory
 => nrel_main_idtf:
 [Section. Bayesian game theory]
 (* <- lang_en;;*);;
+
+section_of_bayesian_game_theory -> rrel_sc_key_element:
+    probabilistic_thinking;
+    bayesian_equilibrium;;
+
+probabilistic_thinking
+=> nrel_main_idtf:
+[Вероятностное мышление]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_bayesian_game_theory//probabilistic_thinking.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);; 
+
+bayesian_equilibrium
+=> nrel_main_idtf:
+[Равновесие Байеса]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_bayesian_game_theory//bayesian_equilibrium.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);; 
+//------------------------------------------------------------------------//
 
 section_of_evolutionary_game_theory
 => nrel_main_idtf:
@@ -47,6 +158,31 @@ section_of_evolutionary_game_theory
 [Section. Evolutionary game theory]
 (* <- lang_en;;*);;
 
+section_of_evolutionary_game_theory -> rrel_sc_key_element:
+    populations;
+    natural_selection;;
+
+populations
+=> nrel_main_idtf:
+[Популяции]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_evolutionary_game_theory//populations.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);; 
+
+natural_selection
+=> nrel_main_idtf:
+[Естественный отбор]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_evolutionary_game_theory//natural_selection.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);; 
+//------------------------------------------------------------------------//
+
 section_of_algorithmic_game_theory
 => nrel_main_idtf:
 [Раздел. Алгоритмическая теория игр]
@@ -55,23 +191,36 @@ section_of_algorithmic_game_theory
 [Section. Algorithmic game theory]
 (* <- lang_en;;*);;
 
-section_of_game_theory-> rrel_sc_key_element:
-    players;
-    win;;
-
-section_of_non_cooperative_game_theory -> rrel_sc_key_element:
-    strategies;
-    information;;
-
-section_of_bayesian_game_theory -> rrel_sc_key_element:
-    uncertainty;
-    bayesian_equilibrium;;
-
-section_of_evolutionary_game_theory -> rrel_sc_key_element:
-    populations;
-    natural_selection;;
-
 section_of_algorithmic_game_theory -> rrel_sc_key_element:
     zero_sum_games;
     computational_complexity;;
+
+zero_sum_games
+=> nrel_main_idtf:
+[Игр с нулевой суммой]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_algorithmic_game_theory//zero_sum_games.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);; 
+
+computational_complexity
+=> nrel_main_idtf:
+[Вычислительная сложность]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_of_algorithmic_game_theory//computational_complexity.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);; 
+//------------------------------------------------------------------------//
+
+
+
+
+
+
+
+
 

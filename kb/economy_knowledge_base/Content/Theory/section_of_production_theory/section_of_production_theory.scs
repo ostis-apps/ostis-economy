@@ -1,3 +1,5 @@
+//------------------------------------------------------------------------//
+
 section_of_production_theory
 => nrel_main_idtf:
 [Раздел. Теория производства]
@@ -5,6 +7,13 @@ section_of_production_theory
 => nrel_main_idtf:
 [Section. Production Theory]
 (* <- lang_en;;*);
+
+=> nrel_sc_text_translation:
+                    "file://html/production_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 
 <= nrel_section_decomposition:
 {
@@ -15,6 +24,8 @@ section_theory_of_market_structure;
 section_theory_of_technological_change
 };;
 
+//------------------------------------------------------------------------//
+
 section_theory_of_production_functions
 => nrel_main_idtf:
 [Раздел. Теория производственных функций]
@@ -22,6 +33,13 @@ section_theory_of_production_functions
 => nrel_main_idtf:
 [Section. Theory of production functions]
 (* <- lang_en;;*);;
+
+section_theory_of_production_functions -> rrel_key_sc_element:
+    production_function;
+    law_of_diminishing_returns;;
+
+//------------------------------------------------------------------------//
+
 section_theory_of_cost
 => nrel_main_idtf:
 [Раздел. Теория издержек]
@@ -29,6 +47,13 @@ section_theory_of_cost
 => nrel_main_idtf:
 [Section. Theory of cost]
 (* <- lang_en;;*);;
+
+section_theory_of_cost -> rrel_key_sc_element:
+    cost_curve;
+    point_of_minimum_cost;;
+
+//------------------------------------------------------------------------//
+
 section_theory_of_firm_behavior
 => nrel_main_idtf:
 [Раздел. Теория поведения фирмы]
@@ -36,6 +61,13 @@ section_theory_of_firm_behavior
 => nrel_main_idtf:
 [Section. Theory of firm behavior]
 (* <- lang_en;;*);;
+
+section_theory_of_firm_behavior -> rrel_key_sc_element:
+    firm_goals;
+    tech_level;;
+
+//------------------------------------------------------------------------//
+
 section_theory_of_market_structure
 => nrel_main_idtf:
 [Раздел. Теория структуры рынка]
@@ -43,6 +75,13 @@ section_theory_of_market_structure
 => nrel_main_idtf:
 [Section. Theory of market structure]
 (* <- lang_en;;*);;
+
+section_theory_of_market_structure -> rrel_key_sc_element:
+    number_of_sellers;
+    product_features;;
+
+//------------------------------------------------------------------------//
+
 section_theory_of_technological_change
 => nrel_main_idtf:
 [Раздел. Теория технологических изменений]
@@ -51,19 +90,8 @@ section_theory_of_technological_change
 [Section. Theory of technological change]
 (* <- lang_en;;*);;
 
-section_theory_of_production_functions -> rrel_key_sc_element:
-    production_function;
-    law_of_diminishing_returns;;
-
-section_theory_of_cost -> rrel_key_sc_element:
-    cost_curve;
-    point_of_minimum_cost;;
-section_theory_of_firm_behavior -> rrel_key_sc_element:
-    firm_goals;
-    tech_level;;
-section_theory_of_market_structure -> rrel_key_sc_element:
-    number_of_sellers;
-    product_features;;
 section_theory_of_technological_change -> rrel_key_sc_element:
     innovation;
     diffusion;;
+
+//------------------------------------------------------------------------//

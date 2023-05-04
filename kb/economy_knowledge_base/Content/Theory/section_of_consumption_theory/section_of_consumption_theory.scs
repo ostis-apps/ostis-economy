@@ -1,3 +1,5 @@
+//------------------------------------------------------------------------//
+
 section_of_consumption_theory
 => nrel_main_idtf:
 [Раздел. Теория потребления]
@@ -6,11 +8,20 @@ section_of_consumption_theory
 [Section. Theory of consumption]
 (* <- lang_en;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/consumption_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 <= nrel_section_decomposition:
 {
 section_theory_of_individual_consumption;
 section_theory_of_aggregate_consumpiton
 };;
+
+//------------------------------------------------------------------------//
 
 section_theory_of_individual_consumption
 => nrel_main_idtf:
@@ -18,7 +29,49 @@ section_theory_of_individual_consumption
 (* <- lang_ru;; *);
 => nrel_main_idtf:
 [Section. Theory of individual consumption]
-(* <- lang_en;;*);;
+(* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_individual_consumption//theory_of_individual_consumption.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+section_theory_of_individual_consumption -> rrel_key_sc_element:
+    marginal_utility;
+    equilibrium_of_consumption;
+    elasticity_of_demand;;
+
+marginal_utility
+=> nrel_main_idtf:
+[Предельная полезность]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_individual_consumption//marginal_utility.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+equilibrium_of_consumption
+=> nrel_main_idtf:
+[Равновесие потребления]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_individual_consumption//equilibrium_of_consumption.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+elasticity_of_demand
+=> nrel_main_idtf:
+[Эластичность спроса]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_individual_consumption//elasticity_of_demand.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+//------------------------------------------------------------------------//
 
 section_theory_of_aggregate_consumpiton
 => nrel_main_idtf:
@@ -26,14 +79,46 @@ section_theory_of_aggregate_consumpiton
 (* <- lang_ru;; *);
 => nrel_main_idtf:
 [Section. Theory of aggregate consumption]
-(* <- lang_en;;*);;
-
-section_theory_of_individual_consumption -> rrel_key_sc_element:
-    marginal_utility;
-    equilibrium_of_consumption;
-    elasticity_of_demand;;
+(* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_aggregate_consumption//theory_of_aggregate_consumption.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 section_theory_of_aggregate_consumpiton -> rrel_key_sc_element:
     national_income;
     inflation;
     production_structure;;
+
+national_income
+=> nrel_main_idtf:
+[Национальный доход]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_aggregate_consumption//national_income.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+inflation
+=> nrel_main_idtf:
+[Инфляция]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_aggregate_consumption//inflation.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+production_structure
+=> nrel_main_idtf:
+[Структура производства]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//section_theory_of_aggregate_consumption//production_structure.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+//------------------------------------------------------------------------//
