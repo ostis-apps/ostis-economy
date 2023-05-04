@@ -134,7 +134,7 @@ probabilistic_thinking
 [Вероятностное мышление]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html//section_of_bayesian_game_theory//non_transferable_utility_games.html" (*
+                    "file://html//section_of_bayesian_game_theory//probabilistic_thinking.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);; 
