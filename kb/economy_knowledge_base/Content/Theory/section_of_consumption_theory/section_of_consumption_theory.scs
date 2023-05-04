@@ -40,7 +40,7 @@ section_theory_of_aggregate_consumpiton
 [Section. Theory of aggregate consumption]
 (* <- lang_en;;*);
 => nrel_sc_text_translation:
-                    "file://html/theory_of_aggregate_consumption.html" (*
+                    "file://html//section_theory_of_aggregate_consumption//theory_of_aggregate_consumption.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -60,7 +60,7 @@ marginal_utility
 [Предельная полезность]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html/marginal_utility.html" (*
+                    "file://html//section_theory_of_individual_consumption//marginal_utility.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -70,7 +70,7 @@ equilibrium_of_consumption
 [Равновесие потребления]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html/equilibrium_of_consumption.html" (*
+                    "file://html//section_theory_of_individual_consumption//equilibrium_of_consumption.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -80,7 +80,7 @@ elasticity_of_demand
 [Эластичность спроса]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html/elasticity_of_demand.html" (*
+                    "file://html//section_theory_of_individual_consumption//elasticity_of_demand.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -90,7 +90,7 @@ national_income
 [Национальный доход]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html/national_income.html" (*
+                    "file://html//section_theory_of_aggregate_consumption//national_income.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -100,7 +100,7 @@ inflation
 [Инфляция]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html/inflation.html" (*
+                    "file://html//section_theory_of_aggregate_consumption//inflation.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -110,7 +110,7 @@ production_structure
 [Структура производства]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
-                    "file://html/production_structure.html" (*
+                    "file://html//section_theory_of_aggregate_consumption//production_structure.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
