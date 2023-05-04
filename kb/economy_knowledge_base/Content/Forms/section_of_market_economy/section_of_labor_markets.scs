@@ -9,6 +9,12 @@ section_of_labor_market
         <- lang_ru;;
     *);
 
+=> nrel_sc_text_translation:
+                    "file://html/labor_markets.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 <= nrel_section_decomposition: 
     {
 	section_of_global_labor_markets;
@@ -16,7 +22,42 @@ section_of_labor_market
 	section_of_wage_and_employment_determination;
 	section_of_labor_market_regulation
     };;
-section_of_labor_markets -> rrel_key_sc_element:
+section_of_labor_market -> rrel_key_sc_element:
 	supply_and_demand_of_labor;
 	wage_and_salary_determination;
 	government_regulation_and_intervention_in_labor_markets;;
+
+section_of_global_labor_markets
+=> nrel_main_idtf:
+[Раздел глобальных рынков труда]
+(* <- lang_ru;; *);;
+
+section_of_labor_supply_and_demand
+=> nrel_main_idtf:
+[раздел спроса и предложения рабочей силы]
+(* <- lang_ru;; *);;
+
+section_of_wage_and_employment_determination
+=> nrel_main_idtf:
+[раздел определения заработной платы и занятости]
+(* <- lang_ru;; *);;
+
+section_of_labor_market_regulation
+=> nrel_main_idtf:
+[раздел регулирования рынка труда]
+(* <- lang_ru;; *);;
+
+supply_and_demand_of_labor
+=> nrel_main_idtf:
+[поставка и спрос на рабочую силу]
+(* <- lang_ru;; *);;
+
+wage_and_salary_determination
+=> nrel_main_idtf:
+[определение заработной платы и окладов]
+(* <- lang_ru;; *);;
+
+government_regulation_and_intervention_in_labor_markets
+=> nrel_main_idtf:
+[правительство_регулирование_и_интервенци на_лабораторных рынках]
+(* <- lang_ru;; *);;

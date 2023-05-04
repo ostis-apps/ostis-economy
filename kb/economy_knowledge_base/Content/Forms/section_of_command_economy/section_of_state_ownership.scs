@@ -14,3 +14,38 @@ section_of_state_ownership -> rrel_key_sc_element:
     government_control_of_industries_and_key_resources;
     establishment_of_state_owned_enterprises_and_organizations;
     management_of_state_owned_properties_and_assets;;
+
+section_of_stateowned_enterprises
+=> nrel_main_idtf:
+[раздел_ о_государственных предприятиях]
+(* <- lang_ru;; *);;
+
+section_of_collective_action_and_state_ownership
+=> nrel_main_idtf:
+[раздел_от_коллективных_ действий и_статья_ владения]
+(* <- lang_ru;; *);;
+
+section_of_nationalization_and_privatization
+=> nrel_main_idtf:
+[раздел_национализации и_приватизации]
+(* <- lang_ru;; *);;
+
+section_of_subsidies_and_state_ownership
+=> nrel_main_idtf:
+[раздел о субсидиях и государственной собственности]
+(* <- lang_ru;; *);;
+
+government_control_of_industries_and_key_resources
+=> nrel_main_idtf:
+[государственный контроль над отраслями промышленности и ключевыми ресурсами]
+(* <- lang_ru;; *);;
+
+establishment_of_state_owned_enterprises_and_organizations
+=> nrel_main_idtf:
+[создание государственных предприятий и организаций]
+(* <- lang_ru;; *);;
+
+management_of_state_owned_properties_and_assets
+=> nrel_main_idtf:
+[управление имуществом и активами, находящимися в государственной собственности]
+(* <- lang_ru;; *);;

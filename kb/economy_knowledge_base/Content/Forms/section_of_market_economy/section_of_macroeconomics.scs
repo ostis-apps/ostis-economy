@@ -1,6 +1,6 @@
-section_of_macroeconomics
+section_of_macroeconomic
 
-<= nrel_main_idtf: [Subject domain of macroeconomics]
+<= nrel_main_idtf: [Subject domain of macroeconomic]
     (*
         <- lang_en;;
     *);
@@ -9,6 +9,12 @@ section_of_macroeconomics
         <- lang_ru;;
     *);
 
+=> nrel_sc_text_translation:
+                    "file://html/macroeconomics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 <= nrel_section_decomposition:
     {
         section_of_economic_growth;
@@ -16,7 +22,37 @@ section_of_macroeconomics
         section_of_fiscal_policy;
         section_of_macroeconomic_agent
     };;
-section_of_macroeconomics -> rrel_key_sc_element:
+section_of_macroeconomic -> rrel_key_sc_element:
     study_of_economic_activity_at_national_or_global_scale;
     analysis_of_government_policies_and_their_impact_on_economy;
     examination_of_major_economic_indicators_and_trends;;
+
+section_of_economic_growth
+=> nrel_main_idtf:
+[раздел_экономического_развития]
+(* <- lang_ru;; *);;
+
+section_of_business_cycles
+=> nrel_main_idtf:
+[раздел_ бизнес_циклов]
+(* <- lang_ru;; *);;
+
+section_of_fiscal_policy
+=> nrel_main_idtf:
+[раздел фискальной политики]
+(* <- lang_ru;; *);;
+
+study_of_economic_activity_at_national_or_global_scale
+=> nrel_main_idtf:
+[изучение_экономической_активности в_национальном_ или_глобальном_ масштабе]
+(* <- lang_ru;; *);;
+
+analysis_of_government_policies_and_their_impact_on_economy
+=> nrel_main_idtf:
+[анализ_ правительственной_политики и_ их_ влияния на_экономику]
+(* <- lang_ru;; *);;
+
+examination_of_major_economic_indicators_and_trends
+=> nrel_main_idtf:
+[изучение основных экономических показателей и тенденций]
+(* <- lang_ru;; *);;

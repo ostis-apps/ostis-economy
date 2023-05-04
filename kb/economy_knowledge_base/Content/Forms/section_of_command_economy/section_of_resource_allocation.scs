@@ -14,3 +14,38 @@ section_of_resource_allocation -> rrel_key_sc_element:
     identification_of_available_resources;
     assessment_of_resource_utilization_and_efficiency;
     prioritization_of_resource_distribution_and_allocation;;
+
+section_of_allocation_of_natural_resources
+=> nrel_main_idtf:
+[раздел_от_распределения_от_натуральных_ресурсов]
+(* <- lang_ru;; *);;
+
+section_of_allocation_of_financial_resources
+=> nrel_main_idtf:
+[раздел_от_распределения_финансовых_ресурсов]
+(* <- lang_ru;; *);;
+
+section_of_allocation_of_human_resources
+=> nrel_main_idtf:
+[раздел_от_распределения_от_человеческих ресурсов]
+(* <- lang_ru;; *);;
+
+section_of_allocation_of_technology_resources
+=> nrel_main_idtf:
+[раздел_от_распределения_от_технологии_ресурсов]
+(* <- lang_ru;; *);;
+
+identification_of_available_resources
+=> nrel_main_idtf:
+[идентификация_доступных_ресурсов]
+(* <- lang_ru;; *);;
+
+assessment_of_resource_utilization_and_efficiency
+=> nrel_main_idtf:
+[оценка_использования_ресурсов_ и_эффективности]
+(* <- lang_ru;; *);;
+
+prioritization_of_resource_distribution_and_allocation
+=> nrel_main_idtf:
+[определение приоритетности распределения ресурсов и аллокации]
+(* <- lang_ru;; *);;

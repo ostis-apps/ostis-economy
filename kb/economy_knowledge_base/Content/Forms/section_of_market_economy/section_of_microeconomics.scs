@@ -1,9 +1,15 @@
-section_of_microeconomics
+section_of_microeconomic
 
-<= nrel_main_idtf: [Subject domain of microeconomics]
+<= nrel_main_idtf: [Subject domain of microeconomic]
 (*<- lang_en;;*);
 <= nrel_main_idtf: [Предметная область микроэкономики]
 (*<- lang_ru;;*);
+
+=> nrel_sc_text_translation:
+                    "file://html/microeconomics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
 
 <= nrel_section_decomposition:
 {
@@ -12,7 +18,42 @@ section_of_microeconomics
     section_of_public_goods;
     section_of_market_structure
 };;
-section_of_microeconomics -> rrel_key_sc_element:
+section_of_microeconomic -> rrel_key_sc_element:
     study_of_economic_activity_at_individual_or_firm_level;
     analysis_of_market_behavior_and_decisions_of_consumers_and_producers;
     examination_of_price_determination_and_market_efficiency;;
+
+market_forces_of_supply_and_demand_determining_prices
+=> nrel_main_idtf:
+[раздел_о_предоставления_и_доступности]
+(* <- lang_ru;; *);;
+
+section_of_market_failure
+=> nrel_main_idtf:
+[раздел о провале рынка]
+(* <- lang_ru;; *);;
+
+section_of_public_goods
+=> nrel_main_idtf:
+[раздел общественных благ]
+(* <- lang_ru;; *);;
+
+section_of_market_structure
+=> nrel_main_idtf:
+[раздел структуры рынка]
+(* <- lang_ru;; *);;
+
+study_of_economic_activity_at_individual_or_firm_level
+=> nrel_main_idtf:
+[изучение_экономической_активности на_индивидуальном_ или_фирменном_уровне]
+(* <- lang_ru;; *);;
+
+analysis_of_market_behavior_and_decisions_of_consumers_and_producers
+=> nrel_main_idtf:
+[анализ_рынка_в_ поведении_ и_решения_ потребителей и_производителей]
+(* <- lang_ru;; *);;
+
+examination_of_price_determination_and_market_efficiency
+=> nrel_main_idtf:
+[анализ_цены_определения_и_маркет_эффективности]
+(* <- lang_ru;; *);;

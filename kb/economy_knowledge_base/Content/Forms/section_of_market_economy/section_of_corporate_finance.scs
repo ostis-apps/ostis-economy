@@ -3,6 +3,12 @@ section_of_corporate_finance
 => nrel_main_idtf: [Section. Corporate Finance](*<- lang_en;;*);
 => nrel_main_idtf: [Раздел. Корпоративные финансы](*<- lang_ru;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/corporate_finance.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 <= nrel_section_decomposition:
 {
 	section_of_financial_statement_analysis;
@@ -14,3 +20,38 @@ section_of_corporate_finance -> rrel_key_sc_element:
 	financial_management_of_businesses_and_corporations;
 	investment_appraisal_and_decision_making;
 	capital_structure_and_funding_sources;;
+
+section_of_financial_statement_analysis
+=> nrel_main_idtf:
+[раздел_финансовое_статье_анализа]
+(* <- lang_ru;; *);;
+
+section_of_corporate_governance
+=> nrel_main_idtf:
+[раздел__корпоративного_управления]
+(* <- lang_ru;; *);;
+
+section_of_capital_structure
+=> nrel_main_idtf:
+[раздел_капитальной_структуры]
+(* <- lang_ru;; *);;
+
+section_of_working_capital_management
+=> nrel_main_idtf:
+[раздел_от_рабочего_капитала_управления]
+(* <- lang_ru;; *);;
+
+financial_management_of_businesses_and_corporations
+=> nrel_main_idtf:
+[финансовое_управление_бизнеса_и_корпораций]
+(* <- lang_ru;; *);;
+
+investment_appraisal_and_decision_making
+=> nrel_main_idtf:
+[инвестиционная_оценка_и_принятие_решения]
+(* <- lang_ru;; *);;
+
+capital_structure_and_funding_sources
+=> nrel_main_idtf:
+[капитал_структуры_и_фондирование_источников]
+(* <- lang_ru;; *);;

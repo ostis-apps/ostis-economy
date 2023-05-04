@@ -9,13 +9,50 @@ section_of_financial_market
         <- lang_ru;;
     *);
 
+=> nrel_sc_text_translation:
+                    "file://html/financial_markets.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 <= nrel_section_decomposition: 
     {
         section_of_stock_markets;
         section_of_bond_markets;
         section_of_money_markets
     };;
-section_of_financial_markets -> rrel_key_sc_element:
+section_of_financial_market -> rrel_key_sc_element:
     trading_of_stocks_bonds_currencies_and_commodities;
     speculation_and_hedging_of_financial_instruments;
     price_discovery_and_transparency_in_financial_transactions;;
+
+
+section_of_stock_markets
+=> nrel_main_idtf:
+[Раздел фондовых рынков]
+(* <- lang_ru;; *);;
+
+section_of_bond_markets
+=> nrel_main_idtf:
+[Раздел рынков облигаций]
+(* <- lang_ru;; *);;
+
+section_of_money_markets
+=> nrel_main_idtf:
+[Раздел рынков денежных средств]
+(* <- lang_ru;; *);;
+
+trading_of_stocks_bonds_currencies_and_commodities
+=> nrel_main_idtf:
+[Торговля акциями, облигациями, валютой и товарами]
+(* <- lang_ru;; *);;
+
+speculation_and_hedging_of_financial_instruments
+=> nrel_main_idtf:
+[Спекуляция и хеджирование финансовых инструментов]
+(* <- lang_ru;; *);;
+
+price_discovery_and_transparency_in_financial_transactions
+=> nrel_main_idtf:
+[Ценовое обнаружение и прозрачность в финансовых транзакциях]
+(* <- lang_ru;; *);;

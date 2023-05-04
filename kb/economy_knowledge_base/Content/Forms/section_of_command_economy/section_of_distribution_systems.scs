@@ -14,3 +14,38 @@ section_of_distribution_systems -> rrel_key_sc_element:
     transportation_and_logistics_networks;
     inventory_management_and_control;
     pricing_strategies_and_tactics;;
+
+section_of_retail_distribution_systems
+=> nrel_main_idtf:
+[раздел о системах розничной торговли]
+(* <- lang_ru;; *);;
+
+section_of_wholesale_distribution_systems
+=> nrel_main_idtf:
+[раздел_общих_распределений_систем]
+(* <- lang_ru;; *);;
+
+section_of_direct_distribution_systems
+=> nrel_main_idtf:
+[раздел направленных систем распределения]
+(* <- lang_ru;; *);;
+
+section_of_multichannel_distribution_systems
+=> nrel_main_idtf:
+[раздел_ многоканальных распределительных систем]
+(* <- lang_ru;; *);;
+
+transportation_and_logistics_networks
+=> nrel_main_idtf:
+[транспортные_и_логистические_сети]
+(* <- lang_ru;; *);;
+
+inventory_management_and_control
+=> nrel_main_idtf:
+[инвентаризация_управления_и_контроль]
+(* <- lang_ru;; *);;
+
+pricing_strategies_and_tactics
+=> nrel_main_idtf:
+[ценообразование_стратегия_и_тактика]
+(* <- lang_ru;; *);;

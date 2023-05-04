@@ -8,10 +8,16 @@
         <- lang_ru;;
     *);
     
+=> nrel_sc_text_translation:
+                    "file://html/market_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+    
 <= nrel_section_decomposition: 
     {
-        section_of_microeconomics;
-        section_of_macroeconomics;
+        section_of_microeconomic;
+        section_of_macroeconomic;
         section_of_corporate_finance;
         section_of_financial_market;
         section_of_labor_market
@@ -21,3 +27,19 @@ section_of_market_economy -> rrel_key_sc_element:
     decentralized_decision_making_by_producers_and_consumers;
     market_forces_of_supply_and_demand_determining_prices;
     competition_among_producers_and_consumers_for_resources_and_goods;;
+
+decentralized_decision_making_by_producers_and_consumers
+=> nrel_main_idtf:
+[Децентрализованные_решения_производителей и_потребителей]
+(* <- lang_ru;; *);;
+
+market_forces_of_supply_and_demand_determining_prices
+=> nrel_main_idtf:
+[рыночные_силы_предоставления_и_доступные_определения_цен]
+(* <- lang_ru;; *);;
+
+competition_among_producers_and_consumers_for_resources_and_goods
+=> nrel_main_idtf:
+[конкуренция между производителями и потребителями за_ресурсы и_товары]
+(* <- lang_ru;; *);;
+

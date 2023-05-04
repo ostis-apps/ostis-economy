@@ -18,3 +18,23 @@ section_of_command_economy -> rrel_key_sc_element:
 	state_ownership_of_resources_and_means_of_production;
 	fixed_prices_and_wages;
 	limited_consumer_choice;;
+
+state_ownership_of_resources_and_means_of_production
+=> nrel_main_idtf:
+[состояние_управления_ресурсов_и_мысли_производства]
+(* <- lang_ru;; *);;
+
+fixed_prices_and_wages
+=> nrel_main_idtf:
+[фиксированные цены и заработная плата]
+(* <- lang_ru;; *);;
+
+limited_consumer_choice
+=> nrel_main_idtf:
+[ограниченный потребительский выбор]
+(* <- lang_ru;; *);;
+
+market_forces_of_supply_and_demand_determining_prices
+=> nrel_main_idtf:
+[рыночные_силы_предоставления_и_доступные_определения_цен]
+(* <- lang_ru;; *);;
