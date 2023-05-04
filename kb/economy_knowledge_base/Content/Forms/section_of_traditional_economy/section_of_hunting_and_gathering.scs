@@ -21,3 +21,33 @@ section_of_hunting_and_gathering -> rrel_key_sc_element:
 reliance_on_environment;
 sharing_and_reciprocity;
 division_of_labor;;
+
+reliance_on_environment
+=> nrel_main_idtf:
+[Опора на окружающую среду]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/reliance_on_environment.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+sharing_and_reciprocity
+=> nrel_main_idtf:
+[Совместное использование и результативность]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/sharing_and_reciprocity.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+division_of_labor
+=> nrel_main_idtf:
+[Подразделение работы]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/division_of_labor.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

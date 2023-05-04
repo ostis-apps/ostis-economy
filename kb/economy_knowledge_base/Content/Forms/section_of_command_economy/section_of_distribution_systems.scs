@@ -38,14 +38,29 @@ section_of_multichannel_distribution_systems
 transportation_and_logistics_networks
 => nrel_main_idtf:
 [транспортные_и_логистические_сети]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/transportation_and_logistics_networks.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 inventory_management_and_control
 => nrel_main_idtf:
 [инвентаризация_управления_и_контроль]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/inventory_management_and_control.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 pricing_strategies_and_tactics
 => nrel_main_idtf:
 [ценообразование_стратегия_и_тактика]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/pricing_strategies_and_tactics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

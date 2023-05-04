@@ -20,3 +20,33 @@ section_of_community_property -> rrel_key_sc_element:
 collective_decision_making;
 shared_labor;
 egalitarianism;;
+
+collective_decision_making
+=> nrel_main_idtf:
+[Коллективное принятие решений]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/collective_decision_making.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+shared_labor
+=> nrel_main_idtf:
+[Разделение труда]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/shared_labor.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+egalitarianism
+=> nrel_main_idtf:
+[Равенство]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/egalitarianism.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

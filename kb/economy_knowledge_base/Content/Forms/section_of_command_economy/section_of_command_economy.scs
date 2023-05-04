@@ -6,6 +6,12 @@ section_of_command_economy
     [Section. Command economy]
     (* <- lang_en;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/command_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 <= nrel_section_decomposition:
 	{
 		section_of_central_planning;
@@ -22,19 +28,29 @@ section_of_command_economy -> rrel_key_sc_element:
 state_ownership_of_resources_and_means_of_production
 => nrel_main_idtf:
 [состояние_управления_ресурсов_и_мысли_производства]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/state_ownership_of_resources_and_means_of_production.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 fixed_prices_and_wages
 => nrel_main_idtf:
 [фиксированные цены и заработная плата]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/fixed_prices_and_wages.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 limited_consumer_choice
 => nrel_main_idtf:
 [ограниченный потребительский выбор]
-(* <- lang_ru;; *);;
-
-market_forces_of_supply_and_demand_determining_prices
-=> nrel_main_idtf:
-[рыночные_силы_предоставления_и_доступные_определения_цен]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/limited_consumer_choice.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

@@ -28,7 +28,7 @@ section_of_financial_statement_analysis
 
 section_of_corporate_governance
 => nrel_main_idtf:
-[раздел__корпоративного_управления]
+[раздел_корпоративного_управления]
 (* <- lang_ru;; *);;
 
 section_of_capital_structure
@@ -44,14 +44,29 @@ section_of_working_capital_management
 financial_management_of_businesses_and_corporations
 => nrel_main_idtf:
 [финансовое_управление_бизнеса_и_корпораций]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/financial_management_of_businesses_and_corporations.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 investment_appraisal_and_decision_making
 => nrel_main_idtf:
 [инвестиционная_оценка_и_принятие_решения]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/investment_appraisal_and_decision_making.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 capital_structure_and_funding_sources
 => nrel_main_idtf:
 [капитал_структуры_и_фондирование_источников]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/capital_structure_and_funding_sources.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

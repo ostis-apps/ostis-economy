@@ -19,3 +19,23 @@ section_of_private_and_public_sectors -> rrel_key_sc_element:
 competition;
 regulation;
 public_private_partnerships;;
+
+competition
+=> nrel_main_idtf:
+[Конкуренция]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/competition.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+regulation
+=> nrel_main_idtf:
+[Регулирование]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/regulation.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

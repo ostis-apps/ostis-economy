@@ -45,14 +45,29 @@ section_of_money_markets
 trading_of_stocks_bonds_currencies_and_commodities
 => nrel_main_idtf:
 [Торговля акциями, облигациями, валютой и товарами]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/trading_of_stocks_bonds_currencies_and_commodities.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 speculation_and_hedging_of_financial_instruments
 => nrel_main_idtf:
 [Спекуляция и хеджирование финансовых инструментов]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/speculation_and_hedging_of_financial_instruments.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 price_discovery_and_transparency_in_financial_transactions
 => nrel_main_idtf:
 [Ценовое обнаружение и прозрачность в финансовых транзакциях]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/price_discovery_and_transparency_in_financial_transactions.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

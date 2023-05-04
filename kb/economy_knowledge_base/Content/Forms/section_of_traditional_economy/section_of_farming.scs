@@ -20,3 +20,33 @@ section_of_farming -> rrel_key_sc_element:
 specialization;
 land_ownership;
 seasonal_labor;;
+
+specialization
+=> nrel_main_idtf:
+[Специализация]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/specialization.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+land_ownership
+=> nrel_main_idtf:
+[Владение землёй]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/land_ownership.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+seasonal_labor
+=> nrel_main_idtf:
+[Сезонный труд]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/seasonal_labor.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;                       

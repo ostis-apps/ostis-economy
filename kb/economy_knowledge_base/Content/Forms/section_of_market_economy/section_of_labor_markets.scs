@@ -50,14 +50,29 @@ section_of_labor_market_regulation
 supply_and_demand_of_labor
 => nrel_main_idtf:
 [поставка и спрос на рабочую силу]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/supply_and_demand_of_labor.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 wage_and_salary_determination
 => nrel_main_idtf:
 [определение заработной платы и окладов]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/wage_and_salary_determination.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 government_regulation_and_intervention_in_labor_markets
 => nrel_main_idtf:
 [правительство_регулирование_и_интервенци на_лабораторных рынках]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/government_regulation_and_intervention_in_labor_markets.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

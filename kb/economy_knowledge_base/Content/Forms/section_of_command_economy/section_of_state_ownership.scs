@@ -38,14 +38,29 @@ section_of_subsidies_and_state_ownership
 government_control_of_industries_and_key_resources
 => nrel_main_idtf:
 [государственный контроль над отраслями промышленности и ключевыми ресурсами]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/government_control_of_industries_and_key_resources.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 establishment_of_state_owned_enterprises_and_organizations
 => nrel_main_idtf:
 [создание государственных предприятий и организаций]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/establishment_of_state_owned_enterprises_and_organizations.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 management_of_state_owned_properties_and_assets
 => nrel_main_idtf:
 [управление имуществом и активами, находящимися в государственной собственности]
-(* <- lang_ru;; *);;
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/management_of_state_owned_properties_and_assets.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
