@@ -76,5 +76,3 @@ section_of_global_marketing
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
-
-//------------------------------------------------------------------------//
