@@ -23,7 +23,7 @@ section_of_evolutionary_game_theory;
 section_of_algorithmic_game_theory
 };;
 
-section_of_game_theory-> rrel_sc_key_element:
+section_of_game_theory-> rrel_key_sc_element:
     players;
     wins;;
 
@@ -57,7 +57,7 @@ section_of_non_cooperative_game_theory
 [Section. Non-cooperative game theory]
 (* <- lang_en;;*);;
 
-section_of_non_cooperative_game_theory -> rrel_sc_key_element:
+section_of_non_cooperative_game_theory -> rrel_key_sc_element:
     strategies;
     information_inequality;;
 
@@ -91,7 +91,7 @@ section_of_cooperative_game_theory
 [Section. Cooperative game theory]
 (* <- lang_en;;*);;
 
-section_of_cooperative_game_theory -> rrel_sc_key_element:
+section_of_cooperative_game_theory -> rrel_key_sc_element:
     transferable_utility_games;
     non_transferable_utility_games;;
 
@@ -125,7 +125,7 @@ section_of_bayesian_game_theory
 [Section. Bayesian game theory]
 (* <- lang_en;;*);;
 
-section_of_bayesian_game_theory -> rrel_sc_key_element:
+section_of_bayesian_game_theory -> rrel_key_sc_element:
     probabilistic_thinking;
     bayesian_equilibrium;;
 
@@ -158,7 +158,7 @@ section_of_evolutionary_game_theory
 [Section. Evolutionary game theory]
 (* <- lang_en;;*);;
 
-section_of_evolutionary_game_theory -> rrel_sc_key_element:
+section_of_evolutionary_game_theory -> rrel_key_sc_element:
     populations;
     natural_selection;;
 
@@ -191,7 +191,7 @@ section_of_algorithmic_game_theory
 [Section. Algorithmic game theory]
 (* <- lang_en;;*);;
 
-section_of_algorithmic_game_theory -> rrel_sc_key_element:
+section_of_algorithmic_game_theory -> rrel_key_sc_element:
     zero_sum_games;
     computational_complexity;;
 
