@@ -25,7 +25,12 @@ section_of_microeconomic -> rrel_key_sc_element:
 
 market_forces_of_supply_and_demand_determining_prices
 => nrel_main_idtf:
-[раздел_о_предоставления_и_доступности]
+[Раздел о предоставления и доступности]
+(* <- lang_ru;; *);;
+
+section_of_supply_and_demand
+=> nrel_main_idtf:
+[раздел о логистики и обеспечения]
 (* <- lang_ru;; *);;
 
 section_of_market_failure
@@ -45,7 +50,7 @@ section_of_market_structure
 
 study_of_economic_activity_at_individual_or_firm_level
 => nrel_main_idtf:
-[изучение_экономической_активности на_индивидуальном_ или_фирменном_уровне]
+[Изучение экономической активности на индивидуальном или фирменном уровне]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/study_of_economic_activity_at_individual_or_firm_level.html" (*
@@ -55,7 +60,7 @@ study_of_economic_activity_at_individual_or_firm_level
 
 analysis_of_market_behavior_and_decisions_of_consumers_and_producers
 => nrel_main_idtf:
-[анализ_рынка_в_ поведении_ и_решения_ потребителей и_производителей]
+[Анализ рынка в поведении и решения потребителей и производителей]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/analysis_of_market_behavior_and_decisions_of_consumers_and_producers.html" (*
@@ -65,7 +70,7 @@ analysis_of_market_behavior_and_decisions_of_consumers_and_producers
 
 examination_of_price_determination_and_market_efficiency
 => nrel_main_idtf:
-[анализ_цены_определения_и_маркет_эффективности]
+[Анализ цены определения и маркет эффективности]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/examination_of_price_determination_and_market_efficiency.html" (*

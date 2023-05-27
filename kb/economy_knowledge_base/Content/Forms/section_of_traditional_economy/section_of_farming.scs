@@ -21,6 +21,34 @@ specialization;
 land_ownership;
 seasonal_labor;;
 
+section_of_agricultural_technology
+=> nrel_main_idtf:
+[Раздел сельскохозяйственных технологий]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of agricultural technology]
+(*<- lang_en;;*);;
+
+section_of_crop_production
+=> nrel_main_idtf:
+[Раздел выращивания культурных растений]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of crop production]
+(*<- lang_en;;*);;
+
+section_of_livestock_farming
+=> nrel_main_idtf:
+[Раздел животноводства]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of livestock farming]
+(*<- lang_en;;*);;
+
+section_of_land_tenure_systems
+=> nrel_main_idtf:
+[Раздел систем владения землей]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of land tenure systems]
+(*<- lang_en;;*);;
+
 specialization
 => nrel_main_idtf:
 [Специализация]

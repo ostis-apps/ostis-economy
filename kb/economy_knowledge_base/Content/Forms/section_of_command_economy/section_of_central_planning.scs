@@ -20,22 +20,22 @@ strict_adherence_to_plans_and_targeted_outcomes;;
 
 section_of_investment_planning
 => nrel_main_idtf:
-[раздел_ о_инвестиционном_планировании]
+[Раздел об инвестиционном планировании]
 (* <- lang_ru;; *);;
 
 section_of_industrial_planning
 => nrel_main_idtf:
-[раздел_индустриального_планирования]
+[Раздел индустриального планирования]
 (* <- lang_ru;; *);;
 
 section_of_agricultural_planning    
 => nrel_main_idtf:
-[раздел_ о_сельскохозяйственном_ планировании]
+[Раздел о сельскохозяйственном планировании]
 (* <- lang_ru;; *);;
 
 section_of_transportation_planning
 => nrel_main_idtf:
-[раздел_от_транспортации_планирования]
+[Раздел от транспортации планирования]
 (* <- lang_ru;; *);;
 
 top_down_hierarchy_of_decision_making

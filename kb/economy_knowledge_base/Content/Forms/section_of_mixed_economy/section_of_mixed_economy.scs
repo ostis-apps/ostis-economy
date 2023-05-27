@@ -6,6 +6,12 @@ section_of_mixed_economy
     [Section. Mixed economy]
     (* <- lang_en;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/mixed_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
 <= nrel_section_decomposition:
 	{
 		section_of_private_and_public_sectors;

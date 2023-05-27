@@ -22,6 +22,34 @@ apprenticeship;
 small_scale_production;
 reliance_on_local_materials;;
 
+section_of_types_of_crafts
+=> nrel_main_idtf:
+[Раздел типов ремесел]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of types of crafts]
+(*<- lang_en;;*);;
+
+section_of_techniques_and_materials
+=> nrel_main_idtf:
+[Раздел техник и материалов]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of techniques and materials]
+(*<- lang_en;;*);;
+
+section_of_tools_and_equipment
+=> nrel_main_idtf:
+[Раздел инструментов и оборудования]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of tools and equipment]
+(*<- lang_en;;*);;
+
+section_of_training_and_apprenticeship
+=> nrel_main_idtf:
+[Раздел обучения и стажировок]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of training and apprenticeship]
+(*<- lang_en;;*);;
+
 apprenticeship
 => nrel_main_idtf:
 [Ученичество]

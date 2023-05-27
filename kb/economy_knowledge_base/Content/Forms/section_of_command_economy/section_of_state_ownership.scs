@@ -17,17 +17,17 @@ section_of_state_ownership -> rrel_key_sc_element:
 
 section_of_stateowned_enterprises
 => nrel_main_idtf:
-[раздел_ о_государственных предприятиях]
+[Раздел о государственных предприятиях]
 (* <- lang_ru;; *);;
 
 section_of_collective_action_and_state_ownership
 => nrel_main_idtf:
-[раздел_от_коллективных_ действий и_статья_ владения]
+[Раздел о коллективных действий и статья владения]
 (* <- lang_ru;; *);;
 
 section_of_nationalization_and_privatization
 => nrel_main_idtf:
-[раздел_национализации и_приватизации]
+[Раздел национализации и приватизации]
 (* <- lang_ru;; *);;
 
 section_of_subsidies_and_state_ownership

@@ -21,6 +21,34 @@ renewable_energy;
 conservation_and_recycling;
 pollution_control;;
 
+section_of_sustainable_development_and_goals
+=> nrel_main_idtf:
+[Раздел устойчивого развития и целей]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of sustainable development and goals]
+(*<- lang_en;;*);;
+
+section_of_environmental_economics
+=> nrel_main_idtf:
+[Раздел экономики окружающей среды]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of environmental economics]
+(*<- lang_en;;*);;
+
+section_of_natural_resource_management
+=> nrel_main_idtf:
+[Раздел управления природными ресурсами]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of natural resource management]
+(*<- lang_en;;*);;
+
+section_of_climate_change_and_adaptation
+=> nrel_main_idtf:
+[Раздел изменения климата и адаптации]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of climate change and adaptation]
+(*<- lang_en;;*);;
+
 renewable_energy
 => nrel_main_idtf:
 [Возобновляемая энергия]

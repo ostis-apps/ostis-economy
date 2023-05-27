@@ -17,22 +17,22 @@ section_of_resource_allocation -> rrel_key_sc_element:
 
 section_of_allocation_of_natural_resources
 => nrel_main_idtf:
-[раздел_от_распределения_от_натуральных_ресурсов]
+[Раздел о распределении натуральных ресурсов]
 (* <- lang_ru;; *);;
 
 section_of_allocation_of_financial_resources
 => nrel_main_idtf:
-[раздел_от_распределения_финансовых_ресурсов]
+[Раздел распределения финансовых ресурсов]
 (* <- lang_ru;; *);;
 
 section_of_allocation_of_human_resources
 => nrel_main_idtf:
-[раздел_от_распределения_от_человеческих ресурсов]
+[Раздел от распределения от человеческих ресурсов]
 (* <- lang_ru;; *);;
 
 section_of_allocation_of_technology_resources
 => nrel_main_idtf:
-[раздел_от_распределения_от_технологии_ресурсов]
+[Раздел от распределения от технологии ресурсов]
 (* <- lang_ru;; *);;
 
 identification_of_available_resources

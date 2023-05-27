@@ -17,27 +17,27 @@ section_of_distribution_systems -> rrel_key_sc_element:
 
 section_of_retail_distribution_systems
 => nrel_main_idtf:
-[раздел о системах розничной торговли]
+[Раздел о системах розничной торговли]
 (* <- lang_ru;; *);;
 
 section_of_wholesale_distribution_systems
 => nrel_main_idtf:
-[раздел_общих_распределений_систем]
+[Раздел общих распределений систем]
 (* <- lang_ru;; *);;
 
 section_of_direct_distribution_systems
 => nrel_main_idtf:
-[раздел направленных систем распределения]
+[Раздел направленных систем распределения]
 (* <- lang_ru;; *);;
 
 section_of_multichannel_distribution_systems
 => nrel_main_idtf:
-[раздел_ многоканальных распределительных систем]
+[Раздел многоканальных распределительных систем]
 (* <- lang_ru;; *);;
 
 transportation_and_logistics_networks
 => nrel_main_idtf:
-[транспортные_и_логистические_сети]
+[Транспортные и логистические сети]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/transportation_and_logistics_networks.html" (*

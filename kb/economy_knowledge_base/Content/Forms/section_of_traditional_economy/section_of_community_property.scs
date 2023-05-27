@@ -21,6 +21,34 @@ collective_decision_making;
 shared_labor;
 egalitarianism;;
 
+section_of_types_of_community_property
+=> nrel_main_idtf:
+[Раздел типов общинной собственности]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of types of community property]
+(*<- lang_en;;*);;
+
+section_of_governance_and_management
+=> nrel_main_idtf:
+[Раздел управления и управленческих практик]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of governance and management]
+(*<- lang_en;;*);;
+
+section_of_commons_and_collective_action
+=> nrel_main_idtf:
+[Раздел общинных ресурсов и коллективных действий]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of commons and collective action]
+(*<- lang_en;;*);;
+
+section_of_sustainability_and_environmental_impact
+=> nrel_main_idtf:
+[Раздел устойчивости и экологического воздействия]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of sustainability and environmental impact]
+(*<- lang_en;;*);;
+
 collective_decision_making
 => nrel_main_idtf:
 [Коллективное принятие решений]

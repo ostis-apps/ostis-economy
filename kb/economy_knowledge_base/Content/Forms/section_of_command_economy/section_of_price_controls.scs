@@ -20,27 +20,27 @@ section_of_price_controls -> rrel_key_sc_element:
 
 section_of_rent_control
 => nrel_main_idtf:
-[раздел_управления арендной платой]
+[Раздел управления арендной платой]
 (* <- lang_ru;; *);;
 
 section_of_minimum_wage
 => nrel_main_idtf:
-[раздел минимальной заработной платы]
+[Раздел минимальной заработной платы]
 (* <- lang_ru;; *);;
 
 section_of_maximum_wage
 => nrel_main_idtf:
-[раздел максимальной заработной платы]
+[Раздел максимальной заработной платы]
 (* <- lang_ru;; *);;
 
 section_of_monopoly_and_price_controls
 => nrel_main_idtf:
-[раздел_ о_монополии_ и ценовом контроле]
+[Раздел о монополии и ценовом контроле]
 (* <- lang_ru;; *);;
 
 setting_of_maximum_or_minimum_prices_for_goods_and_services
 => nrel_main_idtf:
-[настройка_максимальных_или_минимальных_цен_ на_товары и_услуги]
+[Настройка максимальных или минимальных цен на товары и услуги]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/setting_of_maximum_or_minimum_prices_for_goods_and_services.html" (*

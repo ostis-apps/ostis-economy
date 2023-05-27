@@ -22,6 +22,34 @@ reliance_on_environment;
 sharing_and_reciprocity;
 division_of_labor;;
 
+section_of_foraging
+=> nrel_main_idtf:
+[Раздел сбора дикорастущих растений и добычи дичи]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of foraging]
+(*<- lang_en;;*);;
+
+section_of_tools_and_techniques
+=> nrel_main_idtf:
+[Раздел инструментов и техник]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of tools and techniques]
+(*<- lang_en;;*);;
+
+section_of_social_organization
+=> nrel_main_idtf:
+[Раздел социальной организации]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of social organization]
+(*<- lang_en;;*);;
+
+section_of_kinship_systems
+=> nrel_main_idtf:
+[Раздел систем родства]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of kinship systems]
+(*<- lang_en;;*);;
+
 reliance_on_environment
 => nrel_main_idtf:
 [Опора на окружающую среду]

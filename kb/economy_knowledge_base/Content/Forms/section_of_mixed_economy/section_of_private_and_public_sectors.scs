@@ -20,6 +20,27 @@ competition;
 regulation;
 public_private_partnerships;;
 
+section_of_productivity_and_efficiency
+=> nrel_main_idtf:
+[Раздел повышения производительности и эффективности]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of productivity and efficiency]
+(*<- lang_en;;*);;
+
+section_of_innovation_and_technology
+=> nrel_main_idtf:
+[Раздел инноваций и технологий]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of innovation and technology]
+(*<- lang_en;;*);;
+
+section_of_labor_relations_and_employment
+=> nrel_main_idtf:
+[Раздел трудовых отношений и занятости]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of labor relations and employment]
+(*<- lang_en;;*);;
+
 competition
 => nrel_main_idtf:
 [Конкуренция]

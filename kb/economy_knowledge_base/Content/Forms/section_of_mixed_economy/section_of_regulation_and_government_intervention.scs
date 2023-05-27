@@ -20,6 +20,27 @@ market_failures;
 public_goods;
 externalities;;
 
+section_of_regulatory_agencies_and_instruments
+=> nrel_main_idtf:
+[Раздел регулирования и инструментов государственного контроля]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of regulatory agencies and instruments]
+(*<- lang_en;;*);;
+
+section_of_market_failures_and_externalities
+=> nrel_main_idtf:
+[Раздел рыночных сбоев и внешних эффектов]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of market failures and externalities]
+(*<- lang_en;;*);;
+
+section_of_consumer_protection
+=> nrel_main_idtf:
+[Раздел защиты прав потребителей]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of consumer protection]
+(*<- lang_en;;*);;
+
 market_failures
 => nrel_main_idtf:
 [Рыночные неудачи]

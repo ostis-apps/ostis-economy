@@ -22,6 +22,34 @@ mobility_of_labor;
 dependence_on_environment;
 traditional_skills_and_knowledge;;
 
+section_of_animal_husbandry
+=> nrel_main_idtf:
+[Раздел животноводства]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of animal husbandry]
+(*<- lang_en;;*);;
+
+section_of_mobility_and_migration
+=> nrel_main_idtf:
+[Раздел мобильности и миграции]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of mobility and migration]
+(*<- lang_en;;*);;
+
+section_of_property_rights
+=> nrel_main_idtf:
+[Раздел права собственности]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of property rights]
+(*<- lang_en;;*);;
+
+section_of_social_organization
+=> nrel_main_idtf:
+[Раздел социальной организации]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of social organization]
+(*<- lang_en;;*);;
+
 mobility_of_labor
 => nrel_main_idtf:
 [Мобильность рабочей силы]

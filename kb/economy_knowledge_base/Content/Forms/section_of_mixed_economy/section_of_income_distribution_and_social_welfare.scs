@@ -21,6 +21,34 @@ progressive_taxation;
 social_safety_nets;
 public_education;;
 
+section_of_healthcare_and_pension_systems
+=> nrel_main_idtf:
+[Раздел здравоохранения и пенсионной системы]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of healthcare and pension system]
+(*<- lang_en;;*);;
+
+section_of_housing_and_homelessness
+=> nrel_main_idtf:
+[Раздел жилищной и бездомной проблематики]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of housing and homelessness]
+(*<- lang_en;;*);;
+
+section_of_disability_and_aging
+=> nrel_main_idtf:
+[Раздел проблематики инвалидности и старения]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of disability and aging]
+(*<- lang_en;;*);;
+
+section_of_immigration_and_social_integration
+=> nrel_main_idtf:
+[Раздел иммиграционной и социальной интеграции]
+(* <- lang_ru;; *);
+=> nrel_main_idtf: [Section of immigration and social integration]
+(*<- lang_en;;*);;
+
 progressive_taxation
 => nrel_main_idtf:
 [Прогрессивное налогообложение]

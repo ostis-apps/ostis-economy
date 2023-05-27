@@ -6,6 +6,12 @@ section_of_traditional_economy
     [Section. Traditional economy]
     (* <- lang_en;;*);
 
+=> nrel_sc_text_translation:
+                    "file://html/traditional_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
 <= nrel_section_decomposition:
 	{
 		section_of_hunting_and_gathering;
