@@ -1,0 +1,11 @@
+section_of_energetics
+=> nrel_main_idtf:[Раздел. Энергетика] (* <- lang_ru;;*);
+=> nrel_main_idtf:[Section. Energetics] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/energetics.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+section_of_energetics -> rrel_key_sc_element:
+	energy_balance;
+	energetic_resource;;

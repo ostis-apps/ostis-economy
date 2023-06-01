@@ -6,14 +6,20 @@ section_of_secondary_sector
         [Section. Secondary sector]
            	  (* <- lang_en;; *);
 
-<= nrel_section_decomposition:
+=> nrel_sc_text_translation:
+                    "file://htmls/secondary_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+section_of_secondary_sector <= nrel_section_decomposition:
 	{ 
 	section_of_manufacturing_industry;
     section_of_construction
     };;
 
 section_of_secondary_sector -> rrel_key_sc_element:
-	finished_products;
+	consumer_goods;
 	equipment;
 	industrial_waste;
 	factory;

@@ -1,0 +1,28 @@
+ores
+=> nrel_main_idtf:[Руды] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/ores.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+chemical_materials
+=> nrel_main_idtf:[Химические материалы] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/chemical_materials.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+building_materials
+=> nrel_main_idtf:[Строительные материалы] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/building_materials.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+
+gems
+=> nrel_main_idtf:[Драгоценные камни] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/gems.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

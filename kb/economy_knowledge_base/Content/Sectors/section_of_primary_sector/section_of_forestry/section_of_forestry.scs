@@ -14,5 +14,6 @@ section_of_forestry
 
 section_of_forestry -> rrel_key_sc_element:
 		forest_reproduction;
+		poaching;
 		forest_protection;
 		timber_harvesting;;

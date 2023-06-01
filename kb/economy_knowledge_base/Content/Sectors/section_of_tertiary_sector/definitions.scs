@@ -1,0 +1,57 @@
+culture
+=> nrel_main_idtf:[Культура] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/culture.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+
+healthcare
+=> nrel_main_idtf:[Здравоохранение] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/healthcare.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+household_service
+=> nrel_main_idtf:[Бытовая служба] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/household_service.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+tourism
+=> nrel_main_idtf:[Туризм] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/tourism.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+catering
+=> nrel_main_idtf:[Общественное питание] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/catering.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+                            
+transport
+=> nrel_main_idtf:[Транспорт] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/transport.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+communication
+=> nrel_main_idtf:[Связь] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/communication.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+hotel_business
+=> nrel_main_idtf:[Гостинечный бизнес] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/hotel_business.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+

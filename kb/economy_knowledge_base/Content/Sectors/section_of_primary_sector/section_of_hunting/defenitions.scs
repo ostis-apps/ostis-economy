@@ -4,3 +4,25 @@ hunting_season
             "file://htmls/hunting_season.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
+
+
+hunting_license
+=> nrel_main_idtf:[Охотничья лицензия] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/hunting_license.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+hunting_grounds
+=> nrel_main_idtf:[Охотничьи угодия] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/hunting_grounds.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+poaching
+=> nrel_main_idtf:[Браконьерство] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/poaching.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

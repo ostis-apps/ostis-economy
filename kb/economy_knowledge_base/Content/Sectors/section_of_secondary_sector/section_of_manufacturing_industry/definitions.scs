@@ -1,0 +1,34 @@
+processing
+=> nrel_main_idtf:[Обработка] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/processing.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+mechanical_engineering
+=> nrel_main_idtf:[Машиностроение] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/mechanical_engineering.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+metalworking
+=> nrel_main_idtf:[Металлообработка] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/metalworking.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+metallurgy
+=> nrel_main_idtf:[Металлургия] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/metallurgy.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+woodworking
+=> nrel_main_idtf:[Деревообработка] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/woodworking.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

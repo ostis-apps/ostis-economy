@@ -13,4 +13,7 @@ section_of_hunting
                         *);;
 
 section_of_hunting -> rrel_key_sc_element:
+                hunting_license;
+                hunting_grounds;
+                poaching;
 		hunting_season;;

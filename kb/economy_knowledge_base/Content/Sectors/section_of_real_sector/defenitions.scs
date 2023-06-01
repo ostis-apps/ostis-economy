@@ -1,6 +1,13 @@
-energetics
-=> nrel_main_idtf:[Энергетика] (* <- lang_ru;;*);
+energy_balance
+=> nrel_main_idtf:[Энергетический баланс] (* <- lang_ru;;*);
 => nrel_sc_text_translation:
-            "file://htmls/energetics.html"(*
+            "file://htmls/energy_balance.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+energetic_resource
+=> nrel_main_idtf:[Энергетический ресурс] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/energetic_resource.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;

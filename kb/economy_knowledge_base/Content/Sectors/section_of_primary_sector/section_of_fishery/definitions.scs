@@ -1,0 +1,13 @@
+aquaculture
+=> nrel_main_idtf:[Аквакультура] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/aquaculture.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+aquatic_biological_resources
+=> nrel_main_idtf:[Водные биоресурсы] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/aquatic_biological_resources.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

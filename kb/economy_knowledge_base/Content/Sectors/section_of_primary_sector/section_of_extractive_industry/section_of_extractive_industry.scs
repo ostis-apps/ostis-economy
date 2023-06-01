@@ -4,11 +4,17 @@ section_of_extractive_industry
 		(* <- lang_ru;; *);
 => nrel_main_idtf:
         [Section. Extractive industry]
-           	  (* <- lang_en;; *);;
+           	  (* <- lang_en;; *);
+
+=> nrel_sc_text_translation:
+                    "file://htmls/extractive_industry.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
 
 section_of_extractive_industry -> rrel_key_sc_element:
 		ores;
-		energy_materials;
+		energetic_resource;
 		chemical_materials;
         building_materials;
 		gems;;

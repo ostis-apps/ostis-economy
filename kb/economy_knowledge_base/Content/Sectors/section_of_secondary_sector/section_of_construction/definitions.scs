@@ -1,0 +1,34 @@
+building
+=> nrel_main_idtf:[Постройка] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/building.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+structures
+=> nrel_main_idtf:[Сооружение] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/structures.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+interior
+=> nrel_main_idtf:[Интерьер] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/interior.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+exterior
+=> nrel_main_idtf:[Экстерьер] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/exterior.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+architecture
+=> nrel_main_idtf:[Архитектура] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/architecture.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;

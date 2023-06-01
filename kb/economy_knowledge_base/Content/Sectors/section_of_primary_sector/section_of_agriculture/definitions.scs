@@ -1,0 +1,28 @@
+food
+=> nrel_main_idtf:[Продовольствие] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/food.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+crop
+=> nrel_main_idtf:[Урожай] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/crop.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+cultivation
+=> nrel_main_idtf:[Растиеневодство] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/cultivation.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+
+animal_husbandry
+=> nrel_main_idtf:[Животноводство] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/animal_husbandry.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
