@@ -18,6 +18,8 @@ subject_domain_of_economic_theory
 
 subject_domain_of_economic_theory -> rrel_key_sc_element:
     theory;
+    politics;
+    economic_law;
     conception;;
 
 theory
@@ -38,4 +40,26 @@ conception
                     "file://html//conception.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
-                        *);;       
+                        *);; 
+
+politics
+=> nrel_main_idtf:
+[Экономическая политика]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//politics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;   
+
+
+economic_law
+=> nrel_main_idtf:
+[Экономический закон]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//economic_law.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;   
+          
