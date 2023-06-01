@@ -16,4 +16,26 @@ subject_domain_of_economic_theory
         section_of_game_theory
 	};;
 
+subject_domain_of_economic_theory -> rrel_key_sc_element:
+    theory;
+    conception;;
 
+theory
+=> nrel_main_idtf:
+[Экономическая теория]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+conception
+=> nrel_main_idtf:
+[Экономическая концепция]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://html//conception.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;       
