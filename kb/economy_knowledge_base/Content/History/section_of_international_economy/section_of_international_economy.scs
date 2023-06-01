@@ -63,3 +63,54 @@ section_of_international_finance
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
+                        
+section_of_international_economy
+-> rrel_key_sc_element:
+  economic_connections;
+  economic_subject;
+  economic_relations;
+  assets;
+  capital;
+  credit;;
+   
+economic_connections
+=> nrel_main_idtf:[Экономические связи] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/economic_connections.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+                            
+economic_subject
+=> nrel_main_idtf:[Экономический субьект] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/economic_subject.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+                            
+economic_relations
+=> nrel_main_idtf:[Экономические отношения] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/economic_relations.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+                   
+assets
+=> nrel_main_idtf:[Экономические связи] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/assets.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+
+capital                            
+=> nrel_main_idtf:[Капитал] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/capital.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
+                            
+credit
+=> nrel_main_idtf:[Кредит] (* <- lang_ru;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/credit.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);;
