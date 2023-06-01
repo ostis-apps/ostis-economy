@@ -24,12 +24,12 @@ section_of_algorithmic_game_theory
 };;
 
 section_of_game_theory-> rrel_key_sc_element:
-    players;
-    wins;;
+    player;
+    win;;
 
 players
 => nrel_main_idtf:
-[Игроки]
+[Игрок]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://html//section_of_game_theory//players.html" (*
@@ -39,7 +39,7 @@ players
 
 wins
 => nrel_main_idtf:
-[Выигрыши]
+[Выигрыш]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://html//section_of_game_theory//wins.html" (*
@@ -63,7 +63,7 @@ section_of_non_cooperative_game_theory -> rrel_key_sc_element:
 
 strategies
 => nrel_main_idtf:
-[Стратегии]
+[Стратегия]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://html//section_of_non_cooperative_game_theory//strategies.html" (*
