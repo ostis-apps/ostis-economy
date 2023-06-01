@@ -64,7 +64,7 @@ analysis_of_government_policies_and_their_impact_on_economy
 
 examination_of_major_economic_indicators_and_trends
 => nrel_main_idtf:
-[изучение основных экономических показателей и тенденций]
+[Изучение основных экономических показателей и тенденций]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/examination_of_major_economic_indicators_and_trends.html" (*

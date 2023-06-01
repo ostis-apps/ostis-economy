@@ -63,7 +63,7 @@ investment_appraisal_and_decision_making
 
 capital_structure_and_funding_sources
 => nrel_main_idtf:
-[капитал_структуры_и_фондирование_источников]
+[Капитал структуры и фондирование источников]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/capital_structure_and_funding_sources.html" (*

@@ -50,7 +50,7 @@ setting_of_maximum_or_minimum_prices_for_goods_and_services
 
 enforcement_of_price_ceiling_or_floor_by_government_agencies
 => nrel_main_idtf:
-[обеспечение соблюдения предельных или минимальных цен государственными учреждениями]
+[Обеспечение соблюдения предельных или минимальных цен государственными учреждениями]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/enforcement_of_price_ceiling_or_floor_by_government_agencies.html" (*
@@ -60,7 +60,7 @@ enforcement_of_price_ceiling_or_floor_by_government_agencies
 
 rationing_and_distribution_of_scarce_goods
 => nrel_main_idtf:
-[нормирование и распределение продовольственных товаров]
+[Нормирование и распределение продовольственных товаров]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/rationing_and_distribution_of_scarce_goods.html" (*

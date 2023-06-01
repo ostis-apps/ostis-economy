@@ -37,7 +37,7 @@ section_of_allocation_of_technology_resources
 
 identification_of_available_resources
 => nrel_main_idtf:
-[идентификация_доступных_ресурсов]
+[Идентификация доступных ресурсов]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/identification_of_available_resources.html" (*
@@ -47,7 +47,7 @@ identification_of_available_resources
 
 assessment_of_resource_utilization_and_efficiency
 => nrel_main_idtf:
-[оценка_использования_ресурсов_ и_эффективности]
+[Оценка использования ресурсов и эффективности]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/assessment_of_resource_utilization_and_efficiency.html" (*
@@ -57,7 +57,7 @@ assessment_of_resource_utilization_and_efficiency
 
 prioritization_of_resource_distribution_and_allocation
 => nrel_main_idtf:
-[определение приоритетности распределения ресурсов и аллокации]
+[Определение приоритетности распределения ресурсов и аллокации]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/prioritization_of_resource_distribution_and_allocation.html" (*

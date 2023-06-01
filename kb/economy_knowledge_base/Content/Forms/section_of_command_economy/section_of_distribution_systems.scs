@@ -47,7 +47,7 @@ transportation_and_logistics_networks
 
 inventory_management_and_control
 => nrel_main_idtf:
-[инвентаризация_управления_и_контроль]
+[Инвентаризация управления и контроль]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/inventory_management_and_control.html" (*
@@ -57,7 +57,7 @@ inventory_management_and_control
 
 pricing_strategies_and_tactics
 => nrel_main_idtf:
-[ценообразование_стратегия_и_тактика]
+[Стратегии и тактики установки цен]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/pricing_strategies_and_tactics.html" (*

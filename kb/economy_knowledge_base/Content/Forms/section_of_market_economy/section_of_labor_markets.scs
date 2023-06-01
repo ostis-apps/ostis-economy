@@ -39,12 +39,12 @@ section_of_labor_supply_and_demand
 
 section_of_wage_and_employment_determination
 => nrel_main_idtf:
-[раздел определения заработной платы и занятости]
+[Раздел определения заработной платы и занятости]
 (* <- lang_ru;; *);;
 
 section_of_labor_market_regulation
 => nrel_main_idtf:
-[раздел регулирования рынка труда]
+[Раздел регулирования рынка труда]
 (* <- lang_ru;; *);;
 
 supply_and_demand_of_labor
@@ -69,7 +69,7 @@ wage_and_salary_determination
 
 government_regulation_and_intervention_in_labor_markets
 => nrel_main_idtf:
-[Правительство регулирование и интервенци на лабораторных рынках]
+[Правительственное регулирование и интервенция на рынках труда]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/government_regulation_and_intervention_in_labor_markets.html" (*

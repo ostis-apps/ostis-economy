@@ -32,12 +32,12 @@ section_of_nationalization_and_privatization
 
 section_of_subsidies_and_state_ownership
 => nrel_main_idtf:
-[раздел о субсидиях и государственной собственности]
+[Раздел о субсидиях и государственной собственности]
 (* <- lang_ru;; *);;
 
 government_control_of_industries_and_key_resources
 => nrel_main_idtf:
-[государственный контроль над отраслями промышленности и ключевыми ресурсами]
+[Государственный контроль над отраслями промышленности и ключевыми ресурсами]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/government_control_of_industries_and_key_resources.html" (*
@@ -47,7 +47,7 @@ government_control_of_industries_and_key_resources
 
 establishment_of_state_owned_enterprises_and_organizations
 => nrel_main_idtf:
-[создание государственных предприятий и организаций]
+[Создание государственных предприятий и организаций]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/establishment_of_state_owned_enterprises_and_organizations.html" (*
@@ -57,7 +57,7 @@ establishment_of_state_owned_enterprises_and_organizations
 
 management_of_state_owned_properties_and_assets
 => nrel_main_idtf:
-[управление имуществом и активами, находящимися в государственной собственности]
+[Управление имуществом и активами, находящимися в государственной собственности]
 (* <- lang_ru;; *);
 => nrel_sc_text_translation:
                     "file://htmls/management_of_state_owned_properties_and_assets.html" (*

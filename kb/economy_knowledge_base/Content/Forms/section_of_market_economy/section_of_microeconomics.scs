@@ -25,27 +25,27 @@ section_of_microeconomic -> rrel_key_sc_element:
 
 market_forces_of_supply_and_demand_determining_prices
 => nrel_main_idtf:
-[Раздел о предоставления и доступности]
+[Раздел о предоставления и доступности определнных цен]
 (* <- lang_ru;; *);;
 
 section_of_supply_and_demand
 => nrel_main_idtf:
-[раздел о логистики и обеспечения]
+[Раздел о логистике и обеспечении]
 (* <- lang_ru;; *);;
 
 section_of_market_failure
 => nrel_main_idtf:
-[раздел о провале рынка]
+[Раздел о провале рынка]
 (* <- lang_ru;; *);;
 
 section_of_public_goods
 => nrel_main_idtf:
-[раздел общественных благ]
+[Раздел общественных благ]
 (* <- lang_ru;; *);;
 
 section_of_market_structure
 => nrel_main_idtf:
-[раздел структуры рынка]
+[Раздел структуры рынка]
 (* <- lang_ru;; *);;
 
 study_of_economic_activity_at_individual_or_firm_level
