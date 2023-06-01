@@ -1,0 +1,70 @@
+section_of_international_trading
+=> nrel_main_idtf:
+	[Раздел. Международная торговля]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. International trading]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_silk_road_trading;
+		section_of_hanseatic_trade_in_northern_europe;
+		section_of_colonial_expansion ;
+		section_of_transnational_corporations
+	};;
+section_of_international_trading -> rrel_key_sc_element:
+	export_of_goods_from_colonies_to_europe;
+	development_of_international_trade;
+	heyday_of_hanseatic_trade_in_northern_europe;;
+
+section_of_silk_road_trading
+=> nrel_main_idtf:
+[Раздел о торговле шелкового пути]
+(* <- lang_ru;; *);;
+
+section_of_hanseatic_trade_in_northern_europe
+=> nrel_main_idtf:
+[Раздел о ганзейской торговле в северной европе]
+(* <- lang_ru;; *);;
+
+section_of_colonial_expansion
+=> nrel_main_idtf:
+[Раздел о колониальном расширении]
+(* <- lang_ru;; *);;
+
+section_of_transnational_corporations
+=> nrel_main_idtf:
+[Раздел о транснациональные корпорации]
+(* <- lang_ru;; *);;
+
+export_of_goods_from_colonies_to_europe
+=> nrel_main_idtf:
+[Экспорт товаров из колоний в европу]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/export_of_goods_from_colonies_to_europe.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+devdelopment_of_international_trade
+=> nrel_main_idtf:
+[Развитие международной торговли]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/devdelopment_of_international_trade.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+heyday_of_hanseatic_trade_in_northern_europe
+=> nrel_main_idtf:
+[Расцвет ганзейской торговли в северной европе]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/heyday_of_hanseatic_trade_in_northern_europe.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+

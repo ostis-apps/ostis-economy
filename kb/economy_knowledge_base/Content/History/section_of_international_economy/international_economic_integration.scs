@@ -1,0 +1,69 @@
+section_of_international_economic_integration
+=> nrel_main_idtf:
+	[Раздел. Международная экономическая интеграция]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. International economic integration]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+    section_of_european_union_and_creation_of_euro_in_1999;
+    section_of_competition_between_states_in_world_market_for_goods_and_services;
+    section_of_emergence_of_economic_free_trade_zones;
+    section_of_role_of_china_and_other_developing_countries_in_global_economy
+	};;
+section_of_international_economic_integration -> rrel_key_sc_element:
+    scientific_and_technological_progress;
+    emergence_of_economic_free_trade_areas_such_as_nafta_and_asean;
+    convergence_and_unification_of_enterprises;;
+
+section_of_european_union_and_creation_of_euro_in_1999
+=> nrel_main_idtf:
+[Раздел о европейском союзе и создании евро в 1999 году]
+(* <- lang_ru;; *);;
+
+section_of_competition_between_states_in_world_market_for_goods_and_services
+=> nrel_main_idtf:
+[Раздел о конкуренции между государствами на мировом рынке товаров и услуг]
+(* <- lang_ru;; *);;
+
+section_of_emergence_of_economic_free_trade_zones
+=> nrel_main_idtf:
+[Раздел о возникновении экономических свободных торговых зон]
+(* <- lang_ru;; *);;
+
+section_of_role_of_china_and_other_developing_countries_in_global_economy
+=> nrel_main_idtf:
+[Раздел о роли китая и других развивающихся стран в глобальной экономике]
+(* <- lang_ru;; *);;
+
+scientific_and_technological_progress
+=> nrel_main_idtf:
+[Научно технический прогресс]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/scientific_and_technological_progress.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+emergence_of_economic_free_trade_areas_such_as_nafta_and_asean
+=> nrel_main_idtf:
+[Появление экономических зон свободной торговли таких как нафта и асеан]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/emergence_of_economic_free_trade_areas_such_as_nafta_and_asean.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+convergence_and_unification_of_enterprises
+=> nrel_main_idtf:
+[Сближение и объединение предприятий]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/convergence_and_unification_of_enterprises.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

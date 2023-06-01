@@ -1,0 +1,69 @@
+section_of_post_industrial_economy
+=> nrel_main_idtf:
+	[Раздел. Постиндустриальная экономика]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. post-industrial economy]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_knowledge_economy;
+		section_of_information_economy;
+		section_of_high_tech_economics;
+		section_of_service_economy
+	};;
+section_of_post_industrial_economy -> rrel_key_sc_element:
+development_of_information_technologies;
+high_level_of_innovation_and_research;
+recognition_of_intellectual_capital;;
+
+section_of_information_economy
+=> nrel_main_idtf:
+[Раздел информационной экономики]
+(* <- lang_ru;; *);;
+
+section_of_knowledge_economy
+=> nrel_main_idtf:
+[Раздел экономики знаний]
+(* <- lang_ru;; *);;
+
+section_of_high_tech_economics  
+=> nrel_main_idtf:
+[Раздел экономики высоких технологий]
+(* <- lang_ru;; *);;
+
+section_of_service_economy
+=> nrel_main_idtf:
+[Раздел экономики услуг]
+(* <- lang_ru;; *);;
+
+development_of_information_technologies
+=> nrel_main_idtf:
+[Развитие информационных технологий]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/development_of_information_technologies.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+high_level_of_innovation_and_research
+=> nrel_main_idtf:
+[Высокий уровень инноваций и исследований]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/high_level_of_innovation_and_research.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+recognition_of_intellectual_capital
+=> nrel_main_idtf:
+[Признание интеллектуального капитала]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/recognition_of_intellectual_capital.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

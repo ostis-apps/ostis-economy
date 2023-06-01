@@ -1,0 +1,70 @@
+section_of_international_debt
+=> nrel_main_idtf:
+	[Раздел. Международный долг]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. International debt]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+    section_of_emergence_of_modern_international_credit;
+    section_of_debt_in_1980s_when_many_developing_countries_found_themselves_unable_to_repay_their_loans;
+    section_of_large_loans_and_high_levels_of_public_debt_in_us;
+    section_of_chinese_borrowing_and_investment_policy_in_africa
+	};;
+section_of_international_debt -> rrel_key_sc_element:
+    role_of_imf_and_other_international_organizations_in_management_of_international_debt;
+    debt_crisis_in_the_1980s;
+    public_debt_in_US_and_other_developed_countries;;
+  
+
+section_of_emergence_of_modern_international_credit
+=> nrel_main_idtf:
+[раздел_о_появлении_современного_международного_кредита]
+(* <- lang_ru;; *);;
+
+section_of_debt_in_1980s_when_many_developing_countries_found_themselves_unable_to_repay_their_loans
+=> nrel_main_idtf:
+[Раздел долга в 1980-х годах, когда многие развивающиеся страны нашли себя не в состоянии погасить свой кредит]
+(* <- lang_ru;; *);;
+
+section_of_large_loans_and_high_levels_of_public_debt_in_us
+=> nrel_main_idtf:
+[Раздел о больших кредитах и высоком уровне государственного долга в сша]
+(* <- lang_ru;; *);;
+
+section_of_chinese_borrowing_and_investment_policy_in_africa
+=> nrel_main_idtf:
+[Раздел о китайской кредитной и инвестиционной политике в африке]
+(* <- lang_ru;; *);;
+
+role_of_imf_and_other_international_organizations_in_management_of_international_debt
+=> nrel_main_idtf:
+[Роль мвф и других международных организаций вуправлении_международным_долгом]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/role_of_imf_and_other_international_organizations_in_management_of_international_debt.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+debt_crisis_in_the_1980s
+=> nrel_main_idtf:
+[Долговой кризс 1980х]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/debt_crisis_in_the_1980s.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+public_debt_in_US_and_other_developed_countries
+=> nrel_main_idtf:
+[Государственный долг в США и других развитых странах]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/public_debt_in_US_and_other_developed_countries.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

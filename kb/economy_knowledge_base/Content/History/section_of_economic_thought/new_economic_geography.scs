@@ -1,0 +1,69 @@
+section_of_new_economic_geography
+=> nrel_main_idtf:
+	[Раздел. Новая экономическая география]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. New economic geography]
+    (* <- lang_en;;*);
+
+=> nrel_sc_text_translation:
+                    "file://html/new_economic_geography.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+		section_of_theory_of_localization_of_production_and_economic_zones;
+		section_of_role_of_transport_and_logistics_in_economy;
+		section_of_analysis_of_interaction_of_economic_factors_in_regions
+	};;
+section_of_new_economic_geography -> rrel_key_sc_element:
+	idea_of_spatial_economics;
+	theory_of_balance_of_trade;
+	role_of_transport_and_logistics_in_economy_and_international_spaces;;
+
+section_of_theory_of_localization_of_production_and_economic_zones
+=> nrel_main_idtf:
+[Раздел о теории локализации производственных и экономических зон]
+(* <- lang_ru;; *);;
+
+section_of_role_of_transport_and_logistics_in_economy
+=> nrel_main_idtf:
+[Раздел роли транспорта и логистики в экономике]
+(* <- lang_ru;; *);;
+
+section_of_analysis_of_interaction_of_economic_factors_in_regions
+=> nrel_main_idtf:
+[Раздел анализа взаимодействия экономических факторов в регионах]
+(* <- lang_ru;; *);;
+
+idea_of_spatial_economics
+=> nrel_main_idtf:
+[Идея пространственной экономики]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/idea_of_spatial_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+theory_of_balance_of_trade
+=> nrel_main_idtf:
+[Теория баланса торговли]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/theory_of_balance_of_trade.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+role_of_transport_and_logistics_in_economy_and_international_spaces
+=> nrel_main_idtf:
+[Роль транспорта и логистики в экономическом и международном пространствах]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/role_of_transport_and_logistics_in_economy_and_international_spaces.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

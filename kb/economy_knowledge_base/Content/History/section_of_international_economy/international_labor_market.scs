@@ -1,0 +1,70 @@
+section_of_international_labor_market
+=> nrel_main_idtf:
+	[Раздел. Международный рынок труда]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. International labor market]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+    section_of_emergence_of_globalization_and_free_migration_of_labor_in_modern_world;
+    section_of_role_of_migrants_in_economies_of_different_countries;
+    section_of_growth_in_formation_echnology_jobs;
+    section_of_international_labor_migration
+	};;
+section_of_international_labor_market -> rrel_key_sc_element:
+    problem_of_unequal_working_conditions_in_different_countries;
+    growth_in_information_technology;
+    emergence_of_globalization;;
+
+section_of_emergence_of_globalization_and_free_migration_of_labor_in_modern_world
+=> nrel_main_idtf:
+[Раздел о возникновении глобализации и свободной миграции рабочей силы в современном мире]
+(* <- lang_ru;; *);;
+
+section_of_role_of_migrants_in_economies_of_different_countries
+=> nrel_main_idtf:
+[Раздел о роль мигрантов в экономике разных стран]
+(* <- lang_ru;; *);;
+
+section_of_growth_in_formation_echnology_jobs
+=> nrel_main_idtf:
+[Раздел о росте рабочих мест в области информационных технологий]
+(* <- lang_ru;; *);;
+
+section_of_international_labor_migration
+=> nrel_main_idtf:
+[Раздел о международной трудовой миграции]
+(* <- lang_ru;; *);;
+
+problem_of_unequal_working_conditions_in_different_countries
+=> nrel_main_idtf:
+[Проблема неравных условий работы в разных странах]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/problem_of_unequal_working_conditions_in_different_countries.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+growth_in_information_technology
+=> nrel_main_idtf:
+[Рост информационных технологий]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/growth_in_information_technology.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+emergence_of_globalization
+=> nrel_main_idtf:
+[Зарождающаяся глобализация]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/emergence_of_globalization.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+

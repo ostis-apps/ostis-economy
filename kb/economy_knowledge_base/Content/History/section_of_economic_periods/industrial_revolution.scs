@@ -1,0 +1,69 @@
+section_of_industrial_revolution
+=> nrel_main_idtf:
+	[Раздел. Индустриальная революция]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [section. industrial revolution]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_development_of_textile_industry;
+		section_of_development_of_steam_engines;
+		section_of_railway_network_development;
+		section_of_agricultural_development
+	};;
+section_of_industrial_revolution -> rrel_key_sc_element:
+establishing_an_efficient_transport_system;
+automation_increase_of_production;
+mass_production_and_wide_distribution_of_goods;;
+
+section_of_development_of_textile_industry
+=> nrel_main_idtf:
+[Раздел о развитии текстильной промышленности]
+(* <- lang_ru;; *);;
+
+section_of_development_of_steam_engines
+=> nrel_main_idtf:
+[Раздел разработки паровых машин]
+(* <- lang_ru;; *);;
+
+section_of_railway_network_development
+=> nrel_main_idtf:
+[Раздел развития железнодорожной сети]
+(* <- lang_ru;; *);;
+
+section_of_agricultural_development
+=> nrel_main_idtf:
+[Раздел развития сельского хозяйства]
+(* <- lang_ru;; *);;
+
+establishing_an_efficient_transport_system
+=> nrel_main_idtf:
+[Создание эффективной системы транспорта]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/establishing_an_efficient_transport_system.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+automation_increase_of_production
+=> nrel_main_idtf:
+[Автоматизированное увеличение производства]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/automation_increase_of_production.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+mass_production_and_wide_distribution_of_goods
+=> nrel_main_idtf:
+[Массовое производство и широкое распространение товаров]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/mass_production_and_wide_distribution_of_goods.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

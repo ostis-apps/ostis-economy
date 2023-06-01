@@ -1,0 +1,70 @@
+section_of_ancient_economy
+=> nrel_main_idtf:
+	[Раздел. Древняя экономика]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [section. ancient economy]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+    section_of_ancient_egypt;
+    section_of_ancient_greece;
+    section_of_ancient_rome;
+    section_of_ancient_china
+	};;
+
+section_of_ancient_economy -> rrel_key_sc_element:
+cultural_legacy;
+centers_of_trade_and_economic_activity;
+system_of_monetary_relations;;
+
+section_of_economy_of_ancient_egypt
+=> nrel_main_idtf:
+[Раздел о древнем Египте]
+(* <- lang_ru;; *);;
+
+section_of_economy_of_ancient_greece
+=> nrel_main_idtf:
+[Раздел о древней Греции]
+(* <- lang_ru;; *);;
+
+section_of_ancient_rome    
+=> nrel_main_idtf:
+[Раздел о древнем Риме]
+(* <- lang_ru;; *);;
+
+section_of_ancient_china
+=> nrel_main_idtf:
+[Раздел о древнем Китае]
+(* <- lang_ru;; *);;
+
+cultural_legacy
+=> nrel_main_idtf:
+[Культурное наследие]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/cultural_legacy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+centers_of_trade_and_economic_activity
+=> nrel_main_idtf:
+[Центры торговли и экономической активности]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/centers_of_trade_and_economic_activity.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+system_of_monetary_relations
+=> nrel_main_idtf:
+[Система денежных отношений]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/system_of_monetary_relations.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

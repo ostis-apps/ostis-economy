@@ -1,0 +1,69 @@
+section_of_classical_economists
+=> nrel_main_idtf:
+	[Раздел. Классические экономисты]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [section. classical economists]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_adam_smith;
+		section_of_david_ricardo;
+		section_of_thomas_malthus;
+		section_of_jean_batiste_say
+	};;
+section_of_classical_economists -> rrel_key_sc_element:
+	the_role_of_classical_economic_theory;
+	theory_of_rent_by_david_ricardo;
+	systematization_of_economic_knowledge;;
+
+section_of_adam_smith
+=> nrel_main_idtf:
+[Раздел о Адаме Смите]
+(* <- lang_ru;; *);;
+
+section_of_david_ricardo
+=> nrel_main_idtf:
+[Раздел о Дэвиде Рикардо]
+(* <- lang_ru;; *);;
+
+section_of_thomas_malthus    
+=> nrel_main_idtf:
+[Раздел о Томасе Малтусу]
+(* <- lang_ru;; *);;
+
+section_of_jean_batiste_say
+=> nrel_main_idtf:
+[Раздел о Жане Батисте Сэю]
+(* <- lang_ru;; *);;
+
+the_role_of_classical_economic_theory
+=> nrel_main_idtf:
+[Роль классической экономической теории]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/the_role_of_classical_economic_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+theory_of_rent_by_david_ricardo
+=> nrel_main_idtf:
+[Теория ренты Дэвида Рикардо]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/theory_of_rent_by_david_ricardo.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+systematization_of_economic_knowledge
+=> nrel_main_idtf:
+[Систематизация экономических знаний]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/systematization_of_economic_knowledge.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

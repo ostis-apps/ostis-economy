@@ -1,0 +1,70 @@
+section_of_renaissance_and_trade_revolution
+=> nrel_main_idtf:
+	[Раздел. Возрождение и торговая революция:]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Renaissance and trade revolution]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_opening_new_trade_routes;
+		section_of_development_of_banking_system;
+		section_of_maritime_trade_development;
+		section_of_emergence_of_capitalist_relations
+	};;
+section_of_renaissance_and_trade_revolution -> rrel_key_sc_element:
+	development_of_international_trade;
+	formation_of_new_classes_in_society;
+	development_colonial_expansion;;
+
+
+section_of_opening_new_trade_routes
+=> nrel_main_idtf:
+[Раздел открытия новых торговых путей]
+(* <- lang_ru;; *);;
+
+section_of_development_of_banking_system
+=> nrel_main_idtf:
+[Раздел развития банковской системы]
+(* <- lang_ru;; *);;
+
+section_of_maritime_trade_development  
+=> nrel_main_idtf:
+[Раздел развития морской торговли]
+(* <- lang_ru;; *);;
+
+section_of_emergence_of_capitalist_relations
+=> nrel_main_idtf:
+[Раздел возникновения капиталистических отношений]
+(* <- lang_ru;; *);;
+
+development_of_international_trade
+=> nrel_main_idtf:
+[Развитие международной торговли]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/development_of_international_trade.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+formation_of_new_classes_in_society
+=> nrel_main_idtf:
+[Формирование новых классов в обществе]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/formation_of_new_classes_in_society.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+development_colonial_expansion
+=> nrel_main_idtf:
+[Развитие колониальной экспансии]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/development_colonial_expansion.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

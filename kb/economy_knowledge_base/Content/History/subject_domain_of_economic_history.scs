@@ -1,14 +1,23 @@
 subject_domain_of_economic_history
 => nrel_main_idtf:
 	[Предметная область. История экономики]
-	(* <- lang_ru;; *);
+		(* <- lang_ru;; *);
 => nrel_main_idtf:
-    [Subject domain of economic history]
-    (* <- lang_en;;*);
+    [Subject domain. Economic history]
+    	(* <- lang_en;;*);
+
+=> nrel_sc_text_translation:
+                    "file://htmls/economic_history.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
 
 <= nrel_section_decomposition:
 	{
-        section_of_economic_systems;
-        section_of_economic_events;
-        section_of_economic_thinkers
+    	section_of_economic_periods;
+	section_of_economic_thinkers;
+	section_of_economic_thought;
+	section_of_international_economy
 	};;
+

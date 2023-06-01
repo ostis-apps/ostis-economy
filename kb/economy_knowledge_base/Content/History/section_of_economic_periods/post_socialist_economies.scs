@@ -1,0 +1,68 @@
+section_of_post_socialist_economies
+=> nrel_main_idtf:
+	[Раздел. Постсоциалистическая экономика]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [section. post-socialist economies]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_collapse_of_ussr;
+		section_of_economic_reforms;
+		section_of_privatization_of_state_owned_enterprises;
+		section_of_emergence_of_new_forms_of_ownership
+	};;
+section_of_post_socialist_economies -> rrel_key_sc_element:
+	structural_changes_in_economy;
+	decline_in_economic_activity;
+	attraction_of_foreign_capital;;
+
+section_of_collapse_of_ussr
+=> nrel_main_idtf:
+[Раздел краха СССР]
+(* <- lang_ru;; *);;
+
+section_of_economic_reforms
+=> nrel_main_idtf:
+[Раздел экономических реформ]
+(* <- lang_ru;; *);;
+
+section_of_privatization_of_state_owned_enterprises
+=> nrel_main_idtf:
+[Раздел приватизации государственных предприятий]
+(* <- lang_ru;; *);;
+
+section_of_emergence_of_new_forms_of_ownership
+=> nrel_main_idtf:
+[Раздел появления новых форм собственности]
+(* <- lang_ru;; *);;
+
+structural_changes_in_economy
+=> nrel_main_idtf:
+[Структурные изменения в экономике]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/structural_changes_in_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+decline_in_economic_activity
+=> nrel_main_idtf:
+[Снижение экономической активности]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/decline_in_economic_activity.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+attraction_of_foreign_capital
+=> nrel_main_idtf:
+[Привлечение иностранного капитала]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/attraction_of_foreign_capital.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

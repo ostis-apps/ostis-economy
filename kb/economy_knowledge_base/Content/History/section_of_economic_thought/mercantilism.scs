@@ -1,0 +1,81 @@
+section_of_mercantilism
+=> nrel_main_idtf:
+	[Раздел. Меркантилизм]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Mercantilism]
+    (* <- lang_en;;*);
+
+=> nrel_sc_text_translation:
+                    "file://html/mercantilism.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+		section_of_silk_road_trading;
+		section_of_theory_of_balance_of_trade;
+		section_of_import_restriction_and_export_promotion;
+		section_of_popularization_of_ideas_of_mercantilism_in_europe;
+		section_of_development_of_mercantilism
+	};;
+section_of_mercantilism -> rrel_key_sc_element:
+	popularization_of_ideas_of_mercantilism;
+	development_of_mercantilism_in_russia;
+	criticism_of_mercantilism_in_classical_political_economy;;
+
+section_of_silk_road_trading
+=> nrel_main_idtf:
+[Раздел о торговле шелкового пути]
+(* <- lang_ru;; *);;
+
+section_of_theory_of_balance_of_trade
+=> nrel_main_idtf:
+[Раздел о теории баланса торговли]
+(* <- lang_ru;; *);;
+
+section_of_import_restriction_and_export_promotion
+=> nrel_main_idtf:
+[Раздел о ограничении импорта и стимулировании экспорта]
+(* <- lang_ru;; *);;
+
+section_of_popularization_of_ideas_of_mercantilism_in_europe
+=> nrel_main_idtf:
+[Раздел о популяризации идей меркантилизма в Европе]
+(* <- lang_ru;; *);;
+
+section_of_development_of_mercantilism
+=> nrel_main_idtf:
+[Раздел о развитии меркантилизма]
+(* <- lang_ru;; *);;
+
+popularization_of_ideas_of_mercantilism
+=> nrel_main_idtf:
+[Популяризация идей меркантилизма]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/popularization_of_ideas_of_mercantilism.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+development_of_mercantilism_in_russia
+=> nrel_main_idtf:
+[Развитие меркантилизма в России]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/development_of_mercantilism_in_russia.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+criticism_of_mercantilism_in_classical_political_economy
+=> nrel_main_idtf:
+[Критика меркантилизма в классической политической экономии]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/criticism_of_mercantilism_in_classical_political_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

@@ -1,0 +1,81 @@
+section_of_neoclassical_economic_theory
+=> nrel_main_idtf:
+	[Раздел. Неоклассическая экономическая теория]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Neoclassical economic theory]
+    (* <- lang_en;;*);
+
+=> nrel_sc_text_translation:
+                    "file://html/neoclassical_economic_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+		section_of_the_theory_of_marginal_utility;
+		section_of_development_of_theory_of_market_equilibrium;
+		section_of_indifference_curve;
+		section_of_theory_of_factors_of_production;
+		section_of_development_of_a_public_good_model
+	};;
+section_of_neoclassical_economic_theory -> rrel_key_sc_element:
+	theory_of_factors_of_production_and_production_function;
+	indifference_curve;
+	section_of_development_of_theory_of_market_equilibrium;;
+
+section_of_the_theory_of_marginal_utility
+=> nrel_main_idtf:
+[Раздел о теории предельной эффективности]
+(* <- lang_ru;; *);;
+
+section_of_development_of_theory_of_market_equilibrium
+=> nrel_main_idtf:
+[Раздел о развитии теории рыночного равновесия]
+(* <- lang_ru;; *);;
+
+section_of_indifference_curve
+=> nrel_main_idtf:
+[Раздел о кривой безразличия]
+(* <- lang_ru;; *);;
+
+section_of_theory_of_factors_of_production
+=> nrel_main_idtf:
+[Раздел о теории из факторов производства]
+(* <- lang_ru;; *);;
+
+section_of_development_of_a_public_good_model
+=> nrel_main_idtf:
+[Раздел о развитии режима общественного блага]
+(* <- lang_ru;; *);;
+
+theory_of_factors_of_production_and_production_function
+=> nrel_main_idtf:
+[Теория факторов производства и производственной функции]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/theory_of_factors_of_production_and_production_function.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+indifference_curve
+=> nrel_main_idtf:
+[Кривая безразличия]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/indifference_curve.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+development_of_theory_of_market_equilibrium
+=> nrel_main_idtf:
+[Развитие теории рыночного равновесия]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/development_of_theory_of_market_equilibrium.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

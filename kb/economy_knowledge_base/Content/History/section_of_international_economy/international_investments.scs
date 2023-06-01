@@ -1,0 +1,70 @@
+section_of_international_investments
+
+=> nrel_main_idtf:
+	[Раздел. Международные инвестиции]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. International investments]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+    section_of_investment_of_capital_in_colonies;
+    section_of_direct_foreign_investments;
+    section_of_asian_financial_market_crisis;
+    section_of_increasing_role_of_china_and_other_developing_countries_in_global_economy
+	};;
+section_of_international_investments -> rrel_key_sc_element:
+    global_belt_and_road_initiative;
+    investments_in_research_projects;
+    convergence_and_unification_of_enterprises;;
+
+section_of_investment_of_capital_in_colonies
+=> nrel_main_idtf:
+[Раздел о инвестиции капитала]
+(* <- lang_ru;; *);;
+
+section_of_direct_foreign_investments
+=> nrel_main_idtf:
+[Раздел о прямых иностранных инвестициях]
+(* <- lang_ru;; *);;
+
+section_of_asian_financial_market_crisis
+=> nrel_main_idtf:
+[Раздел о кризисе на азиатскиом финансовом рынке]
+(* <- lang_ru;; *);;
+
+section_of_increasing_role_of_china_and_other_developing_countries_in_global_economy
+=> nrel_main_idtf:
+[Раздел о увеличивающейся роли китая и других развивающихся стран в мировой экономике]
+(* <- lang_ru;; *);;
+
+global_belt_and_road_initiative
+=> nrel_main_idtf:
+[Глобальная инициатива один пояс один путь]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/global_belt_and_road_initiative.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+investments_in_research_projects
+=> nrel_main_idtf:
+[Инвестиции в исследовательские проекты]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/investments_in_research_projects.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+convergence_and_unification_of_enterprises
+=> nrel_main_idtf:
+[Конвергенцияи объединение отраслей предприятий]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/convergence_and_unification_of_enterprises.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

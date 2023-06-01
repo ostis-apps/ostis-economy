@@ -1,0 +1,76 @@
+section_of_neoconservative_economists
+=> nrel_main_idtf:
+	[Раздел. Неоконсервативные экономисты]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Neoconservative economists]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_milton_friedman;
+		section_of_friedrich_von_hayek;
+		section_of_robert_lucas;
+		section_of_george_stigler;
+		section_of_james_buchanan
+	};;
+section_of_neoconservative_economists -> rrel_key_sc_element:
+	school_of_neoconservative_economic_thought;
+	study_of_market_structures;
+	ideas_of_free_market;;
+
+
+section_of_milton_friedman
+=> nrel_main_idtf:
+[Раздел о Милтоне Фридмане]
+(* <- lang_ru;; *);;
+
+section_of_friedrich_von_hayek
+=> nrel_main_idtf:
+[Раздел о Фридрихе Фон Хайек]
+(* <- lang_ru;; *);;
+
+section_of_robert_lucas
+=> nrel_main_idtf:
+[Раздел о Роберте Лукасе]
+(* <- lang_ru;; *);;
+
+section_of_george_stigler
+=> nrel_main_idtf:
+[Раздел о Джордже Стиглере]
+(* <- lang_ru;; *);;
+
+section_of_james_buchanan
+=> nrel_main_idtf:
+[Раздел о Джеймсе Бьюкенене]
+(* <- lang_ru;; *);;
+
+school_of_neoconservative_economic_thought
+=> nrel_main_idtf:
+[Школы неоконсервативной экономической мысли]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/school_of_neoconservative_economic_thought.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+ideas_of_free_market
+=> nrel_main_idtf:
+[Идеи свободного рынка]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/ideas_of_free_market.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+study_of_market_structures
+=> nrel_main_idtf:
+[Изучение рыночных структур]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/study_of_market_structures.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

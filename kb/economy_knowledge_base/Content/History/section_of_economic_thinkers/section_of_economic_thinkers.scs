@@ -1,0 +1,66 @@
+section_of_economic_thinkers
+=> nrel_main_idtf:
+  [Раздел. Экономисты]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Economic thinkers]
+               (* <- lang_en;; *);
+
+=> nrel_sc_text_translation:
+                    "file://html/economic_thinkers.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+    section_of_classical_economists;
+    section_of_contemporary_economists;
+    section_of_historical_school_of_economic_thought;
+    section_of_marxist_school_of_economic_thought;
+    section_of_neoclassical_economists;
+    section_of_neoconservative_economists
+	};;
+	
+section_of_classical_economists
+=> nrel_sc_text_translation:
+                    "file://html/classical_economists.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_contemporary_economists
+=> nrel_sc_text_translation:
+                    "file://html/contemporary_economists.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_historical_school_of_economic_thought
+=> nrel_sc_text_translation:
+                    "file://html/historical_school_of_economic_thought.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_marxist_school_of_economic_thought
+=> nrel_sc_text_translation:
+                    "file://html/marxist_school_of_economic_thought.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_neoclassical_economists
+=> nrel_sc_text_translation:
+                    "file://html/neoclassical_economists.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_neoconservative_economists
+=> nrel_sc_text_translation:
+                    "file://html/neoconservative_economists.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+    

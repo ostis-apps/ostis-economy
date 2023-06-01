@@ -1,0 +1,75 @@
+section_of_new_classical_economic_theory
+=> nrel_main_idtf:
+	[Раздел. Новая классическая экономическая теория]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. New classical economic theory]
+    (* <- lang_en;;*);
+
+=> nrel_sc_text_translation:
+                    "file://html/new_classical_economic_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+		section_of_development_of_idea_of_rational_expectations_in_economics;
+		section_of_theory_of_ricardo_burroughs_effect;
+		section_of_development_of_models_of_rational_expectations;
+		section_of_criticism_of_keynesian_economic_theory
+	};;
+section_of_new_classical_economic_theory -> rrel_key_sc_element:
+	role_of_new_classical_economic_theory;
+	models_of_rational_expectations_and_marginal_utility;
+	idea_of_rational_expectations;;
+
+section_of_development_of_idea_of_rational_expectations_in_economics
+=> nrel_main_idtf:
+[раздел_о_развитии_идеи_рациональных_ожиданий_в_экономике]
+(* <- lang_ru;; *);;
+
+section_of_theory_of_ricardo_burroughs_effect
+=> nrel_main_idtf:
+[Раздел о теории эффекта Рикардо Берроуза]
+(* <- lang_ru;; *);;
+
+section_of_development_of_models_of_rational_expectations
+=> nrel_main_idtf:
+[Раздел о развитии моделей рациональных ожиданий]
+(* <- lang_ru;; *);;
+
+section_of_criticism_of_keynesian_economic_theory
+=> nrel_main_idtf:
+[Раздел о критике кейнсианской экономической теории]
+(* <- lang_ru;; *);;
+
+role_of_new_classical_economic_theory
+=> nrel_main_idtf:
+[Роль новой классической экономической теории]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/role_of_new_classical_economic_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+models_of_rational_expectations_and_marginal_utility
+=> nrel_main_idtf:
+[Модели рациональных ожиданий и предельной полезности]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/models_of_rational_expectations_and_marginal_utility.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+idea_of_rational_expectations
+=> nrel_main_idtf:
+[Идея рациональных ожиданий]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/idea_of_rational_expectations.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

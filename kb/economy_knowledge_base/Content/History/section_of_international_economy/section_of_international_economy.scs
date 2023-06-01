@@ -1,0 +1,65 @@
+section_of_international_economy
+=> nrel_main_idtf:
+  [Раздел. Международная экономика]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. International economy]
+               (* <- lang_en;; *);
+
+=> nrel_sc_text_translation:
+                    "file://htmls/international_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+    section_of_international_debt;
+    section_of_international_economic_integration;
+    section_of_international_investments;
+    section_of_international_trading;
+    section_of_international_labor_market;
+    section_of_international_finance
+	};;
+    
+section_of_international_debt
+=> nrel_sc_text_translation:
+                    "file://html/international_debt.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_international_economic_integration
+=> nrel_sc_text_translation:
+                    "file://html/international_economic_integration.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_international_investments
+=> nrel_sc_text_translation:
+                    "file://html/international_investments.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_international_labor_market
+=> nrel_sc_text_translation:
+                    "file://html/international_labor_market.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_international_trading
+=> nrel_sc_text_translation:
+                    "file://html/international_trading.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_international_finance
+=> nrel_sc_text_translation:
+                    "file://html/international_finance.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

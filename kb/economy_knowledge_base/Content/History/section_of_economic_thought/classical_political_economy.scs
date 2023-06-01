@@ -1,0 +1,75 @@
+section_of_classical_political_economy
+=> nrel_main_idtf:
+	[Раздел. Классическая политическая экономка]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Classical political economy]
+    (* <- lang_en;;*);
+    
+=> nrel_sc_text_translation:
+                    "file://html/classical_political_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+		section_of_ideas_on_free_competition;
+		section_of_development_of_theory_of_division_of_labor;
+		section_of_development_of_rent_theory;
+		section_of_systematization_of_economic_knowledge
+	};;
+section_of_classical_political_economy -> rrel_key_sc_element:
+	open_market;
+	labor_theory_of_value;
+	concept_of_comparative_advantage;;
+
+section_of_ideas_on_free_competition
+=> nrel_main_idtf:
+[Раздел о идеях свободного соревнования]
+(* <- lang_ru;; *);;
+
+section_of_development_of_theory_of_division_of_labor
+=> nrel_main_idtf:
+[Раздел о развитии теории разделения труда]
+(* <- lang_ru;; *);;
+
+section_of_development_of_rent_theory
+=> nrel_main_idtf:
+[Раздел о развитии теории ренты]
+(* <- lang_ru;; *);;
+
+section_of_systematization_of_economic_knowledge
+=> nrel_main_idtf:
+[Раздел систематизации экономических знаний]
+(* <- lang_ru;; *);;
+
+open_market
+=> nrel_main_idtf:
+[Свободный рынок]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/open_market.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+labor_theory_of_value
+=> nrel_main_idtf:
+[Трудовая теория стоимости]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/labor_theory_of_value.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+concept_of_comparative_advantage
+=> nrel_main_idtf:
+[Концепция компаративного преимущества]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/concept_of_comparative_advantage.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

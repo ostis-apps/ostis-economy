@@ -1,0 +1,24 @@
+section_of_economic_thought
+=> nrel_main_idtf:
+  [Раздел. Экономическая теория]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Economic thought]
+               (* <- lang_en;; *);
+
+=> nrel_sc_text_translation:
+                    "file://html/economic_thought.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+    section_of_classical_political_economy;
+    section_of_keynesian_economics;
+    section_of_mercantilism;
+    section_of_neoclassical_economic_theory;
+    section_of_new_classical_economic_theory;
+    section_of_new_economic_geography
+	};;
+	

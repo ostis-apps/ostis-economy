@@ -1,0 +1,70 @@
+section_of_marxist_school_of_economic_thought
+=> nrel_main_idtf:
+	[Раздел. Марксистская школа мысли]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [section. marxist school of economic thought]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_karl_marx;
+		section_of_friedrich_engels;
+		section_of_vladimir_lenin;
+		section_of_rosa_luxembourg
+	};;
+
+section_of_marxist_school_of_economic_thought -> rrel_key_sc_element:
+	statement_of_need_for_revolution_of_proletariat;
+	basic_principles_of_marxism;
+	the_struggle_for_liberation_of_working_class;;
+
+section_of_karl_marx
+=> nrel_main_idtf:
+[Раздел о Карл Марксе]
+(* <- lang_ru;; *);;
+
+section_of_friedrich_engels
+=> nrel_main_idtf:
+[Раздел о Фридрихе Энгельсе]
+(* <- lang_ru;; *);;
+
+section_of_vladimir_lenin
+=> nrel_main_idtf:
+[Раздел о Владимире Ленине]
+(* <- lang_ru;; *);;
+
+section_of_rosa_luxembourg
+=> nrel_main_idtf:
+[Раздел о Розе Люксембург]
+(* <- lang_ru;; *);;
+
+statement_of_need_for_revolution_of_proletariat
+=> nrel_main_idtf:
+[Утверждение о необходимости революции пролетариата]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/statement_of_need_for_revolution_of_proletariat.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+basic_principles_of_marxism
+=> nrel_main_idtf:
+[Основные принципы марксизма]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/basic_principles_of_marxism.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+the_struggle_for_liberation_of_working_class
+=> nrel_main_idtf:
+[Борьба за освобождение рабочего класса]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/the_struggle_for_liberation_of_working_class.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

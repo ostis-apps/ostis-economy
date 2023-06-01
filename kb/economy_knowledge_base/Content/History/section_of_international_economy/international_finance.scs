@@ -1,0 +1,70 @@
+section_of_international_finance
+=> nrel_main_idtf:
+	[Раздел. Международные финансы]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. International finance]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+    section_of_creation_of_gold_standard_in_19th_century;
+    section_of_rise_of_international_banks;
+    section_of_formation_of_international_monetary_fund;
+    section_of_crisis_of_global_financial_system_in_2008
+	};;
+section_of_international_finance -> rrel_key_sc_element:
+    rapid_growth_of_international_financial_markets;
+    strengthening_the_role_of_new_financial_centers_such_as_hong_kong_and_shanghai;
+    rise_of_international_banks_in_19_20th_century;;
+
+section_of_creation_of_gold_standard_in_19th_century
+=> nrel_main_idtf:
+[Раздел о создании золотого стандарта  19м веке]
+(* <- lang_ru;; *);;
+
+section_of_rise_of_international_banks
+=> nrel_main_idtf:
+[Раздел о росте из международных банков]
+(* <- lang_ru;; *);;
+
+section_of_formation_of_international_monetary_fund
+=> nrel_main_idtf:
+[Раздел о формировании международного монетарного фонда]
+(* <- lang_ru;; *);;
+
+section_of_crisis_of_global_financial_system_in_2008
+=> nrel_main_idtf:
+[Раздел о кризисе глобальной финансовой системы в 2008]
+(* <- lang_ru;; *);;
+
+rapid_growth_of_international_financial_markets
+=> nrel_main_idtf:
+[Быстрый рост международных финансовых рынков]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/rapid_growth_of_international_financial_markets.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+strengthening_the_role_of_new_financial_centers_such_as_hong_kong_and_shanghai
+=> nrel_main_idtf:
+[Укрепление роли новых финансовых центров таких как гонконг и шанхай]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/strengthening_the_role_of_new_financial_centers_such_as_hong_kong_and_shanghai.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+rise_of_international_banks_in_19_20th_century
+=> nrel_main_idtf:
+[Подьем международных банков в 19-20м веке]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/rise_of_international_banks_in_19_20th_century.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+

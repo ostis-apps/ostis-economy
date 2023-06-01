@@ -1,0 +1,69 @@
+section_of_keynesian_economics
+=> nrel_main_idtf:
+	[Раздел. Кейнсианская экономическая теория]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Keynesian Economics]
+    (* <- lang_en;;*);
+    
+    => nrel_sc_text_translation:
+                    "file://html/keynesian_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+		section_of_development_of_the_concept_of_investment;
+		section_of_theory_of_general_equilibrium;
+		section_of_discussion_around_keynesian_economics
+	};;
+section_of_keynesian_economics -> rrel_key_sc_element:
+	multiplier_effect;
+	theory_of_general_equilibrium_and_uncertainty_of_future;
+	monetarist_economics_school;;
+
+section_of_development_of_the_concept_of_investment
+=> nrel_main_idtf:
+[Раздел о развитии концепции инвестиций]
+(* <- lang_ru;; *);;
+
+section_of_theory_of_general_equilibrium
+=> nrel_main_idtf:
+[Раздел теории общего равновесия]
+(* <- lang_ru;; *);;
+
+section_of_discussion_around_keynesian_economics
+=> nrel_main_idtf:
+[Раздел о обсуждение вокруг кейнсианской экономики]
+(* <- lang_ru;; *);;
+
+multiplier_effect
+=> nrel_main_idtf:
+[Эффект мультипликатора]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/multiplier_effect.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+theory_of_general_equilibrium_and_uncertainty_of_future
+=> nrel_main_idtf:
+[Теория общего равновесия и неопределенности будущего]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/theory_of_general_equilibrium_and_uncertainty_of_future.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+monetarist_economics_school
+=> nrel_main_idtf:
+[Монетаристская школа экономики]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/monetarist_economics_school.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

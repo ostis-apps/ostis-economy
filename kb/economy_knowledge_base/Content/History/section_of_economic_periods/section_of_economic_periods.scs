@@ -1,0 +1,66 @@
+section_of_economic_periods
+=> nrel_main_idtf:
+  [Раздел. Периоды экономики]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. Economic periods]
+               (* <- lang_en;; *);
+
+=> nrel_sc_text_translation:
+                    "file://html/economic_periods.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+<= nrel_section_decomposition:
+	{
+    section_of_ancient_economy;
+    section_of_industrial_revolution;
+    section_of_modern_economy;
+    section_of_post_industrial_economy;
+    section_of_post_socialist_economies;
+    section_of_renaissance_and_trade_revolution
+	};;
+
+section_of_ancient_economy
+=> nrel_sc_text_translation:
+                    "file://html/ancient_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_industrial_revolution
+=> nrel_sc_text_translation:
+                    "file://html/industrial_revolution.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_modern_economy
+=> nrel_sc_text_translation:
+                    "file://html/modern_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_post_industrial_economy
+=> nrel_sc_text_translation:
+                    "file://html/post_industrial_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_post_socialist_economies
+=> nrel_sc_text_translation:
+                    "file://html/post_socialist_economies.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                        
+section_of_renaissance_and_trade_revolution
+=> nrel_sc_text_translation:
+                    "file://html/renaissance_and_trade_revolution.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+    

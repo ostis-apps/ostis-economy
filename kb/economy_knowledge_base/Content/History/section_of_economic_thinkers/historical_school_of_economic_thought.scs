@@ -1,0 +1,69 @@
+section_of_historical_school_of_economic_thought
+=> nrel_main_idtf:
+	[Раздел. Историческая школа экономической мысли]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. historical school of economic thought]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_wilhelm_rosenhartz;
+		section_of_gustav_schmoller;
+		section_of_johannes_konrad;
+		section_of_karl_kneipp
+	};;
+section_of_historical_school_of_economic_thought -> rrel_key_sc_element:
+	theory_of_val;
+	research_market_competition;
+	role_of_supply_and_demand;;
+
+section_of_wilhelm_rosenhartz
+=> nrel_main_idtf:
+[Раздел о Вильгельме Розенгарце]
+(* <- lang_ru;; *);;
+
+section_of_gustav_schmoller
+=> nrel_main_idtf:
+[Раздел о Густаве Шмоллере]
+(* <- lang_ru;; *);;
+
+section_of_johannes_konrad
+=> nrel_main_idtf:
+[Раздел о Йоханнесе Конраде]
+(* <- lang_ru;; *);;
+
+section_of_karl_kneipp
+=> nrel_main_idtf:
+[Раздел о Карле Кнайпе]
+(* <- lang_ru;; *);;
+
+theory_of_val
+=> nrel_main_idtf:
+[Валовая теория]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/theory_of_val.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+research_market_competition
+=> nrel_main_idtf:
+[Исследование рыночной конкуренции]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/research_market_competition.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+role_of_supply_and_demand
+=> nrel_main_idtf:
+[Роль предложения и спроса]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/role_of_supply_and_demand.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

@@ -1,0 +1,69 @@
+section_of_modern_economy
+=> nrel_main_idtf:
+	[Раздел. Современная экономика]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [section. modern economy]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_economics_of_shared_accessibility;
+		section_of_shared_consumption_economy;
+		section_of_economics_social;
+		section_of_economics_of_sustainable_development
+	};;
+section_of_modern_economy -> rrel_key_sc_element:
+prevention_of_monopolies_and_inequality;
+distribution_of_resources_in_accordance_with_needs_of_society;
+orientation_to_meet_needs_of_society;;
+
+section_of_economics_of_shared_accessibility
+=> nrel_main_idtf:
+[Раздел экономики общей доступности]
+(* <- lang_ru;; *);;
+
+section_of_shared_consumption_economy
+=> nrel_main_idtf:
+[Раздел экономики разделяемого потребления]
+(* <- lang_ru;; *);;
+
+section_of_economics_social    
+=> nrel_main_idtf:
+[Раздел экономики социальной ответственности]
+(* <- lang_ru;; *);;
+
+section_of_economics_of_sustainable_development
+=> nrel_main_idtf:
+[Раздел экономики устойчивого развития]
+(* <- lang_ru;; *);;
+
+prevention_of_monopolies_and_inequality
+=> nrel_main_idtf:
+[Предотвращение монополий и неравенства]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/prevention_of_monopolies_and_inequality.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+orientation_to_meet_needs_of_society
+=> nrel_main_idtf:
+[Ориентация на удовлетворение потребностей общества]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/orientation_to_meet_needs_of_society.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+distribution_of_resources_in_accordance_with_needs_of_society
+=> nrel_main_idtf:
+[Распределение ресурсов согласно нуждам общества]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/distribution_of_resources_in_accordance_with_needs_of_society.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

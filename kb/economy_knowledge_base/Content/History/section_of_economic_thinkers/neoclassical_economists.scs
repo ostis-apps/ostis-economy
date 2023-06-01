@@ -1,0 +1,64 @@
+section_of_neoclassical_economists
+=> nrel_main_idtf:
+	[Раздел. Неоклассические эконономисты]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Neoclassical economists]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_alfred_marshall;
+		section_of_leonardo_wolff;
+		section_of_edgeworth_phillips
+	};;
+
+section_of_neoclassical_economists -> rrel_key_sc_element:
+	development_of_modern_economic_science;
+	microeconomic_theory;
+	main_theories_of_neoclassicism;;
+
+section_of_alfred_marshall
+=> nrel_main_idtf:
+[Раздел о Альфреде Маршалле]
+(* <- lang_ru;; *);;
+
+section_of_leonardo_wolff
+=> nrel_main_idtf:
+[Раздел о Леонардо Вольффе]
+(* <- lang_ru;; *);;
+
+section_of_edgeworth_phillips
+=> nrel_main_idtf:
+[Раздел о Эджворте Филлипсе]
+(* <- lang_ru;; *);;
+
+development_of_modern_economic_science
+=> nrel_main_idtf:
+[Развитие современной экономической науки]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/development_of_modern_economic_science.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+microeconomic_theory
+=> nrel_main_idtf:
+[Микроэкономическая теория]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/microeconomic_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+main_theories_of_neoclassicism
+=> nrel_main_idtf:
+[Основные теории неоклассицизма]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/main_theories_of_neoclassicism.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

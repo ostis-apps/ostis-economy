@@ -1,0 +1,75 @@
+section_of_contemporary_economists
+=> nrel_main_idtf:
+	[Раздел. Современные экономисты]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. contemporary economists]
+    (* <- lang_en;;*);
+
+<= nrel_section_decomposition:
+	{
+		section_of_joseph_stiglitz;
+		section_of_paul_krugman;
+		section_of_jeremy_rifkin;
+		section_of_thomas_piketty;
+		section_of_emmanuel_saez
+	};;
+section_of_contemporary_economists -> rrel_key_sc_element:
+	economic_policy_formation;
+	economic_growth_theory;
+	economics_of_behavior;;
+
+section_of_joseph_stiglitz
+=> nrel_main_idtf:
+[Раздел о Джозефе Стиглице]
+(* <- lang_ru;; *);;
+
+section_of_paul_krugman
+=> nrel_main_idtf:
+[Раздел о Поле Кругмане]
+(* <- lang_ru;; *);;
+
+section_of_jeremy_rifkin
+=> nrel_main_idtf:
+[Раздел о Джереми Рифкине]
+(* <- lang_ru;; *);;
+
+section_of_thomas_piketty
+=> nrel_main_idtf:
+[Раздел о Томасе Пикетти]
+(* <- lang_ru;; *);;
+
+section_of_emmanuel_saez
+=> nrel_main_idtf:
+[Раздел о Джеффри Саксе]
+(* <- lang_ru;; *);;
+
+economic_policy_formation
+=> nrel_main_idtf:
+[Формирование экономической политики]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/economic_policy_formation.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+economic_growth_theory
+=> nrel_main_idtf:
+[Теория экономического роста]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation:
+                    "file://htmls/economic_growth_theory.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+economics_of_behavior
+=> nrel_main_idtf:
+[Экономика поведения]
+(* <- lang_ru;; *);
+=> nrel_sc_text_translation: 
+                    "file://htmls/economics_of_behavior.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
