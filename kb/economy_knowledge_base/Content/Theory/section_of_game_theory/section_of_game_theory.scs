@@ -27,7 +27,7 @@ section_of_game_theory-> rrel_key_sc_element:
     player;
     win;;
 
-players
+player
 => nrel_main_idtf:
 [Игрок]
 (* <- lang_ru;; *);
@@ -37,7 +37,7 @@ players
                             => nrel_format: format_html;;
                         *);;
 
-wins
+win
 => nrel_main_idtf:
 [Выигрыш]
 (* <- lang_ru;; *);
