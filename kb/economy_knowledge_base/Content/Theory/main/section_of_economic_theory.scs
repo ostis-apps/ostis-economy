@@ -1,0 +1,22 @@
+economic_theory
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Экономическая теория]
+            (*<-lang_ru;;*);
+          [Economic theory]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Прибыль)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/economic_theory_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+

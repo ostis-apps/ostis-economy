@@ -1,0 +1,17 @@
+section_subject_domain_of_consumption_theory
+=> nrel_main_idtf:
+		[Раздел. Предметная область теории потребления]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of consumption theory] (* <- lang_en;; *);;
+
+section_subject_domain_of_consumption_theory<= nrel_section_decomposition:
+{
+section_subject_domain_of_theory_of_aggregate_consumption;
+section_subject_domain_of_theory_of_individual_consumption
+};;
+
+section_subject_domain_of_consumption_theory->rrel_key_sc_element:
+subject_domain_of_consumption_theory;
+consumption_theory;;
+
+section_subject_domain_of_consumption_theory <- non_atomic_section;;

@@ -1,0 +1,14 @@
+section_subject_domain_of_cooperative_game_theory
+=> nrel_main_idtf:
+		[Раздел. Предметная область кооперативной теории игр]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of cooperative game theory] (* <- lang_en;; *);;
+
+section_subject_domain_of_cooperative_game_theory->rrel_key_sc_element:
+subject_domain_of_cooperative_game_theory;
+cooperative_game_theory;
+coalition;
+transferable_utility_games;
+non_transferable_utility_games;;
+
+section_subject_domain_of_cooperative_game_theory <- non_atomic_section;;

@@ -1,0 +1,14 @@
+section_subject_domain_of_theory_of_individual_consumption
+=> nrel_main_idtf:
+		[Раздел. Предметная область теории индивидуального потребления]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of theory of individual consumption] (* <- lang_en;; *);;
+
+section_subject_domain_of_theory_of_individual_consumption->rrel_key_sc_element:
+subject_domain_of_theory_of_individual_consumption;
+theory_of_individual_consumption;
+elasticity_of_demand;
+equilibrium_of_consumption;
+marginal_utility;;
+
+section_subject_domain_of_theory_of_individual_consumption <- non_atomic_section;;

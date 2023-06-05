@@ -1,0 +1,13 @@
+section_subject_domain_of_theory_of_technological_change
+=> nrel_main_idtf:
+		[Раздел. Предметная область теории технологических изменений]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of theory of technological change] (* <- lang_en;; *);;
+
+section_subject_domain_of_theory_of_technological_change->rrel_key_sc_element:
+subject_domain_of_theory_of_technological_change;
+diffusion;
+innovation;
+theory_of_technological_change;;
+
+section_subject_domain_of_theory_of_technological_change <- non_atomic_section;;

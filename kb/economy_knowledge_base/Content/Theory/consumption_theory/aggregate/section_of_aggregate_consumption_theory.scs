@@ -1,0 +1,88 @@
+inflation
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Инфляция]
+            (*<-lang_ru;;*);
+          [Inflation]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Инфляция)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/inflation_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+national_income
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Национальный доход]
+            (*<-lang_ru;;*);
+          [National income]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Национальный доход)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/national_income_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+production_structure
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Структура производства]
+            (*<-lang_ru;;*);
+          [Production structure]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Структура производства)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/production_structure_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+theory_of_aggregate_consumption
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория агрегированного потребления]
+            (*<-lang_ru;;*);
+          [Theory of aggregate consumption]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория агрегированного потребления)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_aggregate_consumption_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

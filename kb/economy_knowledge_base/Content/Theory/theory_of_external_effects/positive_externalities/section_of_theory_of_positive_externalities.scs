@@ -1,0 +1,21 @@
+theory_of_positive_externalities
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория положительных внешних эффектов]
+            (*<-lang_ru;;*);
+          [Theory of negative externalities]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория положительных внешних эффектов)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_positive_externalities_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

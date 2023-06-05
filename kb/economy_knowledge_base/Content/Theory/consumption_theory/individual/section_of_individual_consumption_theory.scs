@@ -1,0 +1,87 @@
+elasticity_of_demand
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Эластичносность спроса]
+            (*<-lang_ru;;*);
+          [Elasticity of demand]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Эластичносность спроса)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/elasticity_of_demand_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+equilibrium_of_consumption
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Равновесие потребления]
+            (*<-lang_ru;;*);
+          [Equilibrium of consumption]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Равновесие потребления)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/equilibrium_of_consumption_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+marginal_utility
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Предельная полезность]
+            (*<-lang_ru;;*);
+          [Marginal utility]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Предельная полезность)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/marginal_utility_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+theory_of_individual_consumption
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория индивидуального потребления]
+            (*<-lang_ru;;*);
+          [Theory of individual consumption]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория индивидуального потребления)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_individual_consumption_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

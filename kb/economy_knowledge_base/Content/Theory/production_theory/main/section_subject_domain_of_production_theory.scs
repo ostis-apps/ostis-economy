@@ -1,0 +1,22 @@
+section_subject_domain_of_production_theory
+=> nrel_main_idtf:
+		[Раздел. Предметная область теории производства]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of production theory] (* <- lang_en;; *);;
+
+section_subject_domain_of_production_theory<= nrel_section_decomposition:
+{
+section_subject_domain_of_theory_of_cost;
+section_subject_domain_of_theory_of_firm_behavior;
+section_subject_domain_of_theory_of_market_structure;
+section_subject_domain_of_theory_of_production_functions;
+section_subject_domain_of_theory_of_technological_change
+};;
+
+section_subject_domain_of_production_theory->rrel_key_sc_element:
+subject_domain_of_production_theory;
+production_theory;
+income;
+profit;;
+
+section_subject_domain_of_production_theory <- non_atomic_section;;

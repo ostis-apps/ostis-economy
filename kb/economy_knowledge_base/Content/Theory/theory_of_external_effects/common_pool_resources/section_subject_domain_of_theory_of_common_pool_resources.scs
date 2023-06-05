@@ -1,0 +1,13 @@
+section_subject_domain_of_theory_of_common_pool_resources
+=> nrel_main_idtf:
+		[Раздел. Предметная область теории общих ресурсов]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of theory of common pool resources] (* <- lang_en;; *);;
+
+section_subject_domain_of_theory_of_common_pool_resources->rrel_key_sc_element:
+subject_domain_of_theory_of_common_pool_resources;
+theory_of_common_pool_resources;
+overuse;
+shared_resources;;
+
+section_subject_domain_of_theory_of_common_pool_resources <- non_atomic_section;;

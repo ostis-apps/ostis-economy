@@ -1,0 +1,65 @@
+information
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Информация]
+            (*<-lang_ru;;*);
+          [Information]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Информация)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/information_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+nash_equality
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Равновесие Нэша]
+            (*<-lang_ru;;*);
+          [Nash equality]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Равновесие Нэша)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/nash_equality_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+non_cooperative_game_theory
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Некооперативная теория игр]
+            (*<-lang_ru;;*);
+          [Non-cooperative game theory]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Некооперативная теория игр)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/non_cooperative_game_theory_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

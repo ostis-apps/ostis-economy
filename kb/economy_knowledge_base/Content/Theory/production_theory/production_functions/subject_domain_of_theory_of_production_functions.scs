@@ -1,0 +1,13 @@
+subject_domain_of_theory_of_production_functions
+=> nrel_main_idtf:
+[Предметная область. Теория производственных функций]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Subject domain. Theory of production functions]
+(* <- lang_en;;*);
+
+<-not_enough_formed_structure;;
+
+
+subject_domain_of_theory_of_production_functions->rrel_maximum_studied_object_class:theory_of_production_functions;;
+subject_domain_of_theory_of_production_functions<-subject_domain;;

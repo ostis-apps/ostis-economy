@@ -1,0 +1,13 @@
+subject_domain_of_theory_of_public_goods
+=> nrel_main_idtf:
+[Предметная область. Теория общественных благ]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Subject domain. Theory of public goods]
+(* <- lang_en;;*);
+
+<-not_enough_formed_structure;;
+
+
+subject_domain_of_theory_of_public_goods->rrel_maximum_studied_object_class:theory_of_public_goods;;
+subject_domain_of_theory_of_public_goods<-subject_domain;;

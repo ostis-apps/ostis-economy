@@ -1,0 +1,14 @@
+section_subject_domain_of_bayesian_game_theory
+=> nrel_main_idtf:
+		[Раздел. Предметная область байесовой теории игр]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of bayesian game theory] (* <- lang_en;; *);;
+
+section_subject_domain_of_bayesian_game_theory->rrel_key_sc_element:
+subject_domain_of_bayesian_game_theory;
+bayesian_game_theory;
+bayesian_equilibrium;
+probabilistic_thinking;;
+
+
+section_subject_domain_of_bayesian_game_theory <- non_atomic_section;;

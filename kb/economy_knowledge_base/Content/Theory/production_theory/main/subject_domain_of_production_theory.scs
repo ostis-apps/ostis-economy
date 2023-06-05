@@ -1,0 +1,28 @@
+subject_domain_of_production_theory
+=> nrel_main_idtf:
+[Предметная область. Теория производства]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Subject domain. Production theory]
+(* <- lang_en;;*);
+
+<-not_enough_formed_structure;;
+
+subject_domain_of_production_theory=>nrel_private_subject_domain:
+subject_domain_of_theory_of_cost(*<-sc_node_struct;;*);
+subject_domain_of_theory_of_firm_behavior(*<-sc_node_struct;;*);
+subject_domain_of_theory_of_market_structure(*<-sc_node_struct;;*);
+subject_domain_of_theory_of_production_functions(*<-sc_node_struct;;*);
+subject_domain_of_theory_of_technological_change(*<-sc_node_struct;;*);;
+
+
+subject_domain_of_production_theory->rrel_maximum_studied_object_class:production_theory;;
+
+subject_domain_of_production_theory->rrel_not_maximum_studied_object_class:
+theory_of_firm_behavior;
+theory_of_cost;
+theory_of_production_functions;
+theory_of_technological_change;
+theory_of_market_structure;;
+
+subject_domain_of_production_theory<-subject_domain;;

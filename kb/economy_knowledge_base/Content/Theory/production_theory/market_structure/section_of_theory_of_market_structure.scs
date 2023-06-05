@@ -1,0 +1,67 @@
+number_of_sellers
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Число продавцов]
+            (*<-lang_ru;;*);
+          [Number of sellers]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Число продавцов)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/number_of_sellers_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+product_features
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Характеристики продукта]
+            (*<-lang_ru;;*);
+          [Product features]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Характеристики продукта)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/product_features_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+theory_of_market_structure
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория структуры рынка]
+            (*<-lang_ru;;*);
+          [Theory of market structure]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория структуры рынка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_market_structure_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+

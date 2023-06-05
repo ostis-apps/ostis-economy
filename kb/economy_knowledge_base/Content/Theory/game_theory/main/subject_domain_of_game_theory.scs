@@ -1,0 +1,27 @@
+subject_domain_of_game_theory
+=> nrel_main_idtf:
+[Предметная область. Теория игр]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Subject domain. Game theory]
+(* <- lang_en;;*);
+
+<-not_enough_formed_structure;;
+
+subject_domain_of_game_theory=>nrel_private_subject_domain:
+subject_domain_of_non_cooperative_game_theory(*<-sc_node_struct;;*);
+subject_domain_of_cooperative_game_theory(*<-sc_node_struct;;*);
+subject_domain_of_bayesian_game_theory(*<-sc_node_struct;;*);
+subject_domain_of_evolutionary_game_theory(*<-sc_node_struct;;*);
+subject_domain_of_algorithmic_game_theory(*<-sc_node_struct;;*);;
+
+
+subject_domain_of_game_theory->rrel_maximum_studied_object_class:game_theory;;
+subject_domain_of_game_theory->rrel_not_maximum_studied_object_class:
+algorithmic_game_theory;
+bayesian_game_theory;
+evolutionary_game_theory;
+non_cooperative_game_theory;
+cooperative_game_theory;;
+
+subject_domain_of_game_theory<-subject_domain;;

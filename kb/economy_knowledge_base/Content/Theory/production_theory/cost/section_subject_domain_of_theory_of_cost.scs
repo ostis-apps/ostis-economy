@@ -1,0 +1,13 @@
+section_subject_domain_of_theory_of_cost
+=> nrel_main_idtf:
+		[Раздел. Предметная область теории издержек]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of theory of cost] (* <- lang_en;; *);;
+
+section_subject_domain_of_theory_of_cost->rrel_key_sc_element:
+subject_domain_of_theory_of_cost;
+cost_curve;
+point_of_minimum_cost;
+theory_of_cost;;
+
+section_subject_domain_of_theory_of_cost <- non_atomic_section;;

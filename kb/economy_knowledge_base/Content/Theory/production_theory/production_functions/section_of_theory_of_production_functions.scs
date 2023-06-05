@@ -1,0 +1,68 @@
+law_of_diminishing_returns
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Закон убывающей производительности]
+            (*<-lang_ru;;*);
+          [Law of diminishing returns]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Закон убывающей производительности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/law_of_diminishing_returns_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+production_function
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Функция производства]
+            (*<-lang_ru;;*);
+          [Production function]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Функция производства)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/production_function_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+
+theory_of_production_functions
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория производственных функций]
+            (*<-lang_ru;;*);
+          [Theory of production functions]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория производственных функций)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_production_functions_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+

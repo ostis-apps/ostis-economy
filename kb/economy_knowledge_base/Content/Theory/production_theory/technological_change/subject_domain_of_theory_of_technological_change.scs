@@ -1,0 +1,13 @@
+subject_domain_of_theory_of_technological_change
+=> nrel_main_idtf:
+[Предметная область. Теория технологических изменений]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Subject domain. Theory of technological change]
+(* <- lang_en;;*);
+
+<-not_enough_formed_structure;;
+
+
+subject_domain_of_theory_of_technological_change->rrel_maximum_studied_object_class:theory_of_technological_change;;
+subject_domain_of_theory_of_technological_change<-subject_domain;;

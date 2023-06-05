@@ -1,0 +1,65 @@
+theory_of_public_goods
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория общественных благ]
+            (*<-lang_ru;;*);
+          [Theory of public goods]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория общественных благ)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_public_goods_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+public_goods
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Общественные блага]
+            (*<-lang_ru;;*);
+          [Public goods]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Общественные блага)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/public_goods_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+imperfect_competition
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Несовершенная конкуренция]
+            (*<-lang_ru;;*);
+          [Imperfect competition]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Несовершенная конкуренция)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/imperfect_competition_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

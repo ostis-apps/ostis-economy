@@ -1,0 +1,68 @@
+firm_goals
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Кривая издержек]
+            (*<-lang_ru;;*);
+          [Cost curve]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Кривая издержек)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/firm_goals_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+tech_level
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Точка минимальных издержек]
+            (*<-lang_ru;;*);
+          [Point of minimum cost]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Точка минимальных издержек)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/tech_level_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+
+theory_of_firm_behavior
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория поведения фирмы]
+            (*<-lang_ru;;*);
+          [Theory of firm behavior]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория издержек)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_firm_behavior_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+

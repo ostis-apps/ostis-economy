@@ -1,0 +1,88 @@
+coalition
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Коалиция]
+            (*<-lang_ru;;*);
+          [Coalition]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Коалиция)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/coalition_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+transferable_utility_games
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Игры с передачей выигрыша]
+            (*<-lang_ru;;*);
+          [Transferable utility games]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Игры с передачей выигрыша)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/transferable_utility_games_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+non_transferable_utility_games
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Игры без передачи выигрыша]
+            (*<-lang_ru;;*);
+          [Non-transferable utility games]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Игры без передачи выигрыша)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/non_transferable_utility_games_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+cooperative_game_theory
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Кооперативная теория игр]
+            (*<-lang_ru;;*);
+          [Cooperative game theory]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Кооперативная теория игр)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/cooperative_game_theory_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

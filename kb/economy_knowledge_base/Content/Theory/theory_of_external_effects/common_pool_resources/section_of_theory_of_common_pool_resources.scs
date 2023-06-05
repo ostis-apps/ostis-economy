@@ -1,0 +1,65 @@
+overuse
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Чрезмерное использование]
+            (*<-lang_ru;;*);
+          [Overuse]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Чрезмерное использование)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/overuse_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+shared_resources
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Общественные ресурсы]
+            (*<-lang_ru;;*);
+          [Shared resources]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Общественные ресурсы)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/shared_resources_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+theory_of_common_pool_resources
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория общих ресурсов]
+            (*<-lang_ru;;*);
+          [Theory of common pool resources]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория общих ресурсов)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_common_pool_resources_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

@@ -1,0 +1,68 @@
+cost_curve
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Кривая издержек]
+            (*<-lang_ru;;*);
+          [Cost curve]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Кривая издержек)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/cost_curve_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+point_of_minimum_cost
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Точка минимальных издержек]
+            (*<-lang_ru;;*);
+          [Point of minimum cost]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Точка минимальных издержек)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/point_of_minimum_cost_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+
+theory_of_cost
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория издержек]
+            (*<-lang_ru;;*);
+          [Theory of cost]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория издержек)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_cost_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+

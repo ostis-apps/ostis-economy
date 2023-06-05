@@ -1,0 +1,65 @@
+bayesian_equilibrium
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Информация]
+            (*<-lang_ru;;*);
+          [Information]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Равновесие Байеса)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/bayesian_equilibrium_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+probabilistic_thinking
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Вероятностное мышление]
+            (*<-lang_ru;;*);
+          [Probabilistic thinking]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Вероятностное мышление)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/probabilistic_thinking_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+bayesian_game_theory
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Байесова теория игр]
+            (*<-lang_ru;;*);
+          [Bayesian game theory]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Байесова теория игр)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/bayesian_game_theory_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
