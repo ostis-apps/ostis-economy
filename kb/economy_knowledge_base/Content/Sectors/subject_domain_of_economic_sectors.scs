@@ -6,26 +6,35 @@ subject_domain_of_economic_sectors
     [Subject domain. Economy sectors]
     	(* <- lang_en;;*);
 
-=> nrel_sc_text_translation:
-                    "file://htmls/economic_sector.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *); 
+=>nrel_private_subject_domain:
+    subject_domain_of_primary_sector;
+	subject_domain_of_secondary_sector;
+	subject_domain_of_tertiary_sector;
+	subject_domain_of_real_sector;
+	subject_domain_of_financial_sector;
 
+->rrel_maximum_studied_object_class:
+        concept_economic_sector;
 
-<= nrel_section_decomposition:
-	{
-    section_of_primary_sector;
-	section_of_secondary_sector;
-	section_of_tertiary_sector;
-	section_of_quaternary_sector;
-	section_of_real_sector;
-	section_of_financial_sector
-	};;
+->rrel_not_maximum_studied_object_class:
+        concept_primary_sector;
+		concept_secondary_sector;
+		concept_tertiary_sector;
+		concept_real_sector;
+		concept_financial_sector;
 
-subject_domain_of_economic_sectors
+->rrel_explored_relation:
+	nrel_dominant_sphere;
+	nrel_necessary_educational_level;
+	nrel_average_income;
+	nrel_average_risk_level;
+	nrel_leader_country;
+
 -> rrel_key_sc_element:
-		economic_goals;
-		economic_object;
-		economic_subject;
-		branch_of_the_economy;;
+	concept_economic_goal;
+	concept_economic_object;
+	concept_economic_subject;
+	concept_branch_of_the_economy;;
+
+
+

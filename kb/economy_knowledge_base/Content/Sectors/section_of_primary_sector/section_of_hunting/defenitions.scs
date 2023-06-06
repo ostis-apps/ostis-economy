@@ -1,28 +1,53 @@
-hunting_season
-=> nrel_main_idtf:[Сезон охоты] (* <- lang_ru;;*);
+concept_hunting_season
+=> nrel_main_idtf:[сезон охоты] (* <- lang_ru;;*);
+=> nrel_main_idtf:[hunting_season] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/hunting_season.html"(*
+            "file://htmls/concept_hunting_season.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
 
-hunting_license
-=> nrel_main_idtf:[Охотничья лицензия] (* <- lang_ru;;*);
+concept_hunting_license
+=> nrel_main_idtf:[охотничья лицензия] (* <- lang_ru;;*);
+=> nrel_main_idtf:[hunting_license] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/hunting_license.html"(*
+            "file://htmls/concept_hunting_license.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-hunting_grounds
-=> nrel_main_idtf:[Охотничьи угодия] (* <- lang_ru;;*);
+concept_hunting_grounds
+=> nrel_main_idtf:[охотничьи угодия] (* <- lang_ru;;*);
+=> nrel_main_idtf:[hunting_grounds] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/hunting_grounds.html"(*
+            "file://htmls/concept_hunting_grounds.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-poaching
-=> nrel_main_idtf:[Браконьерство] (* <- lang_ru;;*);
+concept_poaching
+=> nrel_main_idtf:[браконьерство] (* <- lang_ru;;*);
+=> nrel_main_idtf:[concept_poaching] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/poaching.html"(*
+            "file://htmls/concept_poaching.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: high;
+=>nrel_dominant_sphere: concept_agrarian_society;
+=>nrel_necessary_educational_level: concept_general_secondary_education;
+=>nrel_leader_country: India;;
+
+concept_hunting
+=> nrel_main_idtf:[охотничий промысел] (* <- lang_ru;;*);
+=> nrel_main_idtf:[hunting] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_hunting.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_agrarian_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: Russia;;

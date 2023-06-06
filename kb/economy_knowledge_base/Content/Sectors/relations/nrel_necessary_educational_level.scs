@@ -1,0 +1,25 @@
+nrel_necessary_educational_level
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[nrel_necessary_educational_level] (* <- lang_en;; *);
+    => nrel_idtf: [necessary_educational_level*](*<- lang_en;;*);
+    => nrel_idtf: [необходимый уровень образования*](*<- lang_ru;;*);
+    => nrel_main_idtf: [необходимый уровень образования*](*<- lang_ru;;*);
+    <-relation;
+    <-norole_relation;
+    <-binary_relation;
+    <-oriented_relation;;
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_necessary_educational_level;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее конкретную экономическую отрасль и необходимый уровень образования для работы в данной отрасли.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(необходимый уровень образования*)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+            ->concept_branch_of_the_economy;;
+        *);;
+*);;
+
+nrel_necessary_educational_level=>nrel_first_domain:concept_branch_of_the_economy;;

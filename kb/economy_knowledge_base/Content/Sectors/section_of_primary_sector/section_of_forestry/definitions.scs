@@ -1,20 +1,50 @@
-forest_reproduction
-=> nrel_main_idtf:[Воспроизводство леса] (* <- lang_ru;;*);
+concept_forest_reproduction
+=> nrel_main_idtf:[воспроизводство леса] (* <- lang_ru;;*);
+=> nrel_main_idtf:[forest_reproduction] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/forest_reproduction.html"(*
+            "file://htmls/concept_forest_reproduction.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Japan;;
 
-timber_harvesting
-=> nrel_main_idtf:[Лесозаготовка] (* <- lang_ru;;*);
+concept_timber_harvesting
+=> nrel_main_idtf:[лесозаготовка] (* <- lang_ru;;*);
+=> nrel_main_idtf:[timber_harvesting] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/timber_harvesting.html"(*
+            "file://htmls/concept_timber_harvesting.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: medium;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: Russia;;
 
-forest_protection
-=> nrel_main_idtf:[Охрана леса] (* <- lang_ru;;*);
+concept_forest_protection
+=> nrel_main_idtf:[охрана леса] (* <- lang_ru;;*);
+=> nrel_main_idtf:[forest_protection] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/forest_protection.html"(*
+            "file://htmls/concept_forest_protection.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: Japan;;
+
+concept_forestry
+ => nrel_main_idtf:[лесное хозяйство] (* <- lang_ru;;*);
+ => nrel_main_idtf:[forestry] (* <- lang_en;;*);
+ => nrel_sc_text_translation:
+                    "file://htmls/concept_forestry.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

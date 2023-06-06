@@ -1,34 +1,63 @@
-processing
-=> nrel_main_idtf:[Обработка] (* <- lang_ru;;*);
+concept_processing
+=> nrel_main_idtf:[обработка] (* <- lang_ru;;*);
+=> nrel_main_idtf:[processing] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/processing.html"(*
+            "file://htmls/concept_processing.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-mechanical_engineering
-=> nrel_main_idtf:[Машиностроение] (* <- lang_ru;;*);
+concept_mechanical_engineering
+=> nrel_main_idtf:[машиностроение] (* <- lang_ru;;*);
+=> nrel_main_idtf:[mechanical_engineering] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/mechanical_engineering.html"(*
+            "file://htmls/concept_mechanical_engineering.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: medium;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Germany;;
 
-metalworking
-=> nrel_main_idtf:[Металлообработка] (* <- lang_ru;;*);
+concept_metalworking
+=> nrel_main_idtf:[металлообработка] (* <- lang_ru;;*);
+=> nrel_main_idtf:[metalworking] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/metalworking.html"(*
+            "file://htmls/concept_metalworking.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: medium;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: Russia;;
 
-metallurgy
-=> nrel_main_idtf:[Металлургия] (* <- lang_ru;;*);
+concept_metallurgy
+=> nrel_main_idtf:[металлургия] (* <- lang_ru;;*);
+=> nrel_main_idtf:[metallurgy] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/metallurgy.html"(*
+            "file://htmls/concept_metallurgy.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: high;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: China;;
 
-woodworking
-=> nrel_main_idtf:[Деревообработка] (* <- lang_ru;;*);
+concept_woodworking
+=> nrel_main_idtf:[деревообработка] (* <- lang_ru;;*);
+=> nrel_main_idtf:[woodworking] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/woodworking.html"(*
+            "file://htmls/concept_woodworking.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: Germany;;

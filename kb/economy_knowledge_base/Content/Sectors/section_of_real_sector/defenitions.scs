@@ -1,13 +1,53 @@
-energy_balance
-=> nrel_main_idtf:[Энергетический баланс] (* <- lang_ru;;*);
+concept_energy_balance
+=> nrel_main_idtf:[энергетический баланс] (* <- lang_ru;;*);
+=> nrel_main_idtf:[energy_balance] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/energy_balance.html"(*
+            "file://htmls/concept_energy_balance.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-energetic_resource
-=> nrel_main_idtf:[Энергетический ресурс] (* <- lang_ru;;*);
+concept_energetic_resource
+=> nrel_main_idtf:[энергетический ресурс] (* <- lang_ru;;*);
+=> nrel_main_idtf:[energetic_resource] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/energetic_resource.html"(*
+            "file://htmls/concept_energetic_resource.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
+
+concept_real_sector
+=> nrel_main_idtf:[реальный сектор] (* <- lang_ru;;*);
+=> nrel_main_idtf:[real_sector] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_real_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+concept_energetics
+=> nrel_main_idtf:[энергетика] (* <- lang_ru;;*);
+=> nrel_main_idtf:[energetics] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/concept_energetics.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: USA;;
+
+
+concept_alterntive_energetics
+=> nrel_main_idtf:[альтернативная энергетика] (* <- lang_ru;;*);
+=> nrel_main_idtf:[alterntive_energetics] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/concept_alterntive_energetics.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: China;;

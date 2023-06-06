@@ -1,0 +1,105 @@
+concept_agrarian_society
+    <-sc_node_not_relation;
+
+    =>nrel_main_idtf:[аграрное общество] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[concept_agrarian_society] (* <-lang_en;;*);
+    >rrel_key_sc_element:...(*
+        <-definition;;
+        => nrel_idtf: [Опр. (аграрное общество)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [аграрное общество - этап общественно-экономического развития, при котором наибольший вклад
+             в стоимость материальных благ вносит стоимость ресурсов, производимых в сельском хозяйстве.] (* <-lang_ru;; *);;   
+            *);;
+    *);;
+
+concept_industrial_society
+    <-sc_node_not_relation;
+
+    =>nrel_main_idtf:[индустриальное общество] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[concept_industrial_society] (* <-lang_en;;*);
+    >rrel_key_sc_element:...(*
+        <-definition;;
+        => nrel_idtf: [Опр. (индустриальное общество)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [индустриальное общество - общество, сформировавшееся в процессе и в результате индустриализации, развития машинного
+             производства, возникновения адекватных ему форм организации труда, применения достижений научно-технологического прогресса.] (* <-lang_ru;; *);;   
+            *);;
+    *);;
+
+concept_postindustrial_society
+    =>nrel_main_idtf:[постиндустриальное общество] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[concept_postindustrial_society] (* <-lang_en;;*);
+    >rrel_key_sc_element:...(*
+        <-definition;;
+        => nrel_idtf: [Опр. (постиндустриальное общество)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [постиндустриальное общество - концепция, описывающая общество, в экономике которого преобладает
+             инновационный сектор с высокопроизводительной промышленностью, индустрией знаний, а также более высокой долей населения, занятого в сфере услуг.] (* <-lang_ru;; *);;   
+            *);;
+    *);;
+
+concept_general_secondary_education
+    =>nrel_main_idtf:[общее среднее образование] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[concept_general_secondary_education] (* <-lang_en;;*);;
+
+concept_secondary_special_education
+    =>nrel_main_idtf:[среднее специальное образование] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[concept_secondary_special_education] (* <-lang_en;;*);;
+
+concept_higher_education
+    =>nrel_main_idtf:[высшее образование] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[concept_higher_education] (* <-lang_en;;*);;
+
+low
+    =>nrel_main_idtf:[низкий] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[low] (* <-lang_en;;*);;
+
+medium
+    =>nrel_main_idtf:[средний] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[medium] (* <-lang_en;;*);;
+
+high
+    =>nrel_main_idtf:[высокий] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[high] (* <-lang_en;;*);;
+
+scanty
+    =>nrel_main_idtf:[мизерный] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[scanty] (* <-lang_en;;*);;
+
+Japan
+    =>nrel_main_idtf:[Япония] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Japan] (* <-lang_en;;*);;
+
+Russia
+    =>nrel_main_idtf:[Россия] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Russia] (* <-lang_en;;*);;
+
+USA
+    =>nrel_main_idtf:[Сша] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[USA] (* <-lang_en;;*);;
+
+UK
+    =>nrel_main_idtf:[Великобритания] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[UK] (* <-lang_en;;*);;
+
+Sweden
+    =>nrel_main_idtf:[Швеция] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Sweden] (* <-lang_en;;*);;
+
+Turkey
+    =>nrel_main_idtf:[Турция] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Turkey] (* <-lang_en;;*);;
+
+China
+    =>nrel_main_idtf:[Китай] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[China] (* <-lang_en;;*);;
+
+Germany
+    =>nrel_main_idtf:[Германия] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Germany] (* <-lang_en;;*);;
+France
+    =>nrel_main_idtf:[Франция] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[France] (* <-lang_en;;*);;
+India
+    =>nrel_main_idtf:[Индия] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[India] (* <-lang_en;;*);;

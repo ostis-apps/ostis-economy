@@ -1,0 +1,18 @@
+subject_domain_of_hunting
+=> nrel_main_idtf:
+	[Предметная область. Охотничий промысел]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Subject domain. Hunting]
+           	  (* <- lang_en;; *);
+
+->rrel_maximum_studied_object_class:
+        concept_hunting;
+
+->rrel_not_maximum_studied_object_class:
+    concept_poaching;
+
+-> rrel_key_sc_element:
+        concept_hunting_license;
+        concept_hunting_grounds;
+	concept_hunting_season;;

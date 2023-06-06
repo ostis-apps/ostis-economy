@@ -1,28 +1,52 @@
-food
-=> nrel_main_idtf:[Продовольствие] (* <- lang_ru;;*);
+concept_food
+=> nrel_main_idtf:[продовольствие] (* <- lang_ru;;*);
+=> nrel_main_idtf:[concept_food] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/food.html"(*
+            "file://htmls/concept_food.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-crop
-=> nrel_main_idtf:[Урожай] (* <- lang_ru;;*);
+concept_crop
+=> nrel_main_idtf:[урожай] (* <- lang_ru;;*);
+=> nrel_main_idtf:[crop] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/crop.html"(*
+            "file://htmls/concept_crop.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-cultivation
-=> nrel_main_idtf:[Растиеневодство] (* <- lang_ru;;*);
+concept_cultivation
+=> nrel_main_idtf:[растениеводство] (* <- lang_ru;;*);
+=> nrel_main_idtf:[cultivation] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/cultivation.html"(*
+            "file://htmls/concept_cultivation.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_agrarian_society;
+=>nrel_necessary_educational_level: concept_general_secondary_education;
+=>nrel_leader_country: China;;
 
-
-animal_husbandry
-=> nrel_main_idtf:[Животноводство] (* <- lang_ru;;*);
+concept_animal_husbandry
+=> nrel_main_idtf:[животноводство] (* <- lang_ru;;*);
+=> nrel_main_idtf:[animal_husbandry] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/animal_husbandry.html"(*
+            "file://htmls/concept_animal_husbandry.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_agrarian_society;
+=>nrel_necessary_educational_level: concept_general_secondary_education;
+=>nrel_leader_country: India;;
+
+concept_agriculture
+=> nrel_main_idtf:[сельское хозяйство] (* <- lang_ru;;*);
+=> nrel_main_idtf:[agriculture] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_agriculture.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

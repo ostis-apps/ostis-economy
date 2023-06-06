@@ -1,0 +1,25 @@
+nrel_dominant_sphere
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[nrel_dominant_sphere] (* <- lang_en;; *);
+    => nrel_idtf: [dominant_sphere*](*<- lang_en;;*);
+    => nrel_idtf: [сфера преобладания*](*<- lang_ru;;*);
+    => nrel_main_idtf: [сфера преобладания*](*<- lang_ru;;*);
+    <-relation;
+    <-norole_relation;
+    <-binary_relation;
+    <-oriented_relation;;
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_dominant_sphere;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее конкретную экономическую отрасль и этап развития общества, в котором она преобладает.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(сфера преобладания*)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+            ->concept_branch_of_the_economy;;
+        *);;
+*);;
+
+nrel_dominant_sphere=>nrel_first_domain:concept_branch_of_the_economy;;

@@ -1,13 +1,39 @@
-aquaculture
-=> nrel_main_idtf:[Аквакультура] (* <- lang_ru;;*);
+concept_aquaculture
+=> nrel_main_idtf:[аквакультура] (* <- lang_ru;;*);
+=> nrel_main_idtf:[aquaculture] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/aquaculture.html"(*
+            "file://htmls/concept_aquaculture.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: UK;;
+
+concept_aquatic_biological_resources
+=> nrel_main_idtf:[водные биоресурсы] (* <- lang_ru;;*);
+=> nrel_main_idtf:[aquatic_biological_resources] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/concept_aquatic_biological_resources.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-aquatic_biological_resources
-=> nrel_main_idtf:[Водные биоресурсы] (* <- lang_ru;;*);
+concept_fishery
+=> nrel_main_idtf:[рыбный промысел] (* <- lang_ru;;*);
+=> nrel_main_idtf:[fishery] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/aquatic_biological_resources.html"(*
+                    "file://htmls/concept_fishery.html" (*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;
+                        *);;
+concept_fishing
+=> nrel_main_idtf:[рыбная ловля] (* <- lang_ru;;*);
+=> nrel_main_idtf:[fishing] (* <- lang_en;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: medium;
+=>nrel_dominant_sphere: concept_agrarian_society;
+=>nrel_necessary_educational_level: concept_general_secondary_education;
+=>nrel_leader_country: China;;

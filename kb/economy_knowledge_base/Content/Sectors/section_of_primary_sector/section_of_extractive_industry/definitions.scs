@@ -1,28 +1,62 @@
-ores
-=> nrel_main_idtf:[Руды] (* <- lang_ru;;*);
+concept_ore
+=> nrel_main_idtf:[руды] (* <- lang_ru;;*);
+=> nrel_main_idtf:[ore] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/ores.html"(*
+            "file://htmls/concept_ore.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-chemical_materials
-=> nrel_main_idtf:[Химические материалы] (* <- lang_ru;;*);
+concept_chemical_material
+=> nrel_main_idtf:[химические материалы] (* <- lang_ru;;*);
+=> nrel_main_idtf:[chemical_material] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/chemical_materials.html"(*
+            "file://htmls/concept_chemical_material.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-building_materials
-=> nrel_main_idtf:[Строительные материалы] (* <- lang_ru;;*);
+concept_building_material
+=> nrel_main_idtf:[строительные материалы] (* <- lang_ru;;*);
+=> nrel_main_idtf:[building_material] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/building_materials.html"(*
+            "file://htmls/concept_building_material.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
 
-gems
-=> nrel_main_idtf:[Драгоценные камни] (* <- lang_ru;;*);
+concept_gem
+=> nrel_main_idtf:[драгоценные камни] (* <- lang_ru;;*);
+=> nrel_main_idtf:[gem] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/gems.html"(*
+            "file://htmls/concept_gem.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
+
+concept_extractive_industry
+=> nrel_main_idtf:[добывающая промышленность] (* <- lang_ru;;*);
+=> nrel_main_idtf:[extractive_industry] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_extractive_industry.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+concept_oil_production
+=> nrel_main_idtf:[нефтедобыча] (* <- lang_ru;;*);
+=> nrel_main_idtf:[oil_production] (* <- lang_en;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: medium;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Russia;;
+
+concept_mining
+=> nrel_main_idtf:[шахтёрское дело] (* <- lang_ru;;*);
+=> nrel_main_idtf:[mining] (* <- lang_en;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: high;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: Russia;;
+

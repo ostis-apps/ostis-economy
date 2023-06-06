@@ -1,0 +1,16 @@
+subject_domain_of_financial_sector
+=> nrel_main_idtf:
+	[Предметная область. Финансовый сектор]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Subject domain. Financial sector]
+           	  (* <- lang_en;; *);
+
+-> rrel_not_maximum_studied_object_class:
+	concept_financial_sector;
+
+-> rrel_not_maximum_studied_object_class:
+	concept_credit_system;
+	concept_pension_system;
+	concept_insurance_system;
+ 	concept_tax_system;;

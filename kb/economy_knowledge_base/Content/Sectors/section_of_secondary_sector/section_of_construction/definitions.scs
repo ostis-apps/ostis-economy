@@ -1,34 +1,47 @@
-building
-=> nrel_main_idtf:[Постройка] (* <- lang_ru;;*);
+concept_building
+=> nrel_main_idtf:[постройка] (* <- lang_ru;;*);
+=> nrel_main_idtf:[building] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/building.html"(*
+            "file://htmls/concept_building.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-structures
-=> nrel_main_idtf:[Сооружение] (* <- lang_ru;;*);
+concept_structure
+=> nrel_main_idtf:[сооружение] (* <- lang_ru;;*);
+=> nrel_main_idtf:[structure] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/structures.html"(*
+            "file://htmls/concept_structure.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-interior
-=> nrel_main_idtf:[Интерьер] (* <- lang_ru;;*);
+concept_interior
+=> nrel_main_idtf:[интерьер] (* <- lang_ru;;*);
+=> nrel_main_idtf:[interior] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/interior.html"(*
+            "file://htmls/concept_interior.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-exterior
-=> nrel_main_idtf:[Экстерьер] (* <- lang_ru;;*);
+concept_exterior
+=> nrel_main_idtf:[экстерьер] (* <- lang_ru;;*);
+=> nrel_main_idtf:[exterior] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/exterior.html"(*
+            "file://htmls/concept_exterior.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-architecture
-=> nrel_main_idtf:[Архитектура] (* <- lang_ru;;*);
+concept_architecture
+=> nrel_main_idtf:[архитектура] (* <- lang_ru;;*);
+=> nrel_main_idtf:[architecture] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/architecture.html"(*
+            "file://htmls/concept_architecture.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Japan;;
+
+        

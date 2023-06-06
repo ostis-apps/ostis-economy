@@ -1,20 +1,32 @@
-agricultural_economy
-=> nrel_main_idtf:[Аграрная экономика] (* <- lang_ru;;*);
+concept_agricultural_economy
+=> nrel_main_idtf:[аграрная экономика] (* <- lang_ru;;*);
+=> nrel_main_idtf:[agricultural_economy] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/agricultural_economy.html"(*
+            "file://htmls/concept_agricultural_economy.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-raw_materials
-=> nrel_main_idtf:[Сырьё] (* <- lang_ru;;*);
+concept_raw_materials
+=> nrel_main_idtf:[сырьё] (* <- lang_ru;;*);
+=> nrel_main_idtf:[raw_materials] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/raw_materials.html"(*
+            "file://htmls/concept_raw_materials.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-semifinished_products
-=> nrel_main_idtf:[Полуфабрикаты] (* <- lang_ru;;*);
+concept_semifinished_products
+=> nrel_main_idtf:[полуфабрикаты] (* <- lang_ru;;*);
+=> nrel_main_idtf:[semifinished_products] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/semifinished_products.html"(*
+            "file://htmls/concept_semifinished_products.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
+
+concept_primary_sector
+    => nrel_main_idtf:[первичный сектор] (* <- lang_ru;;*);
+    => nrel_main_idtf:[primary_sector] (* <- lang_en;;*);
+    => nrel_sc_text_translation:
+                    "file://htmls/concept_primary_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

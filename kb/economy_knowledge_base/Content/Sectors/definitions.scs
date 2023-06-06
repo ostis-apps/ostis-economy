@@ -1,27 +1,40 @@
-economic_goals
-=> nrel_main_idtf:[Экономические цели] (* <- lang_ru;;*);
+concept_economic_goal
+=> nrel_main_idtf:[экономические цели] (* <- lang_ru;;*);
+=> nrel_main_idtf:[economic_goal] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/economic_goals.html"(*
+            "file://htmls/concept_economic_goal.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-economic_object
-=> nrel_main_idtf:[Объект экономики] (* <- lang_ru;;*);
+concept_economic_object
+=> nrel_main_idtf:[объект экономики] (* <- lang_ru;;*);
+=> nrel_main_idtf:[economic_object] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/economic_object.html"(*
+            "file://htmls/concept_economic_object.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-economic_subject
-=> nrel_main_idtf:[Субъект экономики] (* <- lang_ru;;*);
+concept_economic_subject
+=> nrel_main_idtf:[субъект экономики] (* <- lang_ru;;*);
+=> nrel_main_idtf:[economic_subject] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/economic_subject.html"(*
+            "file://htmls/concept_economic_subject.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-branch_of_the_economy
-=> nrel_main_idtf:[Отрасль экономики] (* <- lang_ru;;*);
+concept_branch_of_the_economy
+=> nrel_main_idtf:[отрасль экономики] (* <- lang_ru;;*);
+=> nrel_main_idtf:[branch_of_the_economy] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/branch_of_the_economy.html"(*
+            "file://htmls/concept_branch_of_the_economy.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
+
+concept_economic_sector
+=> nrel_main_idtf:[сектор экономики] (* <- lang_ru;;*);
+=> nrel_main_idtf:[economic_sector] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_economic_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

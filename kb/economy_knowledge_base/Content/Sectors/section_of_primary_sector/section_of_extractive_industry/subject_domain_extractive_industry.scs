@@ -1,0 +1,21 @@
+subject_domain_extractive_industry
+=> nrel_main_idtf:
+	[Предметная область. Добывающая промышленность]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Subject domain. Extractive industry]
+           	  (* <- lang_en;; *);
+
+->rrel_maximum_studied_object_class:
+        concept_extractive_industry;
+
+-> rrel_not_maximum_studied_object_class:
+		concept_oil_production;
+		concept_mining;
+
+->rrel_key_sc_element:
+	concept_ore;
+	concept_energetic_resource;
+	concept_chemical_material;
+    concept_building_material;
+	concept_gem;;

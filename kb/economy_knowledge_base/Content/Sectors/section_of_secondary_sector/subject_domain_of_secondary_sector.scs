@@ -1,0 +1,26 @@
+subject_domain_of_secondary_sector
+=> nrel_main_idtf:
+	[Предметная область. Вторичный сектор]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Subject domain. Secondary sector]
+           	  (* <- lang_en;; *);
+
+
+=> nrel_private_subject_domain:
+	subject_domain_of_manufacturing_industry;
+    subject_domain_of_construction;
+
+->rrel_maximum_studied_object_class:
+        concept_secondary_sector;
+
+->rrel_not_maximum_studied_object_class:
+    concept_manufacturing_industry;
+    concept_construction;
+
+-> rrel_key_sc_element:
+	concept_consumer_goods;
+	concept_equipment;
+	concept_industrial_waste;
+	concept_factory;
+	concept_semifinished_products;;

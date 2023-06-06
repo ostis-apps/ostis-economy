@@ -1,0 +1,17 @@
+subject_domain_of_forestry
+=> nrel_main_idtf:
+	[Предметная область. Лесное хозяйство]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Subject domain. Forestry]
+           	  (* <- lang_en;; *);
+
+->rrel_maximum_studied_object_class:
+        concept_forestry;
+
+->rrel_not_maximum_studied_object_class:
+    concept_forest_reproduction;
+	concept_poaching;
+	concept_forest_protection;
+	concept_timber_harvesting;;
+		

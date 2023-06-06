@@ -1,41 +1,92 @@
-consumer_goods
-=> nrel_main_idtf:[Потребительские товары] (* <- lang_ru;;*);
+concept_consumer_goods
+=> nrel_main_idtf:[потребительские товары] (* <- lang_ru;;*);
+=> nrel_main_idtf:[consumer_goods] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/consumer_goods.html"(*
+            "file://htmls/concept_consumer_goods.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-equipment
-=> nrel_main_idtf:[Оборудование] (* <- lang_ru;;*);
+concept_equipment
+=> nrel_main_idtf:[оборудование] (* <- lang_ru;;*);
+=> nrel_main_idtf:[equipment] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/equipment.html"(*
+            "file://htmls/concept_equipment.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-industrial_waste
-=> nrel_main_idtf:[Промышленные отходы] (* <- lang_ru;;*);
+concept_industrial_waste
+=> nrel_main_idtf:[промышленные отходы] (* <- lang_ru;;*);
+=> nrel_main_idtf:[industrial_waste] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/industrial_waste.html"(*
+            "file://htmls/concept_industrial_waste.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-factory
-=> nrel_main_idtf:[Фабрика] (* <- lang_ru;;*);
+concept_factory
+=> nrel_main_idtf:[фабрика] (* <- lang_ru;;*);
+=> nrel_main_idtf:[factory] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/factory.html"(*
+            "file://htmls/concept_factory.html"(*
                             <- lang_ru;;
                             => nrel_format: format_html;;*);;
 
-light_industry
-=> nrel_main_idtf:[Лёгкая промышленность] (* <- lang_ru;;*);
+concept_light_industry
+=> nrel_main_idtf:[лёгкая промышленность] (* <- lang_ru;;*);
+=> nrel_main_idtf:[light_industry] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/light_industry.html"(*
+            "file://htmls/concept_light_industry.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: USA;;
 
-heavy_industry
-=> nrel_main_idtf:[Тяжёлая промышленность] (* <- lang_ru;;*);
+concept_heavy_industry
+=> nrel_main_idtf:[тяжёлая промышленность] (* <- lang_ru;;*);
+=> nrel_main_idtf:[heavy_industry] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/heavy_industry.html"(*
+            "file://htmls/concept_heavy_industry.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: medium;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: USA;;
+
+concept_secondary_sector
+=> nrel_main_idtf:[вторичный сектор] (* <- lang_ru;;*);
+=> nrel_main_idtf:[secondary_sector] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_secondary_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+concept_manufacturing_industry
+=> nrel_main_idtf:[обрабатывающая промышленность] (* <- lang_ru;;*);
+=> nrel_main_idtf:[manufacturing_industry] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_manufacturing_industry.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+concept_construction
+=> nrel_main_idtf:[строительство] (* <- lang_ru;;*);
+=> nrel_main_idtf:[construction] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_construction.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: medium;
+=>nrel_dominant_sphere: concept_industrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: UK;;

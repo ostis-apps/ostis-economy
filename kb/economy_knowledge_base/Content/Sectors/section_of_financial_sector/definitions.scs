@@ -1,27 +1,64 @@
-credit_system
-=> nrel_main_idtf:[Кредитная система] (* <- lang_ru;;*);
+concept_credit_system
+=> nrel_main_idtf:[кредитная система] (* <- lang_ru;;*);
+=> nrel_main_idtf:[credit system] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/credit_system.html"(*
+            "file://htmls/concept_credit_system.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: China;;
 
-insurance_system
-=> nrel_main_idtf:[Страховая система] (* <- lang_ru;;*);
+concept_insurance_system
+=> nrel_main_idtf:[страховая система] (* <- lang_ru;;*);
+=> nrel_main_idtf:[insurance system] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/insurance_system.html"(*
+            "file://htmls/concept_insurance_system.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: USA;;
 
-pension_system
-=> nrel_main_idtf:[Пенсионная система] (* <- lang_ru;;*);
+concept_pension_system
+=> nrel_main_idtf:[пенсионная система] (* <- lang_ru;;*);
+=> nrel_main_idtf:[pension system] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/pension_system.html"(*
+            "file://htmls/concept_pension_system.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Sweden;;
 
-tax_system
-=> nrel_main_idtf:[Налоговая система] (* <- lang_ru;;*);
+concept_tax_system
+=> nrel_main_idtf:[налоговая система] (* <- lang_ru;;*);
+=> nrel_main_idtf:[tax system] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/tax_system.html"(*
+            "file://htmls/concept_tax_system.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: China;;
+
+concept_financial_sector
+=> nrel_main_idtf:[финансовый сектор] (* <- lang_ru;;*);
+=> nrel_main_idtf:[financial sector] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_financial_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;

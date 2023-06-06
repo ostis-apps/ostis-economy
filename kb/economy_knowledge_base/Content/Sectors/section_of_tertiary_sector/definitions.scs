@@ -1,57 +1,135 @@
-culture
-=> nrel_main_idtf:[Культура] (* <- lang_ru;;*);
+concept_culture
+=> nrel_main_idtf:[культура] (* <- lang_ru;;*);
+=> nrel_main_idtf:[culture] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/culture.html"(*
+            "file://htmls/concept_culture.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: USA;;
 
 
-healthcare
-=> nrel_main_idtf:[Здравоохранение] (* <- lang_ru;;*);
+concept_healthcare
+=> nrel_main_idtf:[здравоохранение] (* <- lang_ru;;*);
+=> nrel_main_idtf:[healthcare] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/healthcare.html"(*
+            "file://htmls/concept_healthcare.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Japan;;
 
-household_service
-=> nrel_main_idtf:[Бытовая служба] (* <- lang_ru;;*);
+concept_household_service
+=> nrel_main_idtf:[бытовая служба] (* <- lang_ru;;*);
+=> nrel_main_idtf:[household_service] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/household_service.html"(*
+            "file://htmls/concept_household_service.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: low;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Turkey;;
 
-tourism
-=> nrel_main_idtf:[Туризм] (* <- lang_ru;;*);
+concept_tourism
+=> nrel_main_idtf:[туризм] (* <- lang_ru;;*);
+=> nrel_main_idtf:[tourism] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/tourism.html"(*
+            "file://htmls/concept_tourism.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Turkey;;
 
-catering
-=> nrel_main_idtf:[Общественное питание] (* <- lang_ru;;*);
+concept_catering
+=> nrel_main_idtf:[общественное питание] (* <- lang_ru;;*);
+=> nrel_main_idtf:[catering] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/catering.html"(*
+            "file://htmls/concept_catering.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: France;;
                             
-transport
-=> nrel_main_idtf:[Транспорт] (* <- lang_ru;;*);
+concept_transport
+=> nrel_main_idtf:[транспорт] (* <- lang_ru;;*);
+=> nrel_main_idtf:[transport] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/transport.html"(*
+            "file://htmls/concept_transport.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: low;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_secondary_special_education;
+=>nrel_leader_country: Germany;;
 
-communication
-=> nrel_main_idtf:[Связь] (* <- lang_ru;;*);
+concept_communication
+=> nrel_main_idtf:[связь] (* <- lang_ru;;*);
+=> nrel_main_idtf:[communication] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/communication.html"(*
+            "file://htmls/concept_communication.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: USA;;
 
-hotel_business
-=> nrel_main_idtf:[Гостинечный бизнес] (* <- lang_ru;;*);
+concept_hotel_business
+=> nrel_main_idtf:[гостинечный бизнес] (* <- lang_ru;;*);
+=> nrel_main_idtf:[hotel_business] (* <- lang_en;;*);
 => nrel_sc_text_translation:
-            "file://htmls/hotel_business.html"(*
+            "file://htmls/concept_hotel_business.html"(*
                             <- lang_ru;;
-                            => nrel_format: format_html;;*);;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: high;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: Turkey;;
 
+concept_tertiary_sector
+=> nrel_main_idtf:[третичный сектор] (* <- lang_ru;;*);
+=> nrel_main_idtf:[tertiary_sector] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+                    "file://htmls/concept_tertiary_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+concept_education
+=> nrel_main_idtf:[образование] (* <- lang_ru;;*);
+=> nrel_main_idtf:[education] (* <- lang_en;;*);
+=> nrel_sc_text_translation:
+            "file://htmls/concept_education.html"(*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;*);
+<-concept_branch_of_the_economy;
+=>nrel_average_income: medium;
+=>nrel_average_risk_level: scanty;
+=>nrel_dominant_sphere: concept_postindustrial_society;
+=>nrel_necessary_educational_level: concept_higher_education;
+=>nrel_leader_country: UK;;
