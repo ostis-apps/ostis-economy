@@ -11,7 +11,5 @@ concept_workers_control
         *);;
     *);
 
-=> nrel_ideology: socialism;=> nrel_ideology: anarchism (*
-        =>nrel_main_idtf: [Анархизм](* <-lang_ru;; *);;
-        <-concept_anarchism;;
-    *);;
+=> nrel_ideology: socialism;
+=> nrel_ideology: anarchism;;

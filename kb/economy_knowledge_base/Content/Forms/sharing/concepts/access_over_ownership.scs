@@ -11,7 +11,4 @@ concept_access_over_ownership
         *);;
     *);
 
-=> nrel_ideology: environmentalism (*
-        =>nrel_main_idtf: [Экологизм](* <-lang_ru;; *);;
-        <-concept_environmentalism;;
-    *);;
+=> nrel_ideology: environmentalism;;

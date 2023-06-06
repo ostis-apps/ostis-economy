@@ -11,4 +11,4 @@ concept_manorialism
         *);;
     *);
 
-=> nrel_ideology: feudalism;
+=> nrel_ideology: feudalism;;
