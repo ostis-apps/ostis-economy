@@ -18,4 +18,9 @@ theory_of_external_effects
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-        *);;
+        *);
+  =>nrel_subdividing:
+  theory_of_common_pool_resources;
+  theory_of_positive_externalities;
+  theory_of_negative_externalities;
+  theory_of_public_goods;;

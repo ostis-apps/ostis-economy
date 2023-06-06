@@ -1,0 +1,12 @@
+section_subject_domain_of_theory_of_social_decision_making
+=> nrel_main_idtf:
+		[Раздел. Предметная область теории индивидуального принятия решений]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of theory of individual decision making] (* <- lang_en;; *);;
+
+section_subject_domain_of_theory_of_social_decision_making->rrel_key_sc_element:
+subject_domain_of_theory_of_social_decision_making;
+theory_of_social_decision_making;
+social_choice_theory;;
+
+section_subject_domain_of_theory_of_social_decision_making <- non_atomic_section;;

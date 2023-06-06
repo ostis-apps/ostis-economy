@@ -1,0 +1,24 @@
+theory_of_choice_under_uncertainty
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория выбора в условиях неопределенности]
+            (*<-lang_ru;;*);
+          [Theory of choice under uncertainty]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория выбора в условиях неопределенности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_choice_under_uncertainty_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    =>nrel_subdividing:
+    theory_of_risk_management;
+    theory_of_social_decision_making;;

@@ -18,4 +18,7 @@ consumption_theory
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-        *);;
+        *);
+    =>nrel_subdividing:
+    theory_of_aggregate_consumption;
+    theory_of_individual_consumption;;

@@ -1,72 +1,65 @@
-profit
+risk_assessment
  <-sc_node_not_relation;
     => nrel_main_idtf:
-          [Прибыль]
+          [Оценка рисков]
             (*<-lang_ru;;*);
-          [Profit]
+          [Risk assessment]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (Прибыль)] (* <- lang_ru;; *);;
+                [Опр. (Оценка рисков)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html/idtfs/profit_idtf.html" (*
+                    -> rrel_example: "file://html/idtfs/risk_assessment_idtf.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
         *);;
 
-production_theory
+risk_mitigation_strategies
  <-sc_node_not_relation;
     => nrel_main_idtf:
-          [Теория производства]
+          [Стратегии смягчения рисков]
             (*<-lang_ru;;*);
-          [Production theory]
+          [Risk mitigation strategies]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (Теория производства)] (* <- lang_ru;; *);;
+                [Опр. (Стратегии смягчения рисков)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html/idtfs/production_theory_idtf.html" (*
-							<- lang_ru;;
-							=> nrel_format: format_html;;
-						*);;
-                *);;
-        *);
-  =>nrel_subdividing:
-  theory_of_cost;
-  theory_of_firm_behavior;
-  theory_of_market_structure;
-  theory_of_production_functions;
-  theory_of_technological_change;;
-
-income
- <-sc_node_not_relation;
-    => nrel_main_idtf:
-          [Доход]
-            (*<-lang_ru;;*);
-          [Income]
-            (* <- lang_en;;*);
-    <- rrel_key_sc_element: ... 
-        (*
-            <- sc_definition;;
-            => nrel_main_idtf:
-                [Опр. (Доход)] (* <- lang_ru;; *);;
-            
-             <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://html/idtfs/income_idtf.html" (*
+                    -> rrel_example: "file://html/idtfs/risk_mitigation_strategies_idtf.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
         *);;
 
+theory_of_risk_management
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория управления рисками]
+            (*<-lang_ru;;*);
+          [Theory of risk management]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория управления рисками)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_risk_management_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

@@ -1,0 +1,23 @@
+subject_domain_of_theory_of_choice_under_uncertainty
+=> nrel_main_idtf:
+[Предметная область. Теория выбора в условиях неопределенности]
+(* <- lang_ru;; *);
+=> nrel_main_idtf:
+[Subject domain. Theory of choice under uncertainty]
+(* <- lang_en;;*);
+
+<-not_enough_formed_structure;;
+
+subject_domain_of_theory_of_choice_under_uncertainty=>nrel_private_subject_domain:
+subject_domain_of_theory_of_risk_management(*<-sc_node_struct;;*);
+subject_domain_of_theory_of_social_decision_making(*<-sc_node_struct;;*);;
+
+
+subject_domain_of_theory_of_choice_under_uncertainty->rrel_maximum_studied_object_class:
+theory_of_choice_under_uncertainty;;
+
+subject_domain_of_theory_of_choice_under_uncertainty->rrel_not_maximum_studied_object_class:
+theory_of_risk_management;
+theory_of_social_decision_making;;
+
+subject_domain_of_theory_of_choice_under_uncertainty<-subject_domain;;

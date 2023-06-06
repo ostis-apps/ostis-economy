@@ -1,0 +1,43 @@
+social_choice_theory
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория социального выбора]
+            (*<-lang_ru;;*);
+          [Social choice theory]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория социального выбора)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/social_choice_theory_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+theory_of_social_decision_making
+ <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [Теория социального принятия решений]
+            (*<-lang_ru;;*);
+          [Theory of social decision making]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (Теория социального принятия решений)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/idtfs/theory_of_social_decision_making_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

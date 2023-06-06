@@ -18,7 +18,13 @@ game_theory
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-        *);;
+        *);
+  =>nrel_subdividing:
+  evolutionary_game_theory;
+  algorithmic_game_theory;
+  bayesian_game_theory;
+  cooperative_game_theory;
+  non_cooperative_game_theory;;
 
 win
  <-sc_node_not_relation;
