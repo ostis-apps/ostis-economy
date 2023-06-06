@@ -1,0 +1,14 @@
+concept_public_sector
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Public sector] (*<-lang_en;;*);
+    => nrel_main_idtf: [Государственный сектор] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Государственный сектор)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Часть экономики, которая контролируется государством и включает в себя все государственные учреждения и организации, предоставляющие услуги населению, такие как здравоохранение, образование, социальное обеспечение и т.д.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;;

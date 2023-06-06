@@ -1,0 +1,18 @@
+concept_economic_planning
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Economic planning] (*<-lang_en;;*);
+    => nrel_main_idtf: [Экономическое планирование] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Экономическое планирование)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Процесс формулирования и реализации плановых целей и задач в экономике, осуществляемый государственными органами или частными организациями. Цели могут включать в себя увеличение производства, улучшение качества жизни населения, сокращение безработицы и т.д.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;    
+=> nrel_ideology: mixed_economy (*
+        =>nrel_main_idtf: [Смешанная экономика](* <-lang_ru;; *);;
+        <-concept_mixed_economy;;
+    *);;

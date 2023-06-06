@@ -1,0 +1,13 @@
+concept_economy_conception
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Экономическая концепция](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Economy conception](*<-lang_en;;*);
+
+    ->rrel_key_sc_element:...(*
+        <-definition;;
+
+        => nrel_idtf: [Опр. (Экономическая концепция)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [совокупность научно обоснованных предположений о характере развития экономической системы, которые объединены общими исходными теоретическими и методологическими позициями.] (* <-lang_ru;; *);;   
+            *);;
+    *);;

@@ -1,0 +1,14 @@
+concept_currency
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Currency] (*<-lang_en;;*);
+    => nrel_main_idtf: [Валюта] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Валюта)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [форма денежной единицы, которая используется в конкретной стране или группе стран. Валюты обычно используются для расчётов внутри страны и за её пределами, а также для хранения денежных средств.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: mercantilism;;

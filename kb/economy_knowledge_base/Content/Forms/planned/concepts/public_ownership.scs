@@ -1,0 +1,15 @@
+concept_public_ownership
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Public ownership] (*<-lang_en;;*);
+    => nrel_main_idtf: [Государственная собственность] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Государственная собственность)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Форма собственности, при которой государство или государственные организации владеют и контролируют производственные ресурсы и средства производства, такие как земля, предприятия и т.д. В отличие от частной собственности, государственная собственность используется для достижения социальных и экономических целей, а не для получения прибыли.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;
+=> nrel_ideology: communism;;

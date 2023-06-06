@@ -1,0 +1,14 @@
+concept_redistribution
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Redistribution] (*<-lang_en;;*);
+    => nrel_main_idtf: [Распределение] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Распределение)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Процесс перераспределения ресурсов, доходов и благ между различными группами общества, с целью уменьшения неравенства и достижения социальной справедливости.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;;

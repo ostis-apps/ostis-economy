@@ -1,0 +1,14 @@
+concept_trade
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Trade] (*<-lang_en;;*);
+    => nrel_main_idtf: [Торговля] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Торговля)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [экономическая деятельность, которая заключается в купле-продаже товаров и услуг между покупателем и продавцом. Торговля является одним из важнейших элементов экономической системы любой страны.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: mercantilism;;

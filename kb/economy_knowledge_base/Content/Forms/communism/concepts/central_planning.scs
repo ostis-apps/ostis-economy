@@ -1,0 +1,14 @@
+concept_central_planning
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Central planning] (*<-lang_en;;*);
+    => nrel_main_idtf: [Централизованное планирование] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Централизованное планирование)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [экономическая система, основанная на централизованном планировании производства и распределения ресурсов. В рамках централизованного планирования государство определяет цели, задачи и приоритеты экономического развития и координирует деятельность предприятий и организаций.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;=> nrel_ideology: communism;;

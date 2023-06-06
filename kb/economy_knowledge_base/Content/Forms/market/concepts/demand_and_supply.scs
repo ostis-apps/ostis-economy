@@ -1,0 +1,14 @@
+concept_demand_and_supply
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Demand and supply] (*<-lang_en;;*);
+    => nrel_main_idtf: [Спрос и предложение] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Спрос и предложение)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Основные концепции экономической теории, описывающие взаимодействие покупателей и продавцов на рынке. Предложение - это количество товара или услуги, которое продавец готов предоставить на рынке по определенной цене, а спрос - это количество товара или услуги, которое покупатель готов купить по определенной цене.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: capitalism;;

@@ -1,0 +1,25 @@
+section_subject_domain_of_feudalism_economy
+    =>nrel_main_idtf:[Раздел. Предметная область феодализма] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of feudalism] (* <-lang_en;;*);
+    =>nrel_idtf:[Раздел базы знаний OSTIS, описывающий предметную область феодализма] (* <-lang_ru;;*);
+    =>nrel_idtf:[Section of the OSTIS knowledge base, that describes the subject domain of feudalism] (* <-lang_en;;*);
+    
+    ->rrel_key_sc_element: subject_domain_of_feudalism;;
+
+subject_domain_of_feudalism_economy
+    =>nrel_main_idtf:[Предметная область феодализма] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of feudalism] (* <-lang_en;;*);
+	<-subject_domain; 
+    ->rrel_maximum_studied_object_class:  concept_feudalism;
+    ->rrel_not_maximum_studied_object_class:
+        concept_fief;
+        concept_manorialism;
+        concept_serfdom;
+        concept_kingdom;;
+
+concept_feudalism
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Феодализм](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Feudalism](*<-lang_en;;*);
+    =>nrel_specifics:  [средневековая социально-экономическая система, основанная на личных отношениях вассалитета и крупномасштабном землевладении, при которой феодалы, владеющие землей, предоставляли ее в аренду вассалам, которые, в свою очередь, обязаны были давать им военную помощь и верность.](* <-lang_ru;; *);
+    <-economy_knowledge_base;;

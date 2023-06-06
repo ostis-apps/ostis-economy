@@ -1,0 +1,20 @@
+concept_corporation
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Corporation] (*<-lang_en;;*);
+    => nrel_main_idtf: [Корпорация] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Корпорация)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [юридическое лицо, созданное для осуществления коммерческой деятельности и имеющее определенный статус и правовую защиту. Корпорации могут быть крупными или малыми, частными или публичными, действующими в различных отраслях экономики. Они имеют собственность, акционеров, управление и цели, связанные с максимизацией прибыли и увеличением стоимости акций.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+=> nrel_ideology: capitalism (*
+        =>nrel_main_idtf: [Капитализм](* <-lang_ru;; *);;
+        <-concept_capitalism;;
+    *);
+=> nrel_ideology: neoliberalism (*
+        =>nrel_main_idtf: [Неолиберализм](* <-lang_ru;; *);;
+        <-concept_neoliberalism;;
+    *);;

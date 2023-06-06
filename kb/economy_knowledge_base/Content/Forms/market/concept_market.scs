@@ -1,0 +1,27 @@
+section_subject_domain_of_market_economy
+    =>nrel_main_idtf:[Раздел. Предметная область рыночной экономики] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of market economy] (* <-lang_en;;*);
+    =>nrel_idtf:[Раздел базы знаний OSTIS, описывающий предметную область рыночной экономики] (* <-lang_ru;;*);
+    =>nrel_idtf:[Section of the OSTIS knowledge base, that describes the subject domain of market economy] (* <-lang_en;;*);
+    
+    ->rrel_key_sc_element: subject_domain_of_market_economy;;
+
+subject_domain_of_market_economy
+    =>nrel_main_idtf:[Предметная область рыночной экономики] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of market economy] (* <-lang_en;;*);
+	<-subject_domain; 
+    ->rrel_maximum_studied_object_class:  concept_market_economy;
+    ->rrel_not_maximum_studied_object_class:
+        concept_private_property;
+        concept_competition;
+        concept_free_market;
+        concept_laissez_faire_economics;
+        concept_demand_and_supply;
+        concept_price_mechanism;;
+
+concept_market_economy
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Рыночная экономика](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Market economy](*<-lang_en;;*);
+    =>nrel_specifics:  [экономическая система, в которой цены на товары и услуги формируются на основе спроса и предложения, а производственные решения принимаются на основе прибыли и конкуренции на свободном рынке.](* <-lang_ru;; *);
+    <-economy_knowledge_base;;

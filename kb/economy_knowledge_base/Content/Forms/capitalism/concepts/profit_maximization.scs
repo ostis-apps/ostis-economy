@@ -1,0 +1,14 @@
+concept_profit_maximization
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Profit maximization] (*<-lang_en;;*);
+    => nrel_main_idtf: [Максимизация прибыли] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Максимизация прибыли)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [стратегия, которая заключается в максимальном увеличении прибыли предприятия путём оптимизации использования ресурсов, сокращения издержек и увеличения выручки.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: capitalism;;

@@ -1,0 +1,56 @@
+section_subject_domain_of_economic_forms
+=> nrel_main_idtf:
+	[Раздел. Предметная область форм экономики]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Section. Subject domain of economic forms]
+    (* <- lang_en;;*);
+=>nrel_idtf:
+    [Раздел базы знаний OSTIS, описывающий формы экономики] 
+    (* <-lang_ru;;*);
+=>nrel_idtf:
+    [Section of the OSTIS knowledge base, that describes economic forms]
+    (* <-lang_en;;*);
+
+<-economy_knowledge_base;
+
+<= nrel_section_decomposition:
+	{
+        section_subject_domain_of_traditional_economy;
+        section_subject_domain_of_market_economy;
+        section_subject_domain_of_command_economy;
+        section_subject_domain_of_mixed_economy
+	};
+
+
+->rrel_not_maximum_studied_object_class:
+    concept_free_market;
+    concept_private_property;
+    concept_profit_maximization;
+    concept_laissez_faire_economics;
+    concept_stock_market;
+    concept_corporation;
+
+->rrel_key_sc_element: subject_domain_of_economic_forms;
+    concept_capitalism;
+    concept_socialism;
+    concept_communism;
+    concept_mixed_economy;
+    concept_planned_economy;
+    concept_market_economy;
+    concept_command_economy;
+    concept_feudalism_economy;
+    concept_barter_economy;
+    concept_sharing_economy;
+
+=> nrel_sc_text_translation:
+                    "file://economic_forms.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);
+
+=> rrel_key_sc_element:
+                    "file://images/forms.jpeg" (*
+                            <- lang_ru;;
+                            => nrel_format: format_jpg;;
+                        *);;

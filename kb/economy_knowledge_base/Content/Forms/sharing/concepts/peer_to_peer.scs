@@ -1,0 +1,21 @@
+concept_peer_to_peer
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Peer-to-peer economy] (*<-lang_en;;*);
+    => nrel_main_idtf: [P2P экономика] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Peer-to-peer economy)] (* <-lang_en;; *);;
+        => nrel_idtf: [Опр. (P2P экономика)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [экономическая модель, основанная на принципах peer-to-peer, при которой производство, распределение и обмен товаров и услуг осуществляются напрямую между участниками, без участия централизованных структур и посредников. P2P экономика может базироваться на различных технологиях, таких как блокчейн, интернет, распределенные вычисления и т.д. P2P экономика может иметь различные принципы, например, равенство участников, открытость и прозрачность, децентрализация и самоуправление.] (* <-lang_ru;; *);;
+        *);;
+        *);
+    
+=> nrel_ideology: anarchism (*
+        =>nrel_main_idtf: [Анархизм](* <-lang_ru;; *);;
+        <-concept_anarchism;;
+    *);
+=> nrel_ideology: libertarianism (*
+        =>nrel_main_idtf: [Либертарианство](* <-lang_ru;; *);;
+        <-concept_libertarianism;;
+    *);;

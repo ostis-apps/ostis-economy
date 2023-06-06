@@ -1,0 +1,17 @@
+concept_government_intervention
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Government intervention] (*<-lang_en;;*);
+    => nrel_main_idtf: [Государственное вмешательство] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Государственное вмешательство)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [меры, принимаемые государственными органами для регулирования экономических, социальных и политических процессов в обществе. Государственное вмешательство может проявляться в различных формах, например, в налоговой и кредитной политике, регулировании цен и тарифов, законодательном и правовом регулировании, социальной защите и обеспечении, а также в инфраструктурных проектах и программных мероприятиях.] (* <-lang_ru;; *);;
+        *);;
+        *);
+    
+=> nrel_ideology: socialism;
+=> nrel_ideology: social_democracy (*
+        =>nrel_main_idtf: [Социал-демократия](* <-lang_ru;; *);;
+        <-concept_social_democracy;;
+    *);;

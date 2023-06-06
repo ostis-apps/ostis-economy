@@ -1,0 +1,27 @@
+section_subject_domain_of_socialism
+    =>nrel_main_idtf:[Раздел. Предметная область социализма] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of socialism] (* <-lang_en;;*);
+    =>nrel_idtf:[Раздел базы знаний OSTIS, описывающий предметную область социализма] (* <-lang_ru;;*);
+    =>nrel_idtf:[Section of the OSTIS knowledge base, that describes the subject domain of socialism] (* <-lang_en;;*);
+    
+    ->rrel_key_sc_element: subject_domain_of_socialism;;
+
+subject_domain_of_socialism
+    =>nrel_main_idtf:[Предметная область социализма] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of socialism] (* <-lang_en;;*);
+	<-subject_domain; 
+    ->rrel_maximum_studied_object_class:  concept_socialism;
+    ->rrel_not_maximum_studied_object_class:
+        concept_workers_control;
+        concept_common_ownership;
+        concept_planned_economy;
+        concept_class_struggle;
+        concept_social_justice;
+        concept_socialist_internationalism;;
+
+concept_socialism
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Социализм](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Socialism](*<-lang_en;;*);
+    =>nrel_specifics:  [экономическая, социальная и политическая теория, ставящая целью создание общества с общей собственностью на средства производства, где труд и производство организовываются на основе планирования, а не рыночных механизмов.](* <-lang_ru;; *);
+    <-economy_knowledge_base;;

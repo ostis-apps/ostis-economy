@@ -1,0 +1,14 @@
+concept_competition
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Competition in economy] (*<-lang_en;;*);
+    => nrel_main_idtf: [Конкуренция в экономике] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Конкуренция в экономике)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Процесс соперничества между фирмами, стремящимися к достижению более высокой доли рынка и увеличению прибыли путем оптимизации использования ресурсов, сокращения издержек и увеличения выручки.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: capitalism;;

@@ -1,0 +1,14 @@
+concept_private_sector
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Private sector] (*<-lang_en;;*);
+    => nrel_main_idtf: [Частный сектор] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Частный сектор)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Часть экономики, которая не контролируется государством и включает в себя частные предприятия и компании, занимающиеся коммерческой деятельностью и получающие прибыль от продажи товаров и услуг.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: capitalism;;

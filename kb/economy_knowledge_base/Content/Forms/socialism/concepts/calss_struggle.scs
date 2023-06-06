@@ -1,0 +1,15 @@
+concept_class_struggle
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Class struggle] (*<-lang_en;;*);
+    => nrel_main_idtf: [Классовая борьба] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Классовая борьба)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [неизбежный конфликт между различными классами общества, возникающий из-за противоречивых интересов и потребностей. Классовая борьба может проявляться в различных формах, например, в экономических противоречиях между работниками и капиталистами, в политических конфликтах между различными партиями и группами, а также в культурных противоречиях между различными социальными слоями.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: communism;
+=> nrel_ideology: socialism;;

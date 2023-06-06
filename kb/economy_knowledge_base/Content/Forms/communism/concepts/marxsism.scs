@@ -1,0 +1,14 @@
+concept_marxism
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Marxism] (*<-lang_en;;*);
+    => nrel_main_idtf: [Марксизм] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Марксизм)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [социалистическая идеология, созданная Карлом Марксом и Фридрихом Энгельсом. Марксизм утверждает, что история человечества определяется борьбой между общественными классами, а капитализм неизбежно приведет к революции рабочих и установлению социализма.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism; => nrel_ideology: communism;;

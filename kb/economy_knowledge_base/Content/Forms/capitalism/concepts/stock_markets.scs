@@ -1,0 +1,14 @@
+concept_stock_market
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Stock market] (*<-lang_en;;*);
+    => nrel_main_idtf: [Фондовый рынок] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Фондовый рынок)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [часть финансового рынка, где происходит торговля ценными бумагами - акциями, облигациями и другими финансовыми инструментами. На фондовом рынке формируются цены на эти инструменты, которые отражают спрос и предложение на них.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: capitalism;;

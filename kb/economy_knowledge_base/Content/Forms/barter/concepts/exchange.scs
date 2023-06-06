@@ -1,0 +1,14 @@
+concept_exchange
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Exchange] (*<-lang_en;;*);
+    => nrel_main_idtf: [Обмен] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Обмен)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [взаимная передача одних товаров, услуг или прав на другие товары, услуги или права между двумя или более сторонами. Обмен может быть как денежным, так и неденежным.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: mercantilism;;

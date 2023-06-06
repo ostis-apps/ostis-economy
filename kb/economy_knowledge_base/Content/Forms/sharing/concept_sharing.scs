@@ -1,0 +1,27 @@
+section_subject_domain_of_sharing_economy
+    =>nrel_main_idtf:[Раздел. Предметная область экономики совместного потребления] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of sharing economy] (* <-lang_en;;*);
+    =>nrel_idtf:[Раздел базы знаний OSTIS, описывающий предметную область экономики совместного потребления] (* <-lang_ru;;*);
+    =>nrel_idtf:[Section of the OSTIS knowledge base, that describes the subject domain of sharing economy] (* <-lang_en;;*);
+    
+    ->rrel_key_sc_element: subject_domain_of_sharing_economy;;
+
+subject_domain_of_sharing_economy
+    =>nrel_main_idtf:[Предметная область экономики совместного потребления] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of sharing economy] (* <-lang_en;;*);
+	<-subject_domain; 
+    ->rrel_maximum_studied_object_class:  concept_sharing_economy;
+    ->rrel_not_maximum_studied_object_class:
+        concept_collaborative_consumption;
+        concept_peer_to_peer;
+        concept_access_over_ownership;
+        concept_gig_economy;
+        concept_platform_cooperativism;
+        concept_crowdfunding;;
+
+concept_sharing_economy
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Экономика совместного потребления](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Sharing economy](*<-lang_en;;*);
+    =>nrel_specifics:  [экономическая система, основанная на совместном использовании ресурсов, включая предметы бытового и культурного потребления, транспорт и жилье, с помощью технологических платформ, которые соединяют потребителей и поставщиков на основе взаимодействия между равными участниками.](* <-lang_ru;; *);
+    <-economy_knowledge_base;;

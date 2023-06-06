@@ -1,0 +1,14 @@
+concept_market_mechanism
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Market mechanism] (*<-lang_en;;*);
+    => nrel_main_idtf: [Рыночный механизм] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Рыночный механизм)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Система, в рамках которой спрос и предложение товаров и услуг определяют цены на рынке, а также распределение ресурсов и доходов между производителями и потребителями.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: capitalism;;

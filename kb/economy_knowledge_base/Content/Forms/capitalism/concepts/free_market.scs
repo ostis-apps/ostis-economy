@@ -1,0 +1,14 @@
+concept_free_market
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Free market] (*<-lang_en;;*);
+    => nrel_main_idtf: [Свободный рынок] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Свободный рынок)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [рынок, свободный от любого постороннего вмешательства. При этом функция государства на свободном рынке сводится к защите прав собственности и поддержанию контрактных обязательств.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: liberalism;;

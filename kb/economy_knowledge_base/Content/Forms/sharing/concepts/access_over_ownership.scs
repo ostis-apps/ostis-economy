@@ -1,0 +1,17 @@
+concept_access_over_ownership
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Access over ownership] (*<-lang_en;;*);
+    => nrel_main_idtf: [Доступ вместо собственности] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Доступ вместо собственности)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Концепция, согласно которой лучше иметь доступ к товару или услуге, чем владеть им. Вместо покупки дорогих товаров и услуг, таких как автомобили, квартиры, музыка и т.д., потребители могут использовать их на временной основе, платя только за использование. Целью является экономия ресурсов и уменьшение потребления.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: environmentalism (*
+        =>nrel_main_idtf: [Экологизм](* <-lang_ru;; *);;
+        <-concept_environmentalism;;
+    *);;

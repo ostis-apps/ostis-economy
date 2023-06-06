@@ -1,0 +1,18 @@
+concept_collectivization
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Collectivization] (*<-lang_en;;*);
+    => nrel_main_idtf: [Коллективизация] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Коллективизация)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [процесс преобразования индивидуальных форм хозяйствования в коллективные в рамках реализации социалистической экономической модели. Коллективизация может быть проведена в сельском хозяйстве, промышленности, транспорте и других отраслях экономики. Она предполагает объединение работников в коллективы, общее планирование и координацию производственной деятельности, а также социальную ответственность за результаты работы.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: communism (*
+        =>nrel_main_idtf: [Коммунизм](* <-lang_ru;; *);;
+        <-concept_communism;;
+    *);
+=> nrel_ideology: socialism;;

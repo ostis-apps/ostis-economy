@@ -1,0 +1,15 @@
+concept_socialist_internationalism
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Socialist internationalism] (*<-lang_en;;*);
+    => nrel_main_idtf: [Социалистический интернационализм] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Социалистический интернационализм)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [идеология и практика, направленные на объединение рабочих и социалистических организаций в различных странах в борьбе за общие интересы и цели. Социалистический интернационализм выступает против национализма и империализма, призывает к международной солидарности и сотрудничеству, а также к общей борьбе за социальную справедливость и преодоление капитализма.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+=> nrel_ideology: socialism;
+=> nrel_ideology: communism;;

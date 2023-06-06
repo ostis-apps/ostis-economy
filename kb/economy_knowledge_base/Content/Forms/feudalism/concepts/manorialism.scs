@@ -1,0 +1,14 @@
+concept_manorialism
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Manorialism] (*<-lang_en;;*);
+    => nrel_main_idtf: [Манорный строй] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Манорный строй)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [социально-экономическая система, основанная на феодальном землевладении и организации производства на феодальных поместьях, называемых манорами. Манорный строй был распространен в западноевропейской истории в период с 5-го по 15-ый века.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: feudalism;

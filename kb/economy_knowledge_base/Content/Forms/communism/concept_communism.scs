@@ -1,0 +1,27 @@
+section_subject_domain_of_communism
+    =>nrel_main_idtf:[Раздел. Предметная область коммунизма] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of communism] (* <-lang_en;;*);
+    =>nrel_idtf:[Раздел базы знаний OSTIS, описывающий предметную область коммунизма] (* <-lang_ru;;*);
+    =>nrel_idtf:[Section of the OSTIS knowledge base, that describes the subject domain of communism] (* <-lang_en;;*);
+    
+    ->rrel_key_sc_element: subject_domain_of_communism;;
+
+subject_domain_of_communism
+    =>nrel_main_idtf:[Предметная область коммунизма] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of communism] (* <-lang_en;;*);
+	<-subject_domain;
+    ->rrel_maximum_studied_object_class:  concept_communism;
+    ->rrel_not_maximum_studied_object_class:
+        concept_classless_society;
+        concept_collective_ownership;
+        concept_central_planning;
+        concept_workers_control;
+        concept_socialism;
+        concept_marxism;;
+
+concept_communism
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Коммунизм](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Communism](*<-lang_en;;*);
+    =>nrel_specifics:  [социально-экономическая теория и практика, нацеленная на установление классового равенства и коллективную собственность на средства производства, а также на государственное управление экономикой и создание классово-безразличного общества.](* <-lang_ru;; *);
+    <-economy_knowledge_base;;

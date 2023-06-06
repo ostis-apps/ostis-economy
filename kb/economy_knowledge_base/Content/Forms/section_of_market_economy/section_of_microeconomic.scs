@@ -1,8 +1,8 @@
 section_of_microeconomic
 
-<= nrel_main_idtf: [Subject domain of microeconomic]
+<= nrel_main_idtf: [Section of microeconomic]
 (*<- lang_en;;*);
-<= nrel_main_idtf: [Предметная область микроэкономики]
+<= nrel_main_idtf: [Раздел микроэкономики]
 (*<- lang_ru;;*);
 
 => nrel_sc_text_translation:

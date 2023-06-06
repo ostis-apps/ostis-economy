@@ -1,10 +1,14 @@
 subject_domain_of_economic_forms
 => nrel_main_idtf:
-	[Предметная область. Формы экономики]
+	[Предметная область форм экономики]
 	(* <- lang_ru;; *);
 => nrel_main_idtf:
     [Subject domain of economic forms]
     (* <- lang_en;;*);
+
+<-subject_domain; 
+<-economy_knowledge_base;
+ ->rrel_maximum_studied_object_class: concept_economy_forms;
 
 <= nrel_section_decomposition:
 	{
@@ -13,6 +17,18 @@ subject_domain_of_economic_forms
         section_of_command_economy;
         section_of_mixed_economy
 	};
+
+=> nrel_private_subject_domain:
+    subject_domain_of_capitalism;
+    subject_domain_of_socialism;
+    subject_domain_of_communism;
+    subject_domain_of_mixed_economy;
+    subject_domain_of_planned_economy;
+    subject_domain_of_market_economy;
+    subject_domain_of_command_economy;
+    subject_domain_of_feudalism_economy;
+    subject_domain_of_barter_economy;
+    subject_domain_of_sharing_economy;
 
 => nrel_sc_text_translation:
                     "file://economic_forms.html" (*

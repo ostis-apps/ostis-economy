@@ -1,0 +1,14 @@
+concept_common_ownership
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Common ownership] (*<-lang_en;;*);
+    => nrel_main_idtf: [Общая собственность] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Общая собственность)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [форма собственности, при которой имущество и ресурсы принадлежат обществу в целом, а не отдельным лицам или корпорациям. Общая собственность может быть организована на уровне государства, общины, кооперативов и других социальных институтов. Она предполагает равный доступ к ресурсам и их использование в интересах всего общества.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;=> nrel_ideology: communism;;

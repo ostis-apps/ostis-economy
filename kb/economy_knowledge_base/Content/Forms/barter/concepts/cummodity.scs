@@ -1,0 +1,17 @@
+concept_commodity
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Commodity] (*<-lang_en;;*);
+    => nrel_main_idtf: [Товар] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Товар)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [экономический термин, который обозначает любой материальный объект, предназначенный для обмена на деньги или на другой товар. Товары могут быть как сельскохозяйственные продукты, так и промышленные изделия или услуги.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: mercantilism (*
+        =>nrel_main_idtf: [Меркантилизм](* <-lang_ru;; *);;
+        <-concept_mercantilism;;
+    *);;

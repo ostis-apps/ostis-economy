@@ -1,0 +1,20 @@
+concept_price_controls
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Price controls] (*<-lang_en;;*);
+    => nrel_main_idtf: [Ценовые ограничения] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Ценовые ограничения)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [меры, принимаемые государственными органами для регулирования цен на товары и услуги на рынке. Ценовые ограничения могут предусматривать установление максимальных или минимальных цен, ценовых квот и тарифов, налоговых пошлин и других ограничений. Ценовые ограничения могут иметь различные цели, например, защиту потребителей от высоких цен, обеспечение доступности товаров и услуг для населения, регулирование инфляции и т.д.] (* <-lang_ru;; *);;
+        *);;
+        *);
+    
+=> nrel_ideology: socialism (*
+        =>nrel_main_idtf: [Социализм](* <-lang_ru;; *);;
+        <-concept_socialism;;
+    *);
+=> nrel_ideology: interventionism (*
+        =>nrel_main_idtf: [Интервенционизм](* <-lang_ru;; *);;
+        <-concept_interventionism;;
+    *);;

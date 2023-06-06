@@ -1,0 +1,17 @@
+concept_workers_control
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Workers control] (*<-lang_en;;*);
+    => nrel_main_idtf: [Контроль работников] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Контроль работников)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [форма организации производства и управления предприятием, при которой работники имеют возможность участвовать в принятии решений и контролировать деятельность своей компании. Работники могут выбирать своих представителей в советы директоров, участвовать в составлении бизнес-планов и бюджетов, а также контролировать финансовую деятельность и распределение прибыли.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;=> nrel_ideology: anarchism (*
+        =>nrel_main_idtf: [Анархизм](* <-lang_ru;; *);;
+        <-concept_anarchism;;
+    *);;

@@ -1,0 +1,14 @@
+concept_crowdfunding
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Crowdfunding] (*<-lang_en;;*);
+    => nrel_main_idtf: [Краудфандинг] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Краудфандинг)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [способ финансирования проектов или идей, при котором средства собираются у большого числа людей через специальные онлайн-платформы. В рамках краудфандинга авторы проектов могут предлагать различные вознаграждения для своих спонсоров, а также получать обратную связь и поддержку от сообщества.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: capitalism;;

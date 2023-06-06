@@ -1,10 +1,10 @@
 section_of_macroeconomic
 
-<= nrel_main_idtf: [Subject domain of macroeconomic]
+<= nrel_main_idtf: [Section of macroeconomic]
     (*
         <- lang_en;;
     *);
-<= nrel_main_idtf: [Предметная область макроэкономики]
+<= nrel_main_idtf: [Раздел макроэкономики]
     (*
         <- lang_ru;;
     *);

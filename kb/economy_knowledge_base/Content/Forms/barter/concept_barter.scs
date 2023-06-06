@@ -1,0 +1,27 @@
+section_subject_domain_of_barter_economy
+    =>nrel_main_idtf:[Раздел. Предметная область бартерной экономики] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of barter economy] (* <-lang_en;;*);
+    =>nrel_idtf:[Раздел базы знаний OSTIS, описывающий предметную область бартерной экономики] (* <-lang_ru;;*);
+    =>nrel_idtf:[Section of the OSTIS knowledge base, that describes the subject domain of barter economy] (* <-lang_en;;*);
+    
+    ->rrel_key_sc_element: subject_domain_of_barter_economy;;
+
+subject_domain_of_barter_economy
+    =>nrel_main_idtf:[Предметная область бартерной экономики] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of barter economy] (* <-lang_en;;*);
+	<-subject_domain; 
+    ->rrel_maximum_studied_object_class:  concept_barter_economy;
+    ->rrel_not_maximum_studied_object_class:
+        concept_trade;
+        concept_currency;
+        concept_commodity;
+        concept_market;
+        concept_money;
+        concept_exchange;;
+
+concept_barter_economy
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Бартерная экономика](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Barter economy](*<-lang_en;;*);
+    =>nrel_specifics:  [экономическая система, в которой товары и услуги обмениваются на другие товары и услуги, без использования денежных единиц.](* <-lang_ru;; *);
+    <-economy_knowledge_base;;

@@ -1,0 +1,14 @@
+concept_platform_cooperativism
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Platform cooperativism] (*<-lang_en;;*);
+    => nrel_main_idtf: [Платформенный кооперативизм] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Платформенный кооперативизм)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [модель организации экономической деятельности, основанная на создании и управлении кооперативными онлайн-платформами работниками и/или потребителями. В рамках платформенного кооперативизма участники совместно принимают решения, владеют и управляют платформой, а также получают часть прибыли от ее деятельности.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;;

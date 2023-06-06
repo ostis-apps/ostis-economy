@@ -1,0 +1,17 @@
+concept_private_property
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Private property] (*<-lang_en;;*);
+    => nrel_main_idtf: [Частная собственность] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Частная собственность)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [форма собственности, при которой имущество принадлежит конкретному лицу или группе лиц, а не обществу в целом. Считается одним из основных принципов свободной экономики.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: liberalism (*
+        =>nrel_main_idtf: [Либерализм](* <-lang_ru;; *);;
+        <-concept_capitalism;;
+    *);;

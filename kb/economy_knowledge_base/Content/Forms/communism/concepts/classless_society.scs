@@ -1,0 +1,15 @@
+concept_classless_society
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Classless society] (*<-lang_en;;*);
+    => nrel_main_idtf: [Бесклассовое общество] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Бесклассовое общество)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [общество, в котором отсутствует классовое разделение людей и социальные отношения строятся на основе равенства всех членов общества. Бесклассовое общество является одной из главных целей многих социалистических и коммунистических движений.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: communism;
+    => nrel_ideology: socialism;;

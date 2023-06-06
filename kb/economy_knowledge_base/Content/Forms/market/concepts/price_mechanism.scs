@@ -1,0 +1,14 @@
+concept_price_mechanism
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Price mechanism] (*<-lang_en;;*);
+    => nrel_main_idtf: [Ценовой механизм] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Ценовой механизм)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Система взаимодействия между покупателями и продавцами, основанная на установлении цен на товары и услуги, которые формируются путем взаимодействия спроса и предложения на рынке.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: capitalism;;

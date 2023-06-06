@@ -1,0 +1,17 @@
+concept_collaborative_consumption
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Collaborative consumption] (*<-lang_en;;*);
+    => nrel_main_idtf: [Совместное потребление] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Совместное потребление)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [Модель потребления, при которой потребители обмениваются товарами и услугами между собой, не прибегая к покупке новых товаров. Это может включать в себя аренду, обмен, покупку б/у товаров, совместное использование ресурсов и т.д. Целью является уменьшение потребления и экономия ресурсов.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: environmentalism (*
+        =>nrel_main_idtf: [Экологизм](* <-lang_ru;; *);;
+        <-concept_environmentalism;;
+    *);;

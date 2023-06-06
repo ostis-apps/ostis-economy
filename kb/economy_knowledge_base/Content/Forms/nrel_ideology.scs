@@ -1,0 +1,20 @@
+nrel_ideology
+    <- sc_node_norole_relation; 
+    => nrel_system_idtf:[nrel_ideology] (* <- lang_en;; *);
+    => nrel_idtf: [ideology](*<- lang_en;;*);
+    => nrel_idtf: [идеология](*<- lang_ru;;*);
+    => nrel_main_idtf: [идеология](*<- lang_ru;;*);
+    <-relation;
+    <-norole_relation;
+    <-binary_relation;
+    <-oriented_relation;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_ideology;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее форму экономики с идеологией](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(идеология)](*<- lang_ru;;*);;
+*);;

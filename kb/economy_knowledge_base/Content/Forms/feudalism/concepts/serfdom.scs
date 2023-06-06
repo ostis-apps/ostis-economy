@@ -1,0 +1,13 @@
+concept_serfdom
+    <-sc_node_not_relation;
+    <-concept_economy_conception;
+    => nrel_main_idtf: [Serfdom] (*<-lang_en;;*);
+    => nrel_main_idtf: [Крепостное право] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Крепостное право)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [форма социальной организации, при которой крестьяне не имеют свободы передвижения и не могут свободно выбирать место жительства. Крепостное право было распространено в европейской истории в период с 9-го по 19-ый века и было отменено в большинстве стран в 19-ом веке.] (* <-lang_ru;; *);;
+        *);;*);
+   
+=> nrel_ideology: feudalism;

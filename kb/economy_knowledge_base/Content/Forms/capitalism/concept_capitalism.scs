@@ -1,0 +1,27 @@
+section_subject_domain_of_capitalism
+    =>nrel_main_idtf:[Раздел. Предметная область капитализма] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of capitalism] (* <-lang_en;;*);
+    =>nrel_idtf:[Раздел базы знаний OSTIS, описывающий предметную область капитализма] (* <-lang_ru;;*);
+    =>nrel_idtf:[Section of the OSTIS knowledge base, that describes the subject domain of capitalism] (* <-lang_en;;*);
+    
+    ->rrel_key_sc_element: subject_domain_of_capitalism;;
+
+subject_domain_of_capitalism
+    =>nrel_main_idtf:[Предметная область капитализма] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of capitalism] (* <-lang_en;;*);
+	<-subject_domain; 
+    ->rrel_maximum_studied_object_class:  concept_capitalism;
+    ->rrel_not_maximum_studied_object_class:
+        concept_free_market;
+        concept_private_property;
+        concept_profit_maximization;
+        concept_laissez_faire_economics;
+        concept_stock_market;
+        concept_corporation;;
+
+concept_capitalism
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Капитализм](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Capitalism](*<-lang_en;;*);
+    =>nrel_specifics:  [экономическая система, основанная на частной собственности на средства производства, свободной рыночной конкуренции, прибыли как главном стимуле для предпринимательской деятельности, а также минимальном вмешательстве государства в экономику.](* <-lang_ru;; *);
+    <-economy_knowledge_base;;

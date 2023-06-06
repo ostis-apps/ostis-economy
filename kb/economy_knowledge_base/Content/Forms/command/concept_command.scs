@@ -1,0 +1,26 @@
+section_subject_domain_of_command_economy
+    =>nrel_main_idtf:[Раздел. Предметная область командной экономики] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of command economy] (* <-lang_en;;*);
+    =>nrel_idtf:[Раздел базы знаний OSTIS, описывающий предметную область командной экономики] (* <-lang_ru;;*);
+    =>nrel_idtf:[Section of the OSTIS knowledge base, that describes the subject domain of command economy] (* <-lang_en;;*);
+    
+    ->rrel_key_sc_element: subject_domain_of_command_economy;;
+
+subject_domain_of_command_economy
+    =>nrel_main_idtf:[Предметная область командной экономики] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of command economy] (* <-lang_en;;*);
+	<-subject_domain; 
+    ->rrel_maximum_studied_object_class:  concept_command_economy;
+    ->rrel_not_maximum_studied_object_class:
+        concept_central_planning;
+        concept_price_controls;
+        concept_five_year_plan;
+        concept_planned_economy;
+        concept_collectivization;;
+
+concept_command_economy
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[Командная экономика](*<-lang_ru;;*);
+    =>nrel_main_idtf:[Command economy](*<-lang_en;;*);
+    =>nrel_specifics:  [экономическая система, в которой государство централизовано управляет всеми аспектами экономики, включая производство, распределение и ценообразование, а также имеет государственную собственность на средства производства.](* <-lang_ru;; *);
+    <-economy_knowledge_base;;

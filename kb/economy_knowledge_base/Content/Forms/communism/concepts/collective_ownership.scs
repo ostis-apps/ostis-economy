@@ -1,0 +1,13 @@
+concept_collective_ownership
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Collective ownership] (*<-lang_en;;*);
+    => nrel_main_idtf: [Коллективная собственность] (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Опр. (Коллективная собственность)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+             -> rrel_example: [форма собственности, при которой собственность на производственные ресурсы принадлежит коллективу, а не индивидуальным владельцам. Коллективная собственность может быть реализована в рамках различных экономических систем, включая социализм и кооперативное движение.] (* <-lang_ru;; *);;
+        *);;
+    *);
+
+=> nrel_ideology: socialism;;
