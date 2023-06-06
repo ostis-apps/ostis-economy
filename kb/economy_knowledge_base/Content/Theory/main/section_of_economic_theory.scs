@@ -18,5 +18,11 @@ economic_theory
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-        *);;
+        *);
+  =>nrel_subdividing:
+    game_theory;
+    consumption_theory;
+    theory_of_choice_under_uncertainty;
+    production_theory;
+    theory_of_external_effects;;
 
