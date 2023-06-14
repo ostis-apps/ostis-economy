@@ -8,3 +8,29 @@ section_of_international_economics
 
 => nrel_private_subject_domain:
 	subject_domain_economic_relations;;
+
+=> nrel_sc_text_translation:
+                    "file://htmls/international_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+<= nrel_section_decomposition:
+	{
+       			section_of_world_economy;
+    };;
+
+section_of_world_economy
+=> nrel_main_idtf:
+	[Раздел. Мировое хозяйство]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+        [Section. World economy]
+           	  (* <- lang_en;; *);
+	
+section_of_world_economy
+=> nrel_sc_text_translation:
+                    "file://htmls/world_economy.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 

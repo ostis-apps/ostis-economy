@@ -6,6 +6,11 @@ section_of_microeconomics
         [Section. Microeconomics]
            	  (* <- lang_en;; *);
 
+=> nrel_sc_text_translation:
+                    "file://htmls/microeconomics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
 <= nrel_section_decomposition:
 	{
         section_of_welfare_economics;
@@ -26,6 +31,13 @@ section_of_welfare_economics
 => nrel_main_idtf:
         [Section. Welfare economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/welfare_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 section_of_information_economics
 => nrel_main_idtf:
 	[Раздел. Информационная экономика]
@@ -33,6 +45,13 @@ section_of_information_economics
 => nrel_main_idtf:
         [Section. Information economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/information_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 section_of_behavioral_economics
 => nrel_main_idtf:
 	[Раздел. Поведенческая экономика]
@@ -40,6 +59,13 @@ section_of_behavioral_economics
 => nrel_main_idtf:
         [Section. Behavioral economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/behavioral_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 section_of_public_economics
 => nrel_main_idtf:
 	[Раздел. Общественная экономика]
@@ -47,6 +73,13 @@ section_of_public_economics
 => nrel_main_idtf:
         [Section. Public economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/public_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 section_of_labor_economics
 => nrel_main_idtf:
 	[Раздел. Экономика труда]
@@ -54,6 +87,13 @@ section_of_labor_economics
 => nrel_main_idtf:
         [Section. Labor economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/labor_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 section_of_development_economics
 => nrel_main_idtf:
 	[Раздел. Экономика развития]
@@ -61,6 +101,13 @@ section_of_development_economics
 => nrel_main_idtf:
         [Section. Development economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/development_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 section_of_education_economics
 => nrel_main_idtf:
 	[Раздел. Экономика образования]
@@ -68,6 +115,13 @@ section_of_education_economics
 => nrel_main_idtf:
         [Section. Education economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/education_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 section_of_health_economics
 => nrel_main_idtf:
 	[Раздел. Экономика здравоохранения]
@@ -75,6 +129,13 @@ section_of_health_economics
 => nrel_main_idtf:
         [Section. Health economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/health_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
 section_of_environmental_economics
 => nrel_main_idtf:
 	[Раздел. Экономика окружающей среды]
@@ -82,3 +143,9 @@ section_of_environmental_economics
 => nrel_main_idtf:
         [Section. Environmental economics]
            	  (* <- lang_en;; *);;
+=> nrel_sc_text_translation:
+                    "file://htmls/environmental_economics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+

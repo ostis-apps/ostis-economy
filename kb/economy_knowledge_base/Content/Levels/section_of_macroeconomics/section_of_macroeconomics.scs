@@ -11,3 +11,46 @@ section_of_macroeconomics
        			section_of_macroeconomic_market;
        			section_of_macroeconomic_agent
     };;
+
+=> nrel_sc_text_translation:
+                    "file://htmls/macroeconomics.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
+section_of_macroeconomic_market
+=> nrel_sc_text_translation:
+                    "file://htmls/macroeconomic_market.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 	
+
+section_of_macroeconomic_agent
+=> nrel_sc_text_translation:
+                    "file://htmls/macroeconomic_agent.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 
+
+
+section_of_macroeconomic_market
+=>
+nrel_main_idtf:
+	[Раздел. Макроэкономический рынок]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+       [Section. Macroeconomic market]
+          	  (* <- lang_en;; *);;
+
+
+
+
+section_of_macroeconomic_agent
+=>
+nrel_main_idtf:
+	[Раздел. Макроэкономический агент]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+       [Section. Macroeconomic agent]
+          	  (* <- lang_en;; *);;

@@ -1,15 +1,96 @@
 section_of_macroeconomic_agent
+
 => nrel_main_idtf:
+
 	[Раздел. Макроэкономический агент]
+
 		(* <- lang_ru;; *);
+
 => nrel_main_idtf:
-        [Section. Macroeconomic agent]
-           	  (* <- lang_en;; *);
+
+       [Section. Macroeconomic agent]
+
+          	  (* <- lang_en;; *);
 
 <= nrel_section_decomposition:
+
 	{
-       	section_of_households;
+
+   	   	section_of_households;
+
 		section_of_firms;
+
 		section_of_state;
+
 		section_of_foreign_sector
-    };;
+
+   };;
+
+section_of_households
+=>
+nrel_main_idtf:
+	[Раздел. Домохозяйства]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+       [Section. Households]
+          	  (* <- lang_en;; *);;
+
+
+section_of_firms
+=>
+nrel_main_idtf:
+	[Раздел. Фирмы]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+       [Section. Firms]
+          	  (* <- lang_en;; *);;
+
+
+
+section_of_state
+=>
+nrel_main_idtf:
+	[Раздел. Государство]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+       [Section. State]
+          	  (* <- lang_en;; *);;
+
+
+
+section_of_foreign_sector
+=>
+nrel_main_idtf:
+	[Раздел. Иностранный сектор]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+       [Section. Foreign sector]
+          	  (* <- lang_en;; *);;
+
+section_of_households
+=> nrel_sc_text_translation:
+                    "file://htmls/households.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 	
+section_of_firms
+=> nrel_sc_text_translation:
+                    "file://htmls/firms.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 	
+section_of_state
+=> nrel_sc_text_translation:
+                    "file://htmls/state.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 	
+section_of_foreign_sector
+=> nrel_sc_text_translation:
+                    "file://htmls/foreign_sector.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 	
+
+
+
