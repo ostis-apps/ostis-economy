@@ -1,0 +1,39 @@
+section_of_financial_market
+
+<= nrel_section_decomposition:
+	{
+       		 section_of_money_market;
+                 section_of_securities_market
+    };;
+
+section_of_money_market
+=>
+nrel_main_idtf:
+	[Раздел. Денежный рынок]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+       [Section. Money market]
+          	  (* <- lang_en;; *);;
+section_of_money_market
+=> nrel_sc_text_translation:
+                    "file://htmls/money_market.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 	
+
+
+section_of_securities_market
+=>
+nrel_main_idtf:
+	[Раздел. Рынок ценных бумаг]
+		(* <- lang_ru;; *);
+=> nrel_main_idtf:
+       [Section. Securities market]
+          	  (* <- lang_en;; *);;
+
+section_of_securities_market
+=> nrel_sc_text_translation:
+                    "file://htmls/securities_market.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *); 	
